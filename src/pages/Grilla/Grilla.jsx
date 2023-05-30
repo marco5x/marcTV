@@ -1,6 +1,7 @@
 import React from "react";
 import style from "./Grilla.module.css";
 import { ButtonHome } from "../../components/ButtonHome/ButtonHome";
+import { Control } from "../../components/Control/Control";
 
 export const Grilla = () => {
   return (
@@ -16,6 +17,7 @@ export const Grilla = () => {
         width={1560}
         height={775}
       ></iframe>
+      <Control />
     </div>
   );
 };

@@ -19,8 +19,8 @@ export const App = () => {
       <Route path="/peliserie" element={<Peliserie />} />
       <Route path="/peliserieC" element={<PeliserieC />} />
       <Route path="/peliserieP" element={<PeliserieP />} />
-      <Route path="/transmision" element={<Transmision />} />
-      <Route path="/adultos" element={<PrivateTransmision />} />
+      <Route path="/transmision/:id" element={<Transmision />} />
+      <Route path="/adultos/:id" element={<PrivateTransmision />} />
     </Routes>
   );
 };

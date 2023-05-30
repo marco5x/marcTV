@@ -14,6 +14,8 @@ export const datos = [
     img: "http://canal2perico.com.ar/canal2/images/logo.png",
     link1: "https://streamcasthd.com:2020/VideoPlayer/tecnovisioncanal2tv",
     link2: "https://streamcasthd.com:2020/VideoPlayer/tecnovisioncanal2tv",
+    link3: "",
+    link4: "",
     category: cat.nwes,
   },
   {
@@ -22,7 +24,10 @@ export const datos = [
     img: "http://canal2jujuy.com/canal2/wp-content/uploads/2020/02/logoc2fw.png",
     link1:
       "https://livestream.com/accounts/679322/events/3782013/player?width=640&height=360&autoPlay=true&mute=false",
-    link2: "https://livestream.com/accounts/679322/events/3782013",
+    link2:
+      "https://livestream.com/accounts/679322/events/3782013/player?width=640&height=360&autoPlay=true&mute=false",
+    link3: "",
+    link4: "",
     category: cat.nwes,
   },
   {
@@ -30,31 +35,39 @@ export const datos = [
     name: "Canal 4 Jujuy",
     img: "https://i0.wp.com/directostv.teleame.com/wp-content/uploads/2016/05/Canal-4-Jujuy-en-vivo-Online.png?resize=1068%2C601&ssl=1",
     link1: "https://canal4jujuy.elcuatro.com/",
-    link2: "",
+    link2: "https://canal4jujuy.elcuatro.com/",
+    link3: "",
+    link4: "",
     category: cat.nwes,
   },
   {
     id: 4,
     name: "Canal 7 Jujuy",
     img: "https://static.wikia.nocookie.net/logopedia/images/4/4c/Canal_Siete_Jujuy_%28Logo_2020_-_2%29.png/",
-    link1: "https://www.youtube.com/watch?v=rGEune6vX7Q",
-    link2: "https://arcast.com.ar/canal7jujuy/",
+    link1: "https://arcast.com.ar/canal7jujuy/",
+    link2: "https://canal7dejujuy.com.ar/",
+    link3: "",
+    link4: "",
     category: cat.news,
   },
   {
     id: 5,
     name: "Telefe",
     img: "https://static.wikia.nocookie.net/logopedia/images/0/01/Telefe_2018_3D.svg/",
-    link1: "https://embed8.alandesk.life/cvatt.html?get=VGVsZWZlSEQ=&lang=1",
-    link2: "https://blackface.world/dtvpl.html?id=1216",
+    link1: "https://test01.cloud.telefe.com/vivo/",
+    link2: "https://test01.cloud.telefe.com/vivo/",
+    link3: "https://www.latele-envivo.com/Embed/telefe/", //https://www.latele-envivo.com/Embed/telefe/op2.php
+    link4: "https://blackface.world/dtvpl.html?id=1216", //https://embed8.alandesk.life/cvatt.html?get=VGVsZWZlSEQ=&lang=1
     category: cat.nwes,
   },
   {
     id: 6,
-    name: "TN",
+    name: "TN EN VIVO",
     img: "https://static.wikia.nocookie.net/logopedia/images/4/4f/TN_todo_noticias_logo.svg/",
-    link1: "https://blackface.world/dtvpl.html?id=1225",
-    link2: "https://embed8.alandesk.life/cvatt.html?get=VG9kb05vdGljaWFz",
+    link1: "https://www.youtube.com/embed/HPiv1pzIPRc",
+    link2: "https://www.youtube.com/embed/HPiv1pzIPRc",
+    link3: "https://www.latele-envivo.com/Embed/tn/", //https://www.latele-envivo.com/Embed/tn/op2.php
+    link4: "https://blackface.world/dtvpl.html?id=1225", //https://embed8.alandesk.life/cvatt.html?get=VG9kb05vdGljaWFz
     category: cat.nwes,
   },
   {
@@ -63,6 +76,8 @@ export const datos = [
     img: "https://i0.wp.com/directostv.teleame.com/wp-content/uploads/2019/10/El-Trece-en-vivo-Online.png?resize=1068%2C601&ssl=1",
     link1: "https://blackface.world/dtvpl.html?id=1095",
     link2: "https://embed8.alandesk.life/cvatt.html?get=QXJ0ZWFySEQ",
+    link3: "",
+    link4: "",
     category: cat.nwes,
   },
   {
@@ -71,6 +86,8 @@ export const datos = [
     img: "https://static.wikia.nocookie.net/logopedia/images/0/0e/LN_Mas.svg/",
     link1: "https://blackface.world/dtvpl.html?id=1154",
     link2: "https://embed8.alandesk.life/cvatt.html?get=TGFfTmFjaW9u",
+    link3: "",
+    link4: "",
     category: cat.nwes,
   },
   {
@@ -79,6 +96,8 @@ export const datos = [
     img: "https://i1.wp.com/static.americadigital.com.ar/americatv/images/america-tv-junio.png",
     link1: "https://blackface.world/dtvpl.html?id=1010",
     link2: "https://embed8.alandesk.life/cvatt.html?get=QW1lcmljYVRW",
+    link3: "",
+    link4: "",
     category: cat.nwes,
   },
   {
@@ -87,6 +106,8 @@ export const datos = [
     img: "https://www.a24.com/assets/img/296/header-logo.svg",
     link1: "https://blackface.world/dtvpl.html?id=1009",
     link2: "https://embed8.alandesk.life/cvatt.html?get=QW1lcmljYTI0",
+    link3: "",
+    link4: "",
     category: cat.nwes,
   },
   {
@@ -95,6 +116,8 @@ export const datos = [
     img: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Canal_26_logo_%282022%29.svg/441px-Canal_26_logo_%282022%29.svg.png",
     link1: "https://blackface.world/dtvpl.html?id=1031",
     link2: "https://embed8.alandesk.life/cvatt.html?get=MjZfVFZfSEQ",
+    link3: "",
+    link4: "",
     category: cat.nwes,
   },
   {
@@ -103,6 +126,8 @@ export const datos = [
     img: "https://www.elnueve.com.ar/_next/image?url=%2Flogo%2FlogotipoC9.png&w=640&q=75",
     link1: "https://blackface.world/dtvpl.html?id=1032",
     link2: "https://embed8.alandesk.life/cvatt.html?get=Q2FuYWw5",
+    link3: "",
+    link4: "",
     category: cat.nwes,
   },
   {
@@ -111,6 +136,8 @@ export const datos = [
     img: "https://www.c5n.com/css-custom/326/images/logo-c5n.svg",
     link1: "https://blackface.world/dtvpl.html?id=1028",
     link2: "https://embed8.alandesk.life/cvatt.html?get=QzVO",
+    link3: "",
+    link4: "",
     category: cat.nwes,
   },
   {
@@ -119,6 +146,8 @@ export const datos = [
     img: "https://www.tvpublica.com.ar/static/img/branding/isologo.svg",
     link1: "https://blackface.world/dtvpl.html?id=1156",
     link2: "https://embed8.alandesk.life/cvatt.html?get=Q2FuYWw3",
+    link3: "",
+    link4: "",
     category: cat.nwes,
   },
   {
@@ -127,6 +156,8 @@ export const datos = [
     img: "https://static.wikia.nocookie.net/logopedia/images/c/cd/Cr%C3%B3nica_TV_2018.svg/",
     link1: "https://embed8.alandesk.life/cvatt.html?get=Q3JvbmljYVRW",
     link2: "https://www.youtube.com/embed/InSydaLSSlw?autoplay=true",
+    link3: "",
+    link4: "",
     category: cat.nwes,
   },
   {
@@ -135,6 +166,8 @@ export const datos = [
     img: "https://logospng.org/download/star-plus/logo-star-plus-256.png",
     link1: "https://canales.online/star-plus/",
     link2: "https://librefutboltv.com/star-plus/",
+    link3: "",
+    link4: "",
     category: cat.sports,
   },
   {
@@ -143,6 +176,8 @@ export const datos = [
     img: "https://static.wikia.nocookie.net/logopedia/images/3/34/ESPN.svg/",
     link1: "https://blackface.world/dtvpl.html?id=1104",
     link2: "https://embed8.alandesk.life/cvatt.html?get=RVNQTjJIRA&lang=1",
+    link3: "",
+    link4: "",
     category: cat.sports,
   },
   {
@@ -151,6 +186,8 @@ export const datos = [
     img: "https://static.wikia.nocookie.net/logopedia/images/d/d5/ESPN2.svg/",
     link1: "https://blackface.world/dtvpl.html?id=1099",
     link2: "https://embed8.alandesk.life/cvatt.html?get=RVNQTjJfQXJn",
+    link3: "",
+    link4: "",
     category: cat.sports,
   },
   {
@@ -159,6 +196,8 @@ export const datos = [
     img: "https://static.wikia.nocookie.net/logopedia/images/d/d2/ESPN_3.svg/",
     link1: "https://blackface.world/dtvpl.html?id=1103",
     link2: "https://embed8.alandesk.life/cvatt.html?get=RVNQTjM",
+    link3: "",
+    link4: "",
     category: cat.sports,
   },
   {
@@ -167,6 +206,8 @@ export const datos = [
     img: "https://static.wikia.nocookie.net/logopedia/images/b/b5/ESPN_Extra_Brazil_logo.png/",
     link1: "https://blackface.world/dtvpl.html?id=1107",
     link2: "https://embed8.alandesk.life/cvatt.html?get=RVNQTkhE",
+    link3: "",
+    link4: "",
     category: cat.sports,
   },
   {
@@ -176,6 +217,8 @@ export const datos = [
     link1: "https://blackface.world/dtvpl.html?id=1125&lang=1",
     link2:
       "https://embed8.alandesk.life/cvatt.html?get=Rm94X1Nwb3J0c19QcmVtaXVuX0hE&lang=1",
+    link3: "",
+    link4: "",
     category: cat.sports,
   },
   {
@@ -184,6 +227,8 @@ export const datos = [
     img: "https://static.wikia.nocookie.net/logopedia/images/9/9c/TNT_Sports.svg/",
     link1: "",
     link2: "",
+    link3: "",
+    link4: "",
     category: cat,
   },
   {
@@ -192,6 +237,8 @@ export const datos = [
     img: "https://static.wikia.nocookie.net/logopedia/images/5/5d/TyC_Sports.svg/",
     link1: "https://blackface.world/dtvpl.html?id=1240",
     link2: "https://embed8.alandesk.life/cvatt.html?get=VHlDU3BvcnQ",
+    link3: "",
+    link4: "",
     category: cat.sports,
   },
   {
@@ -200,6 +247,8 @@ export const datos = [
     img: "https://static.wikia.nocookie.net/logopedia/images/b/b2/Fox_Sports_Argentina_2023.svg/",
     link1: "https://blackface.world/dtvpl.html?id=1118",
     link2: "https://embed8.alandesk.life/cvatt.html?get=Rm94U3BvcnRz",
+    link3: "",
+    link4: "",
     category: cat.sports,
   },
   {
@@ -208,6 +257,8 @@ export const datos = [
     img: "https://static.wikia.nocookie.net/logopedia/images/2/26/Fox_Sports_2_%28Argentina%29_2023.png/",
     link1: "https://blackface.world/dtvpl.html?id=1065",
     link2: "https://embed8.alandesk.life/cvatt.html?get=Rm94U3BvcnRzMkhE",
+    link3: "",
+    link4: "",
     category: cat.sports,
   },
   {
@@ -216,6 +267,8 @@ export const datos = [
     img: "https://static.wikia.nocookie.net/logopedia/images/8/83/Fox_Sports_3_%28Argentina%29_2023.png/",
     link1: "https://blackface.world/dtvpl.html?id=1066",
     link2: "https://embed8.alandesk.life/cvatt.html?get=Rm94U3BvcnRzM0hE",
+    link3: "",
+    link4: "",
     category: cat.sports,
   },
   {
@@ -224,6 +277,8 @@ export const datos = [
     img: "https://static.wikia.nocookie.net/logopedia/images/5/5a/DSports.png/",
     link1: "https://blackface.world/dtvpl.html?id=1057",
     link2: "https://www.tutelehdplayer.xyz/online.php?a=6",
+    link3: "",
+    link4: "",
     category: cat.sports,
   },
   {
@@ -232,6 +287,8 @@ export const datos = [
     img: "https://static.wikia.nocookie.net/logopedia/images/8/83/DSports2.png/",
     link1: "https://blackface.world/dtvpl.html?id=1063",
     link2: "https://www.tutelehdplayer.xyz/online.php?a=7",
+    link3: "",
+    link4: "",
     category: cat.sports,
   },
   {
@@ -240,6 +297,8 @@ export const datos = [
     img: "https://static.wikia.nocookie.net/logopedia/images/4/45/DSportsM%C3%A1s.png/",
     link1: "https://blackface.world/dtvpl.html?id=1071",
     link2: "https://www.tutelehdplayer.xyz/online.php?a=8",
+    link3: "",
+    link4: "",
     category: cat.sports,
   },
   {
@@ -248,6 +307,8 @@ export const datos = [
     img: "https://static.wikia.nocookie.net/logopedia/images/e/e8/History_2021.png/",
     link1: "https://blackface.world/dtvpl.html?id=1148",
     link2: "https://blackface.world/dtvpl.html?id=1148",
+    link3: "",
+    link4: "",
     category: cat.documental,
   },
   {
@@ -256,6 +317,8 @@ export const datos = [
     img: "https://static.wikia.nocookie.net/logopedia/images/3/3a/History_2_%282022%29.png/",
     link1: "https://blackface.world/dtvpl.html?id=1147",
     link2: "https://blackface.world/dtvpl.html?id=1147",
+    link3: "",
+    link4: "",
     category: cat.documental,
   },
   {
@@ -264,6 +327,8 @@ export const datos = [
     img: "https://static.wikia.nocookie.net/logopedia/images/c/c6/National_Geographic_2008.svg/",
     link1: "https://blackface.world/dtvpl.html?id=1169",
     link2: "https://embed8.alandesk.life/cvatt.html?get=TmF0R2VvSEQ=",
+    link3: "",
+    link4: "",
     category: cat.documental,
   },
   {
@@ -273,6 +338,8 @@ export const datos = [
     link1:
       "https://player.twitch.tv/?channel=dt_yy83&parent=hdxchannel.xyz&parent=www.hdxchannel.xyz&parent=www.supertelevisionhd.com&parent=www.supertelevisionhd.net",
     link2: "https://embed8.alandesk.life/cvatt.html?get=RGlzY292ZXJ5SEQ=",
+    link3: "",
+    link4: "",
     category: cat.documental,
   },
   {
@@ -281,6 +348,8 @@ export const datos = [
     img: "https://static.wikia.nocookie.net/logopedia/images/f/f3/Discovery_HnH_2022.svg/",
     link1: "https://blackface.world/dtvpl.html?id=1074",
     link2: "https://blackface.world/dtvpl.html?id=1074",
+    link3: "",
+    link4: "",
     category: cat.documental,
   },
   {
@@ -289,6 +358,8 @@ export const datos = [
     img: "https://static.wikia.nocookie.net/logopedia/images/5/58/CanalDiscoveryIDLA.png/",
     link1: "https://blackface.world/dtvpl.html?id=1076",
     link2: "https://blackface.world/dtvpl.html?id=1076",
+    link3: "",
+    link4: "",
     category: cat.documental,
   },
   {
@@ -297,6 +368,8 @@ export const datos = [
     img: "https://static.wikia.nocookie.net/logopedia/images/a/ab/Discovery_Turbo_LatinAmerica_2021.svg/",
     link1: "https://blackface.world/dtvpl.html?id=1081",
     link2: "https://blackface.world/dtvpl.html?id=1081",
+    link3: "",
+    link4: "",
     category: cat.documental,
   },
   {
@@ -305,6 +378,8 @@ export const datos = [
     img: "https://static.wikia.nocookie.net/logopedia/images/a/a8/HGTV_2010.svg/",
     link1: "https://blackface.world/dtvpl.html?id=1144",
     link2: "https://blackface.world/dtvpl.html?id=1144",
+    link3: "",
+    link4: "",
     category: cat.documental,
   },
   {
@@ -313,6 +388,8 @@ export const datos = [
     img: "https://static.wikia.nocookie.net/logopedia/images/e/e9/M%C3%A1s_Chic.svg/",
     link1: "https://blackface.world/dtvpl.html?id=1161",
     link2: "https://embed8.alandesk.life/cvatt.html?get=TWFzX0NoaWM=",
+    link3: "",
+    link4: "",
     category: cat.documental,
   },
   {
@@ -322,6 +399,8 @@ export const datos = [
     link1: "https://www.youtube.com/watch?v=tsStUN73_6I",
     link2:
       "https://canales.online/m3u8.html?get=aHR0cHM6Ly9kd2FtZHN0cmVhbTEwNC5ha2FtYWl6ZWQubmV0L2hscy9saXZlLzIwMTU1MzAvZHdzdHJlYW0xMDQvaW5kZXgubTN1OA==",
+    link3: "",
+    link4: "",
     category: cat.documental,
   },
   {
@@ -330,6 +409,8 @@ export const datos = [
     img: "https://static.wikia.nocookie.net/logopedia/images/5/59/FoodNetLogo.svg/",
     link1: "https://blackface.world/dtvpl.html?id=1113",
     link2: "https://embed8.alandesk.life/cvatt.html?get=Rm9vZF9OZXR3b3Jr",
+    link3: "",
+    link4: "",
     category: cat.documental,
   },
   {
@@ -338,6 +419,8 @@ export const datos = [
     img: "https://static.wikia.nocookie.net/logopedia/images/d/da/Elgourmet_23.svg/",
     link1: "https://blackface.world/dtvpl.html?id=1093",
     link2: "https://embed8.alandesk.life/cvatt.html?get=R291cm1ldA==",
+    link3: "",
+    link4: "",
     category: cat.documental,
   },
   {
@@ -346,6 +429,8 @@ export const datos = [
     img: "https://static.wikia.nocookie.net/logopedia/images/0/0b/Flow_2021.svg/",
     link1: "https://embed8.alandesk.life/cvatt.html?get=Rmxvd19NdXNpY19YUA==",
     link2: "https://embed8.alandesk.life/cvatt.html?get=Rmxvd19NdXNpY18x",
+    link3: "",
+    link4: "",
     category: cat.music,
   },
   {
@@ -355,6 +440,8 @@ export const datos = [
     link1:
       "https://www.youtube.com/embed/live_stream?channel=UCvCTWHCbBC0b9UIeLeNs8ug",
     link2: "https://www.youtube.com/watch?v=g7Kx0AKmfTg",
+    link3: "",
+    link4: "",
     category: cat.music,
   },
   {
@@ -363,6 +450,8 @@ export const datos = [
     img: "https://static.wikia.nocookie.net/logopedia/images/3/3a/La_100_fm.png/",
     link1: "https://www.youtube.com/watch?v=QgfoI5v0HNY",
     link2: "https://www.youtube.com/watch?v=QgfoI5v0HNY",
+    link3: "",
+    link4: "",
     category: cat.music,
   },
   {
@@ -371,6 +460,8 @@ export const datos = [
     img: "https://4dproducciones.com.ar/wp-content/uploads/2020/10/Mitre.png",
     link1: "https://www.youtube.com/watch?v=fsd92RSrtLA",
     link2: "https://radiomitre.cienradios.com/player/mitre-am790/",
+    link3: "",
+    link4: "",
     category: cat.music,
   },
   {
@@ -381,6 +472,8 @@ export const datos = [
       "https://player.twitch.tv/?channel=bocx148&parent=onlinexlive.xyz&parent=www.onlinexlive.xyz&parent=www.supertelevisionhd.com&parent=www.supertelevisionhd.net",
     link2:
       "https://player.twitch.tv/?channel=bocx148&parent=onlinexlive.xyz&parent=www.onlinexlive.xyz&parent=www.supertelevisionhd.com&parent=www.supertelevisionhd.net",
+    link3: "",
+    link4: "",
     category: cat.movie,
   },
   {
@@ -389,6 +482,8 @@ export const datos = [
     img: "https://static.wikia.nocookie.net/logopedia/images/c/c1/HBO.svg/",
     link1: "https://telefullenvivo.com/canales/hbo2/",
     link2: "https://telefullenvivo.com/canales/hbo2/op2.php",
+    link3: "",
+    link4: "",
     category: cat.movie,
   },
   {
@@ -398,6 +493,8 @@ export const datos = [
     link1: "https://ok.ru/videoembed/6695123295815",
     link2:
       "https://player.twitch.tv/?channel=dt_yy83&parent=hdxchannel.xyz&parent=www.hdxchannel.xyz&parent=www.supertelevisionhd.com&parent=www.supertelevisionhd.net",
+    link3: "",
+    link4: "",
     category: cat.movie,
   },
   //   {

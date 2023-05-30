@@ -3,6 +3,7 @@ import style from "./Programacion.module.css";
 import marctvplus from "../../assets/marctvplus.png";
 import { ButtonHome } from "../../components/ButtonHome/ButtonHome";
 import { Footer } from "../../components/Footer/Footer";
+import { Control } from "../../components/Control/Control";
 
 export const Programacion = () => {
   return (
@@ -18,6 +19,7 @@ export const Programacion = () => {
         width={1560}
         height={771}
       ></iframe>
+      <Control />
       <Footer />
     </div>
   );
