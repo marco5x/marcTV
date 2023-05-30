@@ -1,0 +1,13 @@
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 0.5rem;
+  width: 6rem;
+  height: 1rem;
+  margin-right: 50% !important;
+  margin-top: 15px;
+  background: linear-gradient(to top, #b6ce81, #d0dfaf, #dce7be);
+  position: fixed;
+  z-index: 3;
+}
