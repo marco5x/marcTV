@@ -12,20 +12,14 @@ export const AgendaDeportiva = () => {
         <iframe
           title="agenda"
           allowfullscreen="true"
-          src="https://canales.online/agenda/"
+          src={
+            "https://canales.online/agenda" ||
+            "https://futbollibretv.com/agenda/?update"
+          }
           width={450}
-          height="auto"
+          height={300}
         ></iframe>
-      ) : (
-        ""
-      )}
-      {/* <iframe
-        title="agenda"
-        allowfullscreen="true"
-        src="https://futbollibretv.com/agenda/?update"
-        width={450}
-        height="auto"
-      ></iframe> */}
+      ) : null}
     </div>
   );
 };

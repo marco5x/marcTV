@@ -1,11 +1,11 @@
 import React from "react";
-import { datos } from "../../api/api";
+import { datosPrivtes } from "../../api/api";
 import { CardChanell } from "../CardChanell/CardChanell";
 
-export const AllChanells = () => {
+export const AdultChanels = () => {
   return (
     <div style={{ display: "flex", gap: "10px" }}>
-      {datos?.map((chanel) => (
+      {datosPrivtes?.map((chanel) => (
         <div
           key={chanel.id}
           style={{ border: "1px solid", borderRadius: "9px", padding: "6px" }}

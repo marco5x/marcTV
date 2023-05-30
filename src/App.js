@@ -8,6 +8,7 @@ import { Peliserie } from "./components/Peliserie/Peliserie";
 import { PeliserieC } from "./components/PeliserieC/PeliserieC";
 import { PeliserieP } from "./components/PeliserieP/PeliserieP";
 import { Transmision } from "./pages/Transmision/Transmision";
+import { PrivateTransmision } from "./pages/PrivateTransmision/PrivateTransmision";
 
 export const App = () => {
   return (
@@ -19,6 +20,7 @@ export const App = () => {
       <Route path="/peliserieC" element={<PeliserieC />} />
       <Route path="/peliserieP" element={<PeliserieP />} />
       <Route path="/transmision" element={<Transmision />} />
+      <Route path="/adultos" element={<PrivateTransmision />} />
     </Routes>
   );
 };

@@ -410,7 +410,7 @@ export const datos = [
   //   },
 ];
 
-export const datosPrivados = [
+export const datosPrivtes = [
   {
     id: 49,
     name: "Playboy TV",
