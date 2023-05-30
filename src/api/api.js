@@ -391,8 +391,6 @@ export const datos = [
     link2: "https://telefullenvivo.com/canales/hbo2/op2.php",
     category: cat.movie,
   },
-
-  //
   {
     id: 48,
     name: "HBO+",
@@ -402,6 +400,14 @@ export const datos = [
       "https://player.twitch.tv/?channel=dt_yy83&parent=hdxchannel.xyz&parent=www.hdxchannel.xyz&parent=www.supertelevisionhd.com&parent=www.supertelevisionhd.net",
     category: cat.movie,
   },
+  //   {
+  //     id: 100,
+  //     name: "",
+  //     img: "",
+  //     link1: "",
+  //     link2: "",
+  //     category: cat.adults,
+  //   },
 ];
 
 export const datosPrivados = [

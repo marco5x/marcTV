@@ -6,7 +6,7 @@ export const AgendaDeportiva = () => {
   return (
     <div style={{ display: "flex", flexDirection: "column" }}>
       <button style={{ width: "9rem" }} onClick={() => setShow(!show)}>
-        AGENDA DEPORTIVA
+        {!show ? <p>AGENDA DEPORTIVA</p> : <p>CERRAR AGENDA</p>}
       </button>
       {show ? (
         <iframe
