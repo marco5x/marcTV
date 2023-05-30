@@ -13,7 +13,7 @@ export const datos = [
     name: "Canal 2 (Perico)",
     img: "http://canal2perico.com.ar/canal2/images/logo.png",
     link1: "https://streamcasthd.com:2020/VideoPlayer/tecnovisioncanal2tv",
-    link2: "http://canal2perico.com.ar",
+    link2: "https://streamcasthd.com:2020/VideoPlayer/tecnovisioncanal2tv",
     category: cat.nwes,
   },
   {
@@ -494,17 +494,5 @@ export const datosPrivados = [
     category: cat.adults,
   },
 ];
-/*
-<iframe
-  src="https://latele-envivo.com/Embed/sextreme/op2.php"
-  width="640"
-  height="360"
-  marginheight="0"
-  marginwidth="0"
-  scrolling="no"
-  frameborder="0"
-  allow="fullscreen"
-  allow="encrypted-media"
-></iframe>;
-*/
+
 //https://www.latele-envivo.com/

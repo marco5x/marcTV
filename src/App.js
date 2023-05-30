@@ -7,6 +7,7 @@ import { Grilla } from "./pages/Grilla/Grilla";
 import { Peliserie } from "./components/Peliserie/Peliserie";
 import { PeliserieC } from "./components/PeliserieC/PeliserieC";
 import { PeliserieP } from "./components/PeliserieP/PeliserieP";
+import { Transmision } from "./pages/Transmision/Transmision";
 
 export const App = () => {
   return (
@@ -17,6 +18,7 @@ export const App = () => {
       <Route path="/peliserie" element={<Peliserie />} />
       <Route path="/peliserieC" element={<PeliserieC />} />
       <Route path="/peliserieP" element={<PeliserieP />} />
+      <Route path="/transmision" element={<Transmision />} />
     </Routes>
   );
 };
