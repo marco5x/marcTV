@@ -13,7 +13,9 @@ export const Footer = () => {
           <img src={marctvplus} alt="MarcTv+" width={50} />
         </li>
         <li>
-          <Link to="https://ublockorigin.com/es">Recomendado</Link>
+          <Link target="_blank" to="https://ublockorigin.com/es">
+            Recomendado
+          </Link>
         </li>
       </ul>
     </div>

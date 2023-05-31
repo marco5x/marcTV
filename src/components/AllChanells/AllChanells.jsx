@@ -4,7 +4,15 @@ import { CardChanell } from "../CardChanell/CardChanell";
 
 export const AllChanells = () => {
   return (
-    <div style={{ display: "flex", gap: "10px" }}>
+    <div
+      style={{
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        flexWrap: "wrap",
+        gap: "6px",
+      }}
+    >
       {datos?.map((chanel) => (
         <div
           key={chanel.id}

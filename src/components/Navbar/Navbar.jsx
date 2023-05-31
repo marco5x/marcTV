@@ -14,10 +14,10 @@ export const NavBar = () => {
         <li>
           <ul>
             <li>
-              <NavLink to={"/programacion"}>Programacion1</NavLink>
+              <NavLink to={"/grilla"}>Programacion1</NavLink>
             </li>
             <li>
-              <NavLink to={"/grilla"}>Programacion2</NavLink>
+              <NavLink to={"/programacion"}>Programacion2</NavLink>
             </li>
           </ul>
         </li>

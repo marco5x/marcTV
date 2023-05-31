@@ -20,7 +20,9 @@ export const Transmision = () => {
         allowfullscreen
       ></iframe>
       <button onClick={() => setLink(chanellFind.link1)}> 1️⃣▶</button>
-      <button onClick={() => setLink(chanellFind.link2)}>2️⃣</button>
+      {chanellFind.link2 ? (
+        <button onClick={() => setLink(chanellFind.link2)}>2️⃣</button>
+      ) : null}
       <div>
         <legend>Solo con bloqueador de anuncios!!</legend>
         <button onClick={() => setLink(chanellFind.link3)}> 3 ▶</button>
