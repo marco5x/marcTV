@@ -36,4 +36,3 @@ export const Transmision = () => {
     </div>
   );
 };
-//"https://www.youtube.com/embed/gg6Ni0BPvfs"
