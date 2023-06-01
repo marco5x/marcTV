@@ -20,7 +20,7 @@ export const App = () => {
       <Route path="/peliserieC" element={<PeliserieC />} />
       <Route path="/peliserieP" element={<PeliserieP />} />
       <Route path="/transmision/:id" element={<Transmision />} />
-      <Route path="/adultos/:id" element={<PrivateTransmision />} />
+      <Route path="/transmision/adultos/:id" element={<PrivateTransmision />} />
     </Routes>
   );
 };

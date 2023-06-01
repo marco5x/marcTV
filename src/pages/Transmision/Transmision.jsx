@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useParams } from "react-router-dom";
 import { datos } from "../../api/api";
 import { Control } from "../../components/Control/Control";
+import { ButtonHome } from "../../components/ButtonHome/ButtonHome";
 
 export const Transmision = () => {
   const params = useParams();
@@ -16,8 +17,8 @@ export const Transmision = () => {
         src={link}
         title={chanellFind.name}
         frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen
+        allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" //autoplay;
+        allowfullscreen="fullscreen, autoplay"
       ></iframe>
       <button onClick={() => setLink(chanellFind.link1)}> 1️⃣▶</button>
       {chanellFind.link2 ? (
@@ -26,9 +27,13 @@ export const Transmision = () => {
       <div>
         <legend>Solo con bloqueador de anuncios!!</legend>
         <button onClick={() => setLink(chanellFind.link3)}> 3 ▶</button>
-        <button onClick={() => setLink(chanellFind.link4)}>4 </button>
+        {chanellFind.link4 ? (
+          <button onClick={() => setLink(chanellFind.link4)}>4 </button>
+        ) : null}
       </div>
       <Control />
+      <ButtonHome />
     </div>
   );
 };
+//"https://www.youtube.com/embed/gg6Ni0BPvfs"

@@ -1,5 +1,6 @@
 import React from "react";
 import { ControlPrivate } from "../../components/ControlPrivate/ControlPrivate";
+import { ButtonHome } from "../../components/ButtonHome/ButtonHome";
 
 export const PrivateTransmision = () => {
   return (
@@ -7,14 +8,12 @@ export const PrivateTransmision = () => {
       <iframe
         title="transmision"
         src="https://www.latele-envivo.com/Embed/dreamsex/"
-        width="720"
-        height="480"
-        marginheight="0"
-        marginwidth="0"
-        frameborder="0"
+        width="1280"
+        height="720"
         allow="fullscreen"
       ></iframe>
       <ControlPrivate />
+      <ButtonHome />
     </div>
   );
 };
