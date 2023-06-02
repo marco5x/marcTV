@@ -15,7 +15,7 @@ export const Programacion = () => {
       <iframe
         title="agenda"
         allowfullscreen="true"
-        src="https://www.telered.com.ar/buscador-grilla"
+        src="https://www.reportv.com.ar/finder/index/2680" // "https://www.telered.com.ar/buscador-grilla"
         width={1560}
         height={771}
       ></iframe>

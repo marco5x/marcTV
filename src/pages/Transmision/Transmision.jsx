@@ -20,15 +20,15 @@ export const Transmision = () => {
         allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" //autoplay;
         allowfullscreen="fullscreen, autoplay"
       ></iframe>
-      <button onClick={() => setLink(chanellFind.link1)}> 1️⃣▶</button>
+      <button onClick={() => setLink(chanellFind.link1)}>VER 👀</button>
       {chanellFind.link2 ? (
-        <button onClick={() => setLink(chanellFind.link2)}>2️⃣</button>
+        <button onClick={() => setLink(chanellFind.link2)}>VER 👀</button>
       ) : null}
       <div>
         <legend>Solo con bloqueador de anuncios!!</legend>
-        <button onClick={() => setLink(chanellFind.link3)}> 3 ▶</button>
+        <button onClick={() => setLink(chanellFind.link3)}> VER 👀 </button>
         {chanellFind.link4 ? (
-          <button onClick={() => setLink(chanellFind.link4)}>4 </button>
+          <button onClick={() => setLink(chanellFind.link4)}>VER 👀 </button>
         ) : null}
       </div>
       <Control />
