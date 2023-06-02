@@ -5,12 +5,28 @@ export const CardChanell = ({ id, name, img }) => {
   return (
     <Link
       to={`transmision/${id}`}
-      style={{ textDecoration: "none", color: "white" }}
+      style={{ textDecoration: "none", color: "white", textAlign: "center" }}
     >
-      <div style={{ width: "9rem", height: "9rem" }}>
-        <h3> {name} </h3>
+      <div
+        style={{
+          width: "9rem",
+          height: "9.9rem",
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "space-evenly",
+          alignItems: "center",
+        }}
+      >
+        <h3 style={{ margin: "0", marginBottom: "3px" }}> {name} </h3>
         <hr />
-        <img src={img} alt={name} width={90} />
+        <img
+          style={{
+            margin: "0",
+          }}
+          src={img}
+          alt={name}
+          width={90}
+        />
       </div>
     </Link>
   );

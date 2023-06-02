@@ -163,7 +163,9 @@ export const datos = [
     id: 16,
     name: "CNN",
     img: "https://static.wikia.nocookie.net/logopedia/images/5/51/Logotipo_de_CNN_en_Espa%C3%B1ol.svg/",
-    link1: "https://cablegratis.online/cnn-en-espanol-en-vivo/",
+    link1:
+      "https://nosequewea.tk/fl?get=LmN2YXR0di5jb20uYXIvbGl2ZS9jNmVkcy9DTk5fZW5fRXNwYW5vbC9TQV9MaXZlX2Rhc2hfZW5jL0NOTl9lbl9Fc3Bhbm9sLm1wZA==&key=MGIyMGVkOWRhMGU1NDU3YzlkZmQzYWUwYjYwOTI0OTE=&key2=OTg5OTdhNzAyMGMxOGNiMjgxNzRhMjQ5MDE0NzgzMGE=",
+    link3: "https://cablegratis.online/cnn-en-espanol-en-vivo/",
     category: cat.nwes,
   },
   {
@@ -379,6 +381,17 @@ export const datos = [
   },
   {
     id: 38,
+    name: "Discovery Science",
+    img: "https://static.wikia.nocookie.net/logopedia/images/1/11/Discovery_Science_LA_2012.png/",
+    link1:
+      "https://nosequewea.tk/fl?get=LmN2YXR0di5jb20uYXIvbGl2ZS9jNmVkcy9EaXNjb3ZlcnlfU2NpZW5jZS9TQV9MaXZlX2Rhc2hfZW5jXzJBL0Rpc2NvdmVyeV9TY2llbmNlLm1wZA==&key=NDZiYTQwOWZiMDRlNDBmYjg2YjQ2NmQ5N2UzYTk1ODg=&key2=ZjEyOWZiOWI1ZDIxM2UyMGUyYWJlNTI5YjhjZjI1OTc=",
+    link2: "",
+    link3: "",
+    link4: "",
+    category: cat.documental,
+  },
+  {
+    id: 39,
     name: "Discovery turbo",
     img: "https://static.wikia.nocookie.net/logopedia/images/a/ab/Discovery_Turbo_LatinAmerica_2021.svg/",
     link1: "https://blackface.world/dtvpl.html?id=1081",
@@ -388,7 +401,7 @@ export const datos = [
     category: cat.documental,
   },
   {
-    id: 39,
+    id: 40,
     name: "HGTV",
     img: "https://static.wikia.nocookie.net/logopedia/images/a/a8/HGTV_2010.svg/",
     link1: "https://blackface.world/dtvpl.html?id=1144",
@@ -398,7 +411,7 @@ export const datos = [
     category: cat.documental,
   },
   {
-    id: 40,
+    id: 41,
     name: "MAS CHiC",
     img: "https://static.wikia.nocookie.net/logopedia/images/e/e9/M%C3%A1s_Chic.svg/",
     link1: "https://blackface.world/dtvpl.html?id=1161",
@@ -408,7 +421,7 @@ export const datos = [
     category: cat.documental,
   },
   {
-    id: 41,
+    id: 42,
     name: "DW",
     img: "https://static.wikia.nocookie.net/logopedia/images/7/75/Deutsche_Welle_symbol_2012.svg/",
     link1: "https://www.youtube.com/embed/tsStUN73_6I",
@@ -419,7 +432,7 @@ export const datos = [
     category: cat.documental,
   },
   {
-    id: 42,
+    id: 43,
     name: "TRU TV",
     img: "https://static.wikia.nocookie.net/logopedia/images/7/7d/TruTV_%282014%29_%28Purple%29.svg/",
     link1: "https://crytonep.github.io/mtonline/trutv.html",
@@ -429,7 +442,7 @@ export const datos = [
     category: cat.documental,
   },
   {
-    id: 43,
+    id: 44,
     name: "SUN",
     img: "https://static.wikia.nocookie.net/logopedia/images/d/de/Sun_Channel_%282022%29.png/",
     link1: "https://megatelevisiontv.live/en-vivo/sun-channel/",
@@ -439,7 +452,7 @@ export const datos = [
     category: cat.documental,
   },
   {
-    id: 44,
+    id: 45,
     name: "Food Network",
     img: "https://static.wikia.nocookie.net/logopedia/images/5/59/FoodNetLogo.svg/",
     link1: "https://blackface.world/dtvpl.html?id=1113",
@@ -449,17 +462,18 @@ export const datos = [
     category: cat.documental,
   },
   {
-    id: 45,
+    id: 46,
     name: "El Gourmet",
     img: "https://static.wikia.nocookie.net/logopedia/images/d/da/Elgourmet_23.svg/",
     link1: "https://blackface.world/dtvpl.html?id=1093",
     link2: "",
     link3: "https://embed8.alandesk.life/cvatt.html?get=R291cm1ldA==",
-    link4: "",
+    link4:
+      "https://nosequewea.tk/fl?get=LmN2YXR0di5jb20uYXIvbGl2ZS9jM2Vkcy9Hb3VybWV0L1NBX0xpdmVfZGFzaF9lbmMvR291cm1ldC5tcGQ=&key=OTNkODUzYWM0YzhlMjRjZjAyOTVmNmY5N2VlNTNiZDM=&key2=ZmE1ODE3ZmFiNGZiMDU0Y2NlYTFhYmI5ZjNkNzY3ZWQ=",
     category: cat.documental,
   },
   {
-    id: 46,
+    id: 47,
     name: "Flow Music",
     img: "https://static.wikia.nocookie.net/logopedia/images/0/0b/Flow_2021.svg/",
     link1: "https://embed8.alandesk.life/cvatt.html?get=Rmxvd19NdXNpY19YUA==",
@@ -470,7 +484,7 @@ export const datos = [
     category: cat.music,
   },
   {
-    id: 47,
+    id: 48,
     name: "Vorterix",
     img: "https://canales.online/img/logo_canal/Vorterix.png",
     link1:
@@ -480,19 +494,19 @@ export const datos = [
     category: cat.music,
   },
   {
-    id: 48,
+    id: 49,
     name: "LUZZU TV",
     img: "http://luzutv.com.ar/wp-content/uploads/2021/07/LOGO-PNG-e1627149585606-300x87.png",
     link1: "http://luzutv.com.ar/",
     link2: "",
     link3:
-      "https://player.twitch.tv/?channel=luzu_tv&parent=http://localhost:3000/transmision/47",
+      "https://player.twitch.tv/?channel=luzu_tv&parent=marco5x.github.io/marcTV",
     link4:
-      "https://player.twitch.tv/video=601665123&parent=http://localhost:3000/",
+      "https://player.twitch.tv/video=601665123&parent=marco5x.github.io/marcTV",
     category: cat.music,
   },
   {
-    id: 49,
+    id: 50,
     name: "La 100 HD",
     img: "https://static.wikia.nocookie.net/logopedia/images/3/3a/La_100_fm.png/",
     link1: "https://www.youtube.com/embed/QgfoI5v0HNY",
@@ -502,7 +516,7 @@ export const datos = [
   },
 
   {
-    id: 50,
+    id: 51,
     name: "Radio Mitre",
     img: "https://4dproducciones.com.ar/wp-content/uploads/2020/10/Mitre.png",
     link1: "https://www.youtube.com/embed/fsd92RSrtLA",
@@ -510,31 +524,31 @@ export const datos = [
     link3: "",
     link4: "",
     category: cat.music,
-  }, //////////////
+  },
   {
-    id: 51,
+    id: 52,
     name: "TCM",
-    img: "",
-    link1: "",
-    link3: "",
+    img: "https://static.wikia.nocookie.net/logopedia/images/d/df/TCM_%28Latin_America%29.svg/",
+    link1: "https://www.latele-envivo.com/Embed/tcm/op2.php",
+    link3: "https://crytonep.github.io/mtonline/tcm.html",
     link4: "",
     category: cat.adults,
   },
   {
-    id: 52,
+    id: 53,
     name: "HBO",
     img: "https://static.wikia.nocookie.net/logopedia/images/c/c1/HBO.svg/",
-    link1:
-      "https://player.twitch.tv/?channel=bocx148&parent=onlinexlive.xyz&parent=www.onlinexlive.xyz&parent=www.supertelevisionhd.com&parent=www.supertelevisionhd.net",
+    link1: "https://www.latele-envivo.com/Embed/hbo/",
     link2: "",
-    link3: "",
-    link4: "",
+    link3: "https://www.latele-envivo.com/Embed/hbo/op2.php",
+    link4:
+      "https://nosequewea.tk/dtvc?get=Ly9kdHZvdHQtYWJjLmFrYW1haXplZC5uZXQvZGFzaF9saXZlXzExNDAvbWFuaWZlc3QubXBk&key=OTllZWZjMDY4ZGIzNTA5YjlmMGNmNWIzNDExNDIxOWQ=&key2=NmMyM2UzMWE0ZDgzYjU2OGU4NGFlYzYwOWE2M2ViYzk=",
     category: cat.movie,
-  }, /////////////////
+  },
   {
-    id: 53,
+    id: 54,
     name: "HBO 2",
-    img: "https://static.wikia.nocookie.net/logopedia/images/c/c1/HBO.svg/",
+    img: "https://static.wikia.nocookie.net/logopedia/images/9/95/HBO_2_2014.svg/",
     link1: "https://telefullenvivo.com/canales/hbo2/",
     link2: "https://telefullenvivo.com/canales/hbo2/op2.php",
     link3: "",
@@ -542,7 +556,7 @@ export const datos = [
     category: cat.movie,
   },
   {
-    id: 54,
+    id: 55,
     name: "HBO+",
     img: "https://static.wikia.nocookie.net/logopedia/images/f/f9/Logohboplus2019.svg/",
     link1: "https://ok.ru/videoembed/6695123295815",
@@ -553,25 +567,67 @@ export const datos = [
     category: cat.movie,
   },
   {
-    id: 55,
-    name: "SONY",
-    img: "",
-    link1: "",
-    link3: "",
-    link4: "",
-    category: cat.adults,
-  },
-  {
     id: 56,
-    name: "",
-    img: "",
-    link1: "",
-    link3: "",
+    name: "HBO EXTREME",
+    img: "https://static.wikia.nocookie.net/logopedia/images/b/b3/HBO_Xtreme_%282020%29.svg/",
+    link1:
+      "https://nosequewea.tk/fl?get=LmN2YXR0di5jb20uYXIvbGl2ZS9jNmVkcy9IQk9fRXh0cmVtZS9TQV9MaXZlX2Rhc2hfZW5jL0hC%20T19FeHRyZW1lLm1wZA==&key=ZDUwNDAxMWJiZWY0NjdjMGRlM2E3NTM0ZTMwMmE2ZDQ=&key2=MzM0MTAzZTJhYmUxNmZhYTdmOWFiMmUzMDk3YzVhNTg=",
+    link3: "https://www.latele-envivo.com/Embed/hbo-xtreme/",
+    category: cat.adults,
+  },
+  {
+    id: 57,
+    name: "SONY",
+    img: "https://static.wikia.nocookie.net/logopedia/images/6/61/Sony_Channel_2019.svg/",
+    link1:
+      "https://nosequewea.tk/dtvc?get=Ly9kdHZvdHQtY2JjLmFrYW1haXplZC5uZXQvZGFzaF9saXZlXzExOTAvbWFuaWZlc3QubXBk&key=MTAxMGI5OWZiMTI0NTQwYWFhNDc1YTQxMjU5NzUxZWI=&key2=MTk3NWM2YmNjOTU2NmE2ZTk0YWIyNjNkYzhmMDRiNTc=",
+    link3: "https://blackface.world/dtvpl.html?id=1190",
+    link4: "https://www.latele-envivo.com/Embed/sony/",
+    category: cat.adults,
+  },
+  {
+    id: 58,
+    name: "SONY MOVIES",
+    img: "https://static.wikia.nocookie.net/logopedia/images/1/11/Sony_Movies_2019.svg/",
+    link1:
+      "https://nosequewea.tk/dtvc?get=Ly9kdHZvdHQtYWJjLmFrYW1haXplZC5uZXQvZGFzaF9saXZlXzEyNjMvbWFuaWZlc3QubXBk&key=MzkxYzEzNzAzNGYwNTM5MzhlZGJmMjY3OTk1NDlkZGM=&key2=MTlkNjQzZDhhNTBiMmY4MjljOTZhODk3ZjdkZjI1NWQ=",
+    link3: "https://megatelevisiontv.live/en-vivo/sony-movies/",
     link4: "",
     category: cat.adults,
   },
   {
-    id: "adultos/57",
+    id: 59,
+    name: "Warner TV",
+    img: "https://static.wikia.nocookie.net/logopedia/images/5/5e/Warner2018LA.png/",
+    link1:
+      "https://nosequewea.tk/dtvc?get=aHR0cHM6Ly9kdHZvdHQtY2JjLmFrYW1haXplZC5uZXQvZGFzaF9saXZlXzEyNDgvbWFuaWZlc3QubXBk&key=NTZhMjQ3MzJjN2M1NThhMGIyNDRkYzlkNWY5MTBmODc=&key2=NjFkZmVmODFjZWUxMWNiNDE5YTYxMjAyNzBiOTU4N2I=",
+    link3: "https://blackface.world/dtvpl.html?id=1248",
+    link4:
+      "https://nosequewea.tk/fl?get=LmN2YXR0di5jb20uYXIvbGl2ZS9jN2Vkcy9XYXJuZXJIRC9TQV9MaXZlX2Rhc2hfZW5jXzJBL1dhcm5lckhELm1wZA==&key=MDY5YmQzZjBiNmMyNzk0NjdlMDg1NDlmMTdiZjViZDA=&key2=NWFmYTdlMzY5YTZkZTEwOTM4MThhODVhZjkxMmE3NzU=",
+    category: cat.adults,
+  },
+  {
+    id: 60,
+    name: "UNIVERSAL PREMIERE",
+    img: "https://static.wikia.nocookie.net/logopedia/images/3/3b/Universal_Premiere.svg/",
+    link1:
+      "https://nosequewea.tk/dtvc?get=aHR0cHM6Ly9kdHZvdHQtYWJjLmFrYW1haXplZC5uZXQvZGFzaF9saXZlXzEyNTYvbWFuaWZlc3QubXBk&key=ZDA4MGJlMjhhMGZjNTk3MGJmMWRlODk3ZjgwZDQwYmQ=&key2=YWI4MTg3ZDUwZDMxMWQzMGJjMGQ3ZGM2ZWI1Njk3ZDE=",
+    link3: "https://www.latele-envivo.com/Embed/universal-premiere/",
+    link4: "https://megatelevisiontv.live/en-vivo/universal-premiere/",
+    category: cat.adults,
+  },
+  {
+    id: 61,
+    name: "UNIVERSAL CINEMA",
+    img: "https://static.wikia.nocookie.net/logopedia/images/4/40/Universal_Cinema.svg/",
+    link1: "https://www.latele-envivo.com/Embed/universal-cinema/",
+    link3:
+      "https://nosequewea.tk/dtvc?get=aHR0cHM6Ly9kdHZvdHQtYWJjLmFrYW1haXplZC5uZXQvZGFzaF9saXZlXzEyNTMvbWFuaWZlc3QubXBk&key=Y2UwYTdjODgzZTJhNTQzMGJiYTk3YTNkNjhlMGRhZjg=&key2=ZTMwZGQ0OTA4ZTY2NzYzNzM2OWRmYjY1ODJmNTRkNjQ=",
+    link4: "https://www.latele-envivo.com/Embed/universal-cinema/",
+    category: cat.adults,
+  },
+  {
+    id: "/adultos/62",
     name: "ADULTOS",
     img: "https://static.wikia.nocookie.net/logopedia/images/8/8c/PEGI_Sex.svg/",
     link1: "",
@@ -581,7 +637,7 @@ export const datos = [
 
 export const datosPrivtes = [
   {
-    id: 53,
+    id: 62,
     name: "Playboy TV",
     img: "https://static.wikia.nocookie.net/logopedia/images/3/37/Playboy_TV_Logo.svg/",
     link1: "https://embed8.alandesk.life/cvatt.html?get=UGxheWJveQ",
@@ -590,7 +646,7 @@ export const datosPrivtes = [
     category: cat.adults,
   },
   {
-    id: 54,
+    id: 63,
     name: "Vanus",
     img: "https://static.wikia.nocookie.net/logopedia/images/c/cc/Venus_2014.svg/",
     link1: "https://embed8.alandesk.life/cvatt.html?get=VmVudXM=",
@@ -599,69 +655,68 @@ export const datosPrivtes = [
     category: cat.adults,
   },
   {
-    id: 55,
+    id: 64,
     name: "SeXtreme",
     img: "https://static.wikia.nocookie.net/logopedia/images/2/23/Sextreme.png/",
     link1: "https://latele-envivo.com/Embed/sextreme/op2.php",
-    link2: "https://canales.online/en-vivo/sextreme/",
+    link2: "https://www.latele-envivo.com/Embed/sextreme/op2.php",
     category: cat.adults,
   },
   {
-    id: 56,
+    id: 65,
     name: "Hustler HD",
     img: "https://static.wikia.nocookie.net/logopedia/images/1/12/Hustler_HD.png/",
     link1: "https://www.latele-envivo.com/Embed/hustler/",
-    link2: "https://www.latele-envivo.com/Embed/hustler/",
+    link2: "https://megatelevisiontv.live/en-vivo/hustler/",
     category: cat.adults,
   },
   {
-    id: 57,
+    id: 66,
     name: "Brazzers",
     img: "https://static.wikia.nocookie.net/logopedia/images/3/32/Brazzers_TV_1.svg/",
     link1: "https://www.latele-envivo.com/Embed/brazzers/",
-    link2: "https://www.latele-envivo.com/Embed/brazzers/",
     category: cat.adults,
   },
   {
-    id: 58,
+    id: 67,
     name: "SEXY HOT",
     img: "http://login.sexyhot.com.br.s3-website-us-east-1.amazonaws.com/static/images/logo.png",
     link1: "https://www.latele-envivo.com/Embed/hot/",
-    link2: "https://www.latele-envivo.com/Embed/hot/",
+    link2: "https://megatelevisiontv.live/en-vivo/sexyhot/",
     category: cat.adults,
   },
   {
-    id: 59,
+    id: 68,
     name: "Tushy Teens",
     img: "https://flyleafprint.com/wp-content/uploads/2021/11/Tushy-1.png",
     link1: "https://www.latele-envivo.com/Embed/teens/",
-    link2: "https://www.latele-envivo.com/Embed/teens/",
     category: cat.adults,
   },
   {
-    id: 60,
+    id: 69,
     name: "DORCEL",
     img: "https://static.wikia.nocookie.net/logopedia/images/b/be/Dorcel_TV_2022.svg/",
     link1: "https://www.latele-envivo.com/Embed/dorcel/",
-    link2: "https://www.latele-envivo.com/Embed/dorcel/",
-    category: cat.adults,
-  },
-  {
-    id: 61,
-    name: "Dream Sex",
-    img: "https://static.wikia.nocookie.net/logopedia/images/0/09/XXXTentacion_2018.svg/",
-    link1: "https://www.latele-envivo.com/Embed/dreamsex/",
-    link2: "https://www.latele-envivo.com/Embed/dreamsex/",
     category: cat.adults,
   },
   {
     id: 70,
-    name: "Proximo",
-    img: "Private",
-    link1: "#",
+    name: "Dream Sex",
+    img: "https://static.wikia.nocookie.net/logopedia/images/0/09/XXXTentacion_2018.svg/",
+    link1: "https://www.latele-envivo.com/Embed/dreamsex/",
+    category: cat.adults,
+  },
+  {
+    id: 70,
+    name: "Private",
+    img: "https://static.wikia.nocookie.net/logopedia/images/9/98/PRIVATE_TV.png/",
+    link1: "https://megatelevisiontv.live/en-vivo/private/",
     link2: "#",
     category: cat.adults,
   },
 ];
 
 //https://www.latele-envivo.com/
+//https://sfntv.xyz/inicio
+//https://megatelevisiontv.live/
+//https://canales.online/

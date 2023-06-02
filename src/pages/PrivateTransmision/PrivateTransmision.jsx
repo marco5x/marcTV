@@ -6,11 +6,13 @@ export const PrivateTransmision = () => {
   return (
     <div>
       <iframe
-        title="transmision"
-        src="https://www.latele-envivo.com/Embed/dreamsex/"
         width="1280"
         height="720"
-        allow="fullscreen"
+        src="https://www.latele-envivo.com/Embed/dorcel/"
+        title={"chanellFind.name"}
+        frameborder="0"
+        allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" //autoplay;
+        allowfullscreen="fullscreen, autoplay"
       ></iframe>
       <ControlPrivate />
       <ButtonHome />
