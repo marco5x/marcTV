@@ -36,7 +36,6 @@ export const AllChanells = () => {
           <option value="adultos"> Adultos</option>
         </select>
       </div>
-
       <div
         style={{
           display: "flex",

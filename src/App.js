@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { Routes, Route } from "react-router-dom";
+import { createPortal } from "react-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 import "./App.css";
 import { Home } from "./pages/Home/Home";
 import { Programacion } from "./pages/Programacion/Programacion";
@@ -12,20 +13,24 @@ import { PrivateTransmision } from "./pages/PrivateTransmision/PrivateTransmisio
 import { Protected } from "./components/Protected/Protected";
 
 export const App = () => {
-  const [isLoggedIn, setIsLoggedIn] = useState(null);
-  const logIn = () => {
+  const modal = document.getElementById("modal");
+  const [showModal, setShowModal] = useState(false);
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const logIn = (e) => {
+    e.preventDefault();
     setIsLoggedIn(true);
+    <Navigate to={"transmision/adultos/62"} />;
   };
-  const logOut = () => {
-    setIsLoggedIn(false);
-  };
+  //const logOut = () => {
+  //  setIsLoggedIn(false);
+  //};
 
   return (
     <>
       {isLoggedIn ? (
-        <button onClick={logOut}>logOut</button>
+        ""
       ) : (
-        <button onClick={logIn}>Login</button>
+        <button onClick={() => setShowModal(true)}>Login</button>
       )}
       <Routes>
         <Route path="/" element={<Home />} />
@@ -35,7 +40,6 @@ export const App = () => {
         <Route path="/peliserieC" element={<PeliserieC />} />
         <Route path="/peliserieP" element={<PeliserieP />} />
         <Route path="/transmision/:id" element={<Transmision />} />
-
         <Route
           path="/transmision/adultos/:id"
           element={
@@ -45,6 +49,22 @@ export const App = () => {
           }
         />
       </Routes>
+      {showModal
+        ? createPortal(
+            <div className="modal">
+              <div className="mod">
+                <button
+                  className="buttonX"
+                  onClick={() => setShowModal(!showModal)}
+                >
+                  ❌
+                </button>
+                <input type="text"></input>
+              </div>
+            </div>,
+            modal
+          )
+        : null}
     </>
   );
 };
