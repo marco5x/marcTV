@@ -17,7 +17,7 @@ export const Transmision = () => {
         src={link}
         title={chanellFind.name}
         frameborder="0"
-        allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" //autoplay;
+        allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; autoplay" //autoplay;
         allowfullscreen="fullscreen, autoplay"
       ></iframe>
       <button onClick={() => setLink(chanellFind.link1)}>VER 👀</button>
@@ -26,7 +26,9 @@ export const Transmision = () => {
       ) : null}
       <div>
         <legend>Solo con bloqueador de anuncios!!</legend>
-        <button onClick={() => setLink(chanellFind.link3)}> VER 👀 </button>
+        {chanellFind.link3 ? (
+          <button onClick={() => setLink(chanellFind.link3)}> VER 👀 </button>
+        ) : null}
         {chanellFind.link4 ? (
           <button onClick={() => setLink(chanellFind.link4)}>VER 👀 </button>
         ) : null}
