@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Routes, Route } from "react-router-dom";
 import "./App.css";
 import { Home } from "./pages/Home/Home";
@@ -9,18 +9,42 @@ import { PeliserieC } from "./components/PeliserieC/PeliserieC";
 import { PeliserieP } from "./components/PeliserieP/PeliserieP";
 import { Transmision } from "./pages/Transmision/Transmision";
 import { PrivateTransmision } from "./pages/PrivateTransmision/PrivateTransmision";
+import { Protected } from "./components/Protected/Protected";
 
 export const App = () => {
+  const [isLoggedIn, setIsLoggedIn] = useState(null);
+  const logIn = () => {
+    setIsLoggedIn(true);
+  };
+  const logOut = () => {
+    setIsLoggedIn(false);
+  };
+
   return (
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/programacion" element={<Programacion />} />
-      <Route path="/grilla" element={<Grilla />} />
-      <Route path="/peliserie" element={<Peliserie />} />
-      <Route path="/peliserieC" element={<PeliserieC />} />
-      <Route path="/peliserieP" element={<PeliserieP />} />
-      <Route path="/transmision/:id" element={<Transmision />} />
-      <Route path="/transmision/adultos/:id" element={<PrivateTransmision />} />
-    </Routes>
+    <>
+      {isLoggedIn ? (
+        <button onClick={logOut}>logOut</button>
+      ) : (
+        <button onClick={logIn}>Login</button>
+      )}
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/programacion" element={<Programacion />} />
+        <Route path="/grilla" element={<Grilla />} />
+        <Route path="/peliserie" element={<Peliserie />} />
+        <Route path="/peliserieC" element={<PeliserieC />} />
+        <Route path="/peliserieP" element={<PeliserieP />} />
+        <Route path="/transmision/:id" element={<Transmision />} />
+
+        <Route
+          path="/transmision/adultos/:id"
+          element={
+            <Protected isLoggedIn={isLoggedIn}>
+              <PrivateTransmision />
+            </Protected>
+          }
+        />
+      </Routes>
+    </>
   );
 };
