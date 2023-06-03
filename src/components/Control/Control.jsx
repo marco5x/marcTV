@@ -27,9 +27,17 @@ export const Control = () => {
                 padding: "3px",
               }}
             >
-              <p>{chanel.name}</p>
-              <img src={chanel.img} alt={chanel.name} width={60}></img>
-              <a href={`/transmision/${chanel.id}`}> 👀 </a>
+              <a
+                style={{
+                  textDecoration: "none",
+                  color: "white",
+                  textAlign: "center",
+                }}
+                href={`/transmision/${chanel.id}`}
+              >
+                <p>{chanel.name}</p>
+                <img src={chanel.img} alt={chanel.name} width={60}></img>
+              </a>
             </div>
           ))
         : null}

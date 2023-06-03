@@ -5,8 +5,17 @@ import marctvplus from "../../assets/marctvplus.png";
 export const Peliserie = () => {
   return (
     <div style={{ display: "flex" }}>
-      <div style={{ zIndex: "3", position: "fixed" }}>
-        <img src={marctvplus} alt="MARC TV+" width={50} />
+      <div
+        style={{
+          marginTop: "3px",
+          zIndex: "3",
+          position: "fixed",
+          left: "36px",
+          width: "12.9rem",
+          backgroundColor: "black",
+        }}
+      >
+        <img src={marctvplus} alt="MARC TV+" width={60} />
       </div>
       <ButtonHome />
       <iframe

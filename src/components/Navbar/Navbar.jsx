@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 export const NavBar = () => {
   return (
     <nav>
-      <ul style={{ display: "flex", gap: "60px" }}>
+      <ul style={{ display: "flex", justifyContent: "space-around" }}>
         <li>
           <a href="/">
             <img src={marctvplus} alt="MARC TV+" width={50}></img>

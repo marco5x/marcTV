@@ -1,70 +1,66 @@
-import React from "react";
+import React, { useState } from "react";
 import { datos } from "../../api/api";
 import { CardChanell } from "../CardChanell/CardChanell";
+import { AgendaDeportiva } from "../AgendaDeportiva/AgendaDeportiva";
 
 export const AllChanells = () => {
-  return (
-    <div
-      style={{
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "center",
-        flexWrap: "wrap",
-        gap: "6px",
-      }}
-    >
-      {datos?.map((chanel) => (
-        <div
-          key={chanel.id}
-          style={{ border: "1px solid", borderRadius: "9px", padding: "6px" }}
-        >
-          <CardChanell
-            id={chanel.id}
-            name={chanel.name}
-            img={chanel.img}
-            link1={chanel.link1}
-            link2={chanel.link2}
-          />
-        </div>
-      ))}
-    </div>
-  );
-};
-
-/*
-
-const Ordered = () => {
   const [order, setOrder] = useState("");
 
-  const { data: getCountries } = useGetCountriesQuery();
-  const { data: sortAToZ } = useGetSortAToZQuery();
-  const { data: sortZToA } = useGetSortZToAQuery();
-  const { data: sortPopulationAsc } = useGetSortPopulationAscQuery();
-  const { data: sortPopulationDesc } = useGetSortPopulationDescQuery();
+  let data = datos;
+  let noti = datos.filter((chanel) => chanel.category === "news");
+  let peli = datos.filter((chanel) => chanel.category === "movie");
+  let music = datos.filter((chanel) => chanel.category === "music");
+  let depor = datos.filter((chanel) => chanel.category === "sports");
+  let docu = datos.filter((chanel) => chanel.category === "docuemntal");
+  let adult = datos.filter((chanel) => chanel.category === "adults");
 
-  let datos = getCountries;
-  if (order === "all") datos = getCountries;
-  else if (order === "a-z") datos = sortAToZ;
-  else if (order === "z-a") datos = sortZToA;
-  else if (order === "populationAsc") datos = sortPopulationAsc;
-  else if (order === "populationDesc") datos = sortPopulationDesc;
+  if (order === "Todos") data = datos;
+  else if (order === "noticias") data = noti;
+  else if (order === "peliculas") data = peli;
+  else if (order === "musica") data = music;
+  else if (order === "deportes") data = depor;
+  else if (order === "documental") data = docu;
+  else if (order === "adultos") data = adult;
 
   return (
-    <div className={style.orderContainer}>
-      <h5>Order by</h5>
-      <select
-        className={style.selectOrder}
-        onChange={(e) => setOrder(e.target.value)}
+    <>
+      <div style={{ display: "flex" }}>
+        <AgendaDeportiva />
+        <select onChange={(e) => setOrder(e.target.value)}>
+          <option value="Todos">🌐 Todos</option>
+          <option value="noticias">Noticias</option>
+          <option value="peliculas">Peliculas</option>
+          <option value="musica"> Musica</option>
+          <option value="deportes"> Deportes</option>
+          <option value="documental"> Documental</option>
+          <option value="adultos"> Adultos</option>
+        </select>
+      </div>
+
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          flexWrap: "wrap",
+          gap: "6px",
+        }}
       >
-        <option value="all">🌐 All Countries</option>
-        <option value="a-z">A...z</option>
-        <option value="z-a">Z...a</option>
-        <option value="populationAsc">👆🏼 Population</option>
-        <option value="populationDesc">👇🏼 Population</option>
-      </select>
-      <Countries datos={datos} />
-    </div>
+        {data?.map((chanel) => (
+          <div
+            key={chanel.id}
+            style={{ border: "1px solid", borderRadius: "9px", padding: "6px" }}
+          >
+            <CardChanell
+              id={chanel.id}
+              name={chanel.name}
+              img={chanel.img}
+              link1={chanel.link1}
+              link2={chanel.link2}
+            />
+          </div>
+        ))}
+      </div>
+    </>
   );
 };
-
-*/

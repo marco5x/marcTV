@@ -1,7 +1,7 @@
 let cat = {
   adults: "adults",
   documental: "docuemntal",
-  nwes: "news",
+  news: "news",
   movie: "movie",
   music: "music",
   sports: "sports",
@@ -16,7 +16,7 @@ export const datos = [
     link2: "",
     link3: "",
     link4: "",
-    category: cat.nwes,
+    category: cat.news,
   },
   {
     id: 2,
@@ -27,7 +27,7 @@ export const datos = [
     link2: "",
     link3: "",
     link4: "",
-    category: cat.nwes,
+    category: cat.news,
   },
   {
     id: 3,
@@ -37,7 +37,7 @@ export const datos = [
     link2: "",
     link3: "",
     link4: "",
-    category: cat.nwes,
+    category: cat.news,
   },
   {
     id: 4,
@@ -57,7 +57,7 @@ export const datos = [
     link2: "", //"https://nosequewea.tk/dtvc?get=aHR0cHM6Ly9kdHZvdHQtYWJjLmFrYW1haXplZC5uZXQvZGFzaF9saXZlXzEyMTYvbWFuaWZlc3QubXBk&key=ZDgzZTJlMGNiOTczNWJlYTlmYzlmMGI5MGNlYTFlMTQ=&key2=NDEyNWU0MDgwMGEwOGJiYzY2Y2YyNzc1NmE1YWIyODM=",
     link3: "https://blackface.world/dtvpl.html?id=1216",
     link4: "https://embed8.alandesk.life/cvatt.html?get=VGVsZWZlSEQ=&lang=1",
-    category: cat.nwes,
+    category: cat.news,
   },
   {
     id: 6,
@@ -67,7 +67,7 @@ export const datos = [
     link2: "",
     link3: "https://embed8.alandesk.life/cvatt.html?get=VG9kb05vdGljaWFz",
     link4: "https://blackface.world/dtvpl.html?id=1225", //"https://www.latele-envivo.com/Embed/tn/op2.php",
-    category: cat.nwes,
+    category: cat.news,
   },
   {
     id: 7,
@@ -77,7 +77,7 @@ export const datos = [
     link2: "",
     link3: "https://blackface.world/dtvpl.html?id=1095",
     link4: "https://embed8.alandesk.life/cvatt.html?get=QXJ0ZWFySEQ",
-    category: cat.nwes,
+    category: cat.news,
   },
   {
     id: 8,
@@ -87,7 +87,7 @@ export const datos = [
     link2: "https://lnmas.lanacion.com.ar/",
     link3: "https://blackface.world/dtvpl.html?id=1154",
     link4: "https://embed8.alandesk.life/cvatt.html?get=TGFfTmFjaW9u",
-    category: cat.nwes,
+    category: cat.news,
   },
   {
     id: 9,
@@ -97,7 +97,7 @@ export const datos = [
     link2: "",
     link3: "https://blackface.world/dtvpl.html?id=1010",
     link4: "https://embed8.alandesk.life/cvatt.html?get=QW1lcmljYVRW",
-    category: cat.nwes,
+    category: cat.news,
   },
   {
     id: 10,
@@ -107,7 +107,7 @@ export const datos = [
     link2: "https://www.a24.com/vivo",
     link3: "https://blackface.world/dtvpl.html?id=1009",
     link4: "https://embed8.alandesk.life/cvatt.html?get=QW1lcmljYTI0",
-    category: cat.nwes,
+    category: cat.news,
   },
   {
     id: 11,
@@ -117,7 +117,7 @@ export const datos = [
     link2: "https://www.canal26.com/canal26-en-vivo",
     link3: "https://blackface.world/dtvpl.html?id=1031",
     link4: "https://embed8.alandesk.life/cvatt.html?get=MjZfVFZfSEQ",
-    category: cat.nwes,
+    category: cat.news,
   },
   {
     id: 12,
@@ -127,7 +127,7 @@ export const datos = [
     link2: "",
     link3: "https://blackface.world/dtvpl.html?id=1032",
     link4: "https://embed8.alandesk.life/cvatt.html?get=Q2FuYWw5",
-    category: cat.nwes,
+    category: cat.news,
   },
   {
     id: 13,
@@ -137,7 +137,7 @@ export const datos = [
     link2: "https://www.c5n.com/vivo",
     link3: "https://blackface.world/dtvpl.html?id=1028",
     link4: "https://embed8.alandesk.life/cvatt.html?get=QzVO",
-    category: cat.nwes,
+    category: cat.news,
   },
   {
     id: 14,
@@ -148,7 +148,7 @@ export const datos = [
       "https://vmf.edge-apps.net/embed/live.php?streamname=c7live01-20034&autoplay=true",
     link3: "https://blackface.world/dtvpl.html?id=1156",
     link4: "https://embed8.alandesk.life/cvatt.html?get=Q2FuYWw3",
-    category: cat.nwes,
+    category: cat.news,
   },
   {
     id: 15,
@@ -157,7 +157,7 @@ export const datos = [
     link1: "https://www.youtube.com/embed/InSydaLSSlw?autoplay=true",
     link2: "https://www.cronica.com.ar/cronica-en-vivo", //https://vmf.edge-apps.net/embed/live.php?streamname=cronicatv_video1-100044&autoplay=true",
     link3: "https://embed8.alandesk.life/cvatt.html?get=Q3JvbmljYVRW",
-    category: cat.nwes,
+    category: cat.news,
   },
   {
     id: 16,
@@ -166,7 +166,7 @@ export const datos = [
     link1:
       "https://nosequewea.tk/fl?get=LmN2YXR0di5jb20uYXIvbGl2ZS9jNmVkcy9DTk5fZW5fRXNwYW5vbC9TQV9MaXZlX2Rhc2hfZW5jL0NOTl9lbl9Fc3Bhbm9sLm1wZA==&key=MGIyMGVkOWRhMGU1NDU3YzlkZmQzYWUwYjYwOTI0OTE=&key2=OTg5OTdhNzAyMGMxOGNiMjgxNzRhMjQ5MDE0NzgzMGE=",
     link3: "https://cablegratis.online/cnn-en-espanol-en-vivo/",
-    category: cat.nwes,
+    category: cat.news,
   },
   {
     id: 17,
@@ -532,7 +532,7 @@ export const datos = [
     link1: "https://www.latele-envivo.com/Embed/tcm/op2.php",
     link3: "https://crytonep.github.io/mtonline/tcm.html",
     link4: "",
-    category: cat.adults,
+    category: cat.movie,
   },
   {
     id: 53,
@@ -573,7 +573,7 @@ export const datos = [
     link1:
       "https://nosequewea.tk/fl?get=LmN2YXR0di5jb20uYXIvbGl2ZS9jNmVkcy9IQk9fRXh0cmVtZS9TQV9MaXZlX2Rhc2hfZW5jL0hC%20T19FeHRyZW1lLm1wZA==&key=ZDUwNDAxMWJiZWY0NjdjMGRlM2E3NTM0ZTMwMmE2ZDQ=&key2=MzM0MTAzZTJhYmUxNmZhYTdmOWFiMmUzMDk3YzVhNTg=",
     link3: "https://www.latele-envivo.com/Embed/hbo-xtreme/",
-    category: cat.adults,
+    category: cat.movie,
   },
   {
     id: 57,
@@ -583,7 +583,7 @@ export const datos = [
       "https://nosequewea.tk/dtvc?get=Ly9kdHZvdHQtY2JjLmFrYW1haXplZC5uZXQvZGFzaF9saXZlXzExOTAvbWFuaWZlc3QubXBk&key=MTAxMGI5OWZiMTI0NTQwYWFhNDc1YTQxMjU5NzUxZWI=&key2=MTk3NWM2YmNjOTU2NmE2ZTk0YWIyNjNkYzhmMDRiNTc=",
     link3: "https://blackface.world/dtvpl.html?id=1190",
     link4: "https://www.latele-envivo.com/Embed/sony/",
-    category: cat.adults,
+    category: cat.movie,
   },
   {
     id: 58,
@@ -593,7 +593,7 @@ export const datos = [
       "https://nosequewea.tk/dtvc?get=Ly9kdHZvdHQtYWJjLmFrYW1haXplZC5uZXQvZGFzaF9saXZlXzEyNjMvbWFuaWZlc3QubXBk&key=MzkxYzEzNzAzNGYwNTM5MzhlZGJmMjY3OTk1NDlkZGM=&key2=MTlkNjQzZDhhNTBiMmY4MjljOTZhODk3ZjdkZjI1NWQ=",
     link3: "https://megatelevisiontv.live/en-vivo/sony-movies/",
     link4: "",
-    category: cat.adults,
+    category: cat.movie,
   },
   {
     id: 59,
@@ -604,7 +604,7 @@ export const datos = [
     link3: "https://blackface.world/dtvpl.html?id=1248",
     link4:
       "https://nosequewea.tk/fl?get=LmN2YXR0di5jb20uYXIvbGl2ZS9jN2Vkcy9XYXJuZXJIRC9TQV9MaXZlX2Rhc2hfZW5jXzJBL1dhcm5lckhELm1wZA==&key=MDY5YmQzZjBiNmMyNzk0NjdlMDg1NDlmMTdiZjViZDA=&key2=NWFmYTdlMzY5YTZkZTEwOTM4MThhODVhZjkxMmE3NzU=",
-    category: cat.adults,
+    category: cat.movie,
   },
   {
     id: 60,
@@ -614,7 +614,7 @@ export const datos = [
       "https://nosequewea.tk/dtvc?get=aHR0cHM6Ly9kdHZvdHQtYWJjLmFrYW1haXplZC5uZXQvZGFzaF9saXZlXzEyNTYvbWFuaWZlc3QubXBk&key=ZDA4MGJlMjhhMGZjNTk3MGJmMWRlODk3ZjgwZDQwYmQ=&key2=YWI4MTg3ZDUwZDMxMWQzMGJjMGQ3ZGM2ZWI1Njk3ZDE=",
     link3: "https://www.latele-envivo.com/Embed/universal-premiere/",
     link4: "https://megatelevisiontv.live/en-vivo/universal-premiere/",
-    category: cat.adults,
+    category: cat.movie,
   },
   {
     id: 61,
@@ -624,10 +624,10 @@ export const datos = [
     link3:
       "https://nosequewea.tk/dtvc?get=aHR0cHM6Ly9kdHZvdHQtYWJjLmFrYW1haXplZC5uZXQvZGFzaF9saXZlXzEyNTMvbWFuaWZlc3QubXBk&key=Y2UwYTdjODgzZTJhNTQzMGJiYTk3YTNkNjhlMGRhZjg=&key2=ZTMwZGQ0OTA4ZTY2NzYzNzM2OWRmYjY1ODJmNTRkNjQ=",
     link4: "https://www.latele-envivo.com/Embed/universal-cinema/",
-    category: cat.adults,
+    category: cat.movie,
   },
   {
-    id: "/adultos/62",
+    id: "adultos/62",
     name: "ADULTOS",
     img: "https://static.wikia.nocookie.net/logopedia/images/8/8c/PEGI_Sex.svg/",
     link1: "",
@@ -647,7 +647,7 @@ export const datosPrivtes = [
   },
   {
     id: 63,
-    name: "Vanus",
+    name: "Venus",
     img: "https://static.wikia.nocookie.net/logopedia/images/c/cc/Venus_2014.svg/",
     link1: "https://embed8.alandesk.life/cvatt.html?get=VmVudXM=",
     link2:
@@ -688,7 +688,7 @@ export const datosPrivtes = [
   {
     id: 68,
     name: "Tushy Teens",
-    img: "https://flyleafprint.com/wp-content/uploads/2021/11/Tushy-1.png",
+    img: "https://static.wixstatic.com/media/dc5d85_369bb4a9a7c8409db0285b8436778077~mv2_d_3000_1319_s_2.png/v1/fill/w_894,h_393,al_c,usm_0.66_1.00_0.01/Teenager%20LOGO%20New%20Transparent.png",
     link1: "https://www.latele-envivo.com/Embed/teens/",
     category: cat.adults,
   },
@@ -707,7 +707,7 @@ export const datosPrivtes = [
     category: cat.adults,
   },
   {
-    id: 70,
+    id: 71,
     name: "Private",
     img: "https://static.wikia.nocookie.net/logopedia/images/9/98/PRIVATE_TV.png/",
     link1: "https://megatelevisiontv.live/en-vivo/private/",

@@ -18,15 +18,7 @@ export const CardChanell = ({ id, name, img }) => {
         }}
       >
         <h3 style={{ margin: "0", marginBottom: "3px" }}> {name} </h3>
-        <hr />
-        <img
-          style={{
-            margin: "0",
-          }}
-          src={img}
-          alt={name}
-          width={90}
-        />
+        <img style={{ margin: "0" }} src={img} alt={name} width={90} />
       </div>
     </Link>
   );
