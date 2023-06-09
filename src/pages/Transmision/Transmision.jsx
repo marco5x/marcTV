@@ -12,6 +12,7 @@ export const Transmision = () => {
   return (
     <div style={{ display: "flex", flexDirection: "column" }}>
       <iframe
+        //className="embed-responsive-item absolute bottom-0 left-0 right-0 top-0 h-full w-full"
         width="1280"
         height="720"
         src={link}

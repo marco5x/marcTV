@@ -10,8 +10,8 @@ export const PeliserieP = () => {
           marginTop: "3px",
           zIndex: "3",
           position: "fixed",
-          left: "9px",
-          width: "4.8rem",
+          left: "26px",
+          width: "3.8rem",
           backgroundColor: "#ffffff",
           textAlign: "center",
         }}

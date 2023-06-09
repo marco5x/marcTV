@@ -7,34 +7,22 @@ export const Control = () => {
   return (
     <div
       style={{
+        height: "auto",
+        position: "sticky",
         display: "flex",
+        flexDirection: "column",
         alignItems: "center",
         justifyContent: "center",
-        flexWrap: "wrap",
+        zIndex: "30",
       }}
     >
-      <button style={{ width: "9rem" }} onClick={() => setShow(!show)}>
+      <button type="button" onClick={() => setShow(!show)}>
         ZAPPING 🕹
       </button>
       {show
         ? datos?.map((chanel) => (
-            <div
-              key={chanel.id}
-              style={{
-                width: "96px",
-                border: "1px solid",
-                borderRadius: "9px",
-                padding: "3px",
-              }}
-            >
-              <a
-                style={{
-                  textDecoration: "none",
-                  color: "white",
-                  textAlign: "center",
-                }}
-                href={`/transmision/${chanel.id}`}
-              >
+            <div className="card-control" key={chanel.id}>
+              <a href={`/transmision/${chanel.id}`}>
                 <p>{chanel.name}</p>
                 <img src={chanel.img} alt={chanel.name} width={60}></img>
               </a>

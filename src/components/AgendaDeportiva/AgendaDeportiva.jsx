@@ -4,20 +4,19 @@ export const AgendaDeportiva = () => {
   const [show, setShow] = useState(false);
 
   return (
-    <div style={{ display: "flex", flexDirection: "column" }}>
-      <button style={{ width: "9rem" }} onClick={() => setShow(!show)}>
+    <div className="reletive flex-col w-32 h-12 z-10 rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-sky-100">
+      <button onClick={() => setShow(!show)}>
         {!show ? <p>AGENDA DEPORTIVA</p> : <p>CERRAR AGENDA</p>}
       </button>
       {show ? (
         <iframe
+          className="absolute flex w-96 h-96 mt-1 sm:mr-10"
           title="agenda"
           allowfullscreen="true"
           src={
             "https://canales.online/agenda" ||
             "https://futbollibretv.com/agenda/?update"
           }
-          width={450}
-          height={300}
         ></iframe>
       ) : null}
     </div>

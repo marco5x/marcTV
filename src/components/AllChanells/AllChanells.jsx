@@ -23,10 +23,13 @@ export const AllChanells = () => {
   else if (order === "adultos") data = adult;
 
   return (
-    <>
-      <div style={{ display: "flex" }}>
+    <div>
+      <div className="flex justify-center items-center my-1 ">
         <AgendaDeportiva />
-        <select onChange={(e) => setOrder(e.target.value)}>
+        <select
+          className="inline-flex w-auto h-12 rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-sky-100"
+          onChange={(e) => setOrder(e.target.value)}
+        >
           <option value="Todos">🌐 Todos</option>
           <option value="noticias">Noticias</option>
           <option value="peliculas">Peliculas</option>
@@ -36,20 +39,9 @@ export const AllChanells = () => {
           <option value="adultos"> Adultos</option>
         </select>
       </div>
-      <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          flexWrap: "wrap",
-          gap: "6px",
-        }}
-      >
+      <div className="flex align-center justify-center flex-wrap mb-9 gap-6">
         {data?.map((chanel) => (
-          <div
-            key={chanel.id}
-            style={{ border: "1px solid", borderRadius: "9px", padding: "6px" }}
-          >
+          <div key={chanel.id}>
             <CardChanell
               id={chanel.id}
               name={chanel.name}
@@ -60,6 +52,6 @@ export const AllChanells = () => {
           </div>
         ))}
       </div>
-    </>
+    </div>
   );
 };
