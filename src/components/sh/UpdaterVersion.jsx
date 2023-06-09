@@ -7,16 +7,16 @@ const UpdaterVersion = (props) => {
     <>
       {newServiceWorkerDetected ? (
         <div
-          class="mb-3 inline-flex w-full items-center rounded-lg bg-green-200 px-6 py-5 text-base text-green-700"
+          className="mb-3 inline-flex w-full items-center rounded-lg bg-green-200 px-6 py-5 text-base text-green-700"
           role="alert"
         >
           {/* Aqui los comentarios sobre la nueva actualización*/}
-          <span class="mr-2">
+          <span className="mr-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
               fill="currentColor"
-              class="h-5 w-5"
+              className="h-5 w-5"
             >
               <path
                 fill-rule="evenodd"
@@ -28,7 +28,7 @@ const UpdaterVersion = (props) => {
           <p>¡NUEVA VERSIÓN! - Añadimos nuevos canales premium </p>
           <button
             onClick={onLoadNewServiceWorkerAccept}
-            className="btn-primary ml-6"
+            className="inline-block rounded border-2 border-transp px-6 pb-[6px] pt-2 text-xs font-medium uppercase leading-normal text-white transition duration-150 ease-in-out hover:border-amber-600 hover:bg-neutral-500 hover:bg-opacity-10 hover:text-danger-600 focus:border-danger-600 focus:text-danger-600 focus:outline-none focus:ring-0 active:border-danger-700 active:text-white dark:hover:bg-green-500 ml-6"
           >
             Actualizar
           </button>

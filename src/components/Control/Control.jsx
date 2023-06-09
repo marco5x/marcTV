@@ -5,19 +5,13 @@ export const Control = () => {
   const [show, setShow] = useState(false);
 
   return (
-    <div
-      style={{
-        height: "auto",
-        position: "sticky",
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "center",
-        justifyContent: "center",
-        zIndex: "30",
-      }}
-    >
-      <button type="button" onClick={() => setShow(!show)}>
-        ZAPPING 🕹
+    <div className="fixed z-10 right-0 w-auto h-screen overflow-y-scroll overflow-x-hidden">
+      <button
+        className="fixed z-10 decoration-0 rounded-full p-4 bg-sky-500 bottom-5 right-3.5"
+        type="button"
+        onClick={() => setShow(!show)}
+      >
+        🕹
       </button>
       {show
         ? datos?.map((chanel) => (

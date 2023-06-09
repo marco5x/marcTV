@@ -4,25 +4,9 @@ import { ButtonHome } from "../ButtonHome/ButtonHome";
 
 export const PeliserieC = () => {
   return (
-    <div style={{ display: "flex" }}>
-      <div
-        style={{
-          position: "fixed",
-          width: "100%",
-          height: "2rem",
-          backgroundColor: "black",
-        }}
-      ></div>
-      <div
-        style={{
-          marginTop: "30px",
-          zIndex: "3",
-          position: "fixed",
-          left: "18px",
-          width: "12.9rem",
-          backgroundColor: "black",
-        }}
-      >
+    <div className="flex">
+      <div className=" fixed w-full h-8 bg-slate-950"></div>
+      <div className="fixed z-10 w-52 mt-7 bg-slate-950">
         <img src={marctvplus} alt="MARC TV+" width={60} />
       </div>
       <ButtonHome />

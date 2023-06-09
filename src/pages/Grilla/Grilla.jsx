@@ -5,7 +5,7 @@ import { Control } from "../../components/Control/Control";
 
 export const Grilla = () => {
   return (
-    <div style={{ display: "flex" }}>
+    <div className="flex absolute w-full">
       <div className={style.logo}>
         <h3>GRILLA</h3>
       </div>

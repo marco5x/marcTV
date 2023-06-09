@@ -4,12 +4,9 @@ import { CardChanell } from "../CardChanell/CardChanell";
 
 export const AdultChanels = () => {
   return (
-    <div style={{ display: "flex", gap: "10px" }}>
+    <div className="flex align-center justify-center flex-wrap mb-9 gap-6">
       {datosPrivtes?.map((chanel) => (
-        <div
-          key={chanel.id}
-          style={{ border: "1px solid", borderRadius: "9px", padding: "6px" }}
-        >
+        <div key={chanel.id}>
           <CardChanell
             name={chanel.name}
             img={chanel.img}

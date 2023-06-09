@@ -121,7 +121,7 @@ export const datos = [
   {
     id: 12,
     name: "El Nueve ",
-    img: "https://www.elnueve.com.ar/_next/image?url=%2Flogo%2FlogotipoC9.png&w=640&q=75",
+    img: "https://static.wikia.nocookie.net/logopedia/images/6/67/Nueve2017.png/",
     link1: "https://www.elnueve.com.ar/en-vivo",
     link2: "",
     link3: "https://blackface.world/dtvpl.html?id=1032",
