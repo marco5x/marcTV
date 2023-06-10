@@ -18,7 +18,12 @@ export const Control = () => {
             <div className="card-control" key={chanel.id}>
               <a href={`/transmision/${chanel.id}`}>
                 <p>{chanel.name}</p>
-                <img src={chanel.img} alt={chanel.name} width={60}></img>
+                <img
+                  src={chanel.img}
+                  alt={chanel.name}
+                  width={60}
+                  height="auto"
+                />
               </a>
             </div>
           ))

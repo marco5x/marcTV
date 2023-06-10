@@ -5,7 +5,7 @@ export const AgendaDeportiva = () => {
 
   return (
     <div className="reletive flex-col w-32 h-12 z-10 rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-sky-100">
-      <button onClick={() => setShow(!show)}>
+      <button type="button" onClick={() => setShow(!show)}>
         {!show ? (
           <p>Agenda Deportiva</p>
         ) : (

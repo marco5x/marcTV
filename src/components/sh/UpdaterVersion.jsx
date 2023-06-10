@@ -10,7 +10,6 @@ const UpdaterVersion = (props) => {
           className="mb-3 inline-flex w-full items-center rounded-lg bg-green-200 px-6 py-5 text-base text-green-700"
           role="alert"
         >
-          {/* Aqui los comentarios sobre la nueva actualización*/}
           <span className="mr-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -25,8 +24,10 @@ const UpdaterVersion = (props) => {
               />
             </svg>
           </span>
+          {/* Aqui los comentarios sobre la nueva actualización*/}
           <p>¡NUEVA VERSIÓN! - Añadimos nuevos canales premium </p>
           <button
+            type="button"
             onClick={onLoadNewServiceWorkerAccept}
             className="inline-block rounded border-2 border-transp px-6 pb-[6px] pt-2 text-xs font-medium uppercase leading-normal text-white transition duration-150 ease-in-out hover:border-amber-600 hover:bg-neutral-500 hover:bg-opacity-10 hover:text-danger-600 focus:border-danger-600 focus:text-danger-600 focus:outline-none focus:ring-0 active:border-danger-700 active:text-white dark:hover:bg-green-500 ml-6"
           >

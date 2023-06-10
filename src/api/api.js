@@ -31,7 +31,7 @@ export const datos = [
   {
     id: 3,
     name: "Canal 4 Jujuy",
-    img: "https://i0.wp.com/directostv.teleame.com/wp-content/uploads/2016/05/Canal-4-Jujuy-en-vivo-Online.png?resize=1068%2C601&ssl=1",
+    img: "https://s3.amazonaws.com/static-c4-1/assets/img/logos/canalcuatro-logo-light-217x48@2x.png",
     link1: "https://canal4jujuy.elcuatro.com/",
     link2: "",
     link3: "",
@@ -71,7 +71,7 @@ export const datos = [
   {
     id: 7,
     name: "El Trece",
-    img: "https://i0.wp.com/directostv.teleame.com/wp-content/uploads/2019/10/El-Trece-en-vivo-Online.png?resize=1068%2C601&ssl=1",
+    img: "https://static.wikia.nocookie.net/logopedia/images/c/c0/Canal_13_2016.svg/",
     link1: "https://www.eltrecetv.com.ar/vivo/",
     link2: "",
     link3: "https://blackface.world/dtvpl.html?id=1095",
@@ -91,7 +91,7 @@ export const datos = [
   {
     id: 9,
     name: "América",
-    img: "https://i1.wp.com/static.americadigital.com.ar/americatv/images/america-tv-junio.png",
+    img: "https://static.wikia.nocookie.net/logopedia/images/3/32/Am%C3%A9rica_TV_logo.svg/",
     link1: "https://www.americatv.com.ar/vivo",
     link2: "",
     link3: "https://blackface.world/dtvpl.html?id=1010",
@@ -101,7 +101,7 @@ export const datos = [
   {
     id: 10,
     name: "A24",
-    img: "https://www.a24.com/assets/img/296/header-logo.svg",
+    img: "https://static.wikia.nocookie.net/logopedia/images/2/2c/35%29A24_%282019%29.png/",
     link1: "https://www.youtube.com/embed/QGpHLgRnrx4",
     link2: "https://www.a24.com/vivo",
     link3: "https://blackface.world/dtvpl.html?id=1009",
@@ -111,7 +111,7 @@ export const datos = [
   {
     id: 11,
     name: "Canal 26",
-    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Canal_26_logo_%282022%29.svg/441px-Canal_26_logo_%282022%29.svg.png",
+    img: "https://static.wikia.nocookie.net/logopedia/images/1/18/Canal_26_%282022%29.svg/",
     link1: "https://www.youtube.com/embed/XcoIpif-pcM",
     link2: "https://www.canal26.com/canal26-en-vivo",
     link3: "https://blackface.world/dtvpl.html?id=1031",
@@ -121,7 +121,7 @@ export const datos = [
   {
     id: 12,
     name: "El Nueve ",
-    img: "https://static.wikia.nocookie.net/logopedia/images/6/67/Nueve2017.png/",
+    img: "https://static.wikia.nocookie.net/logopedia/images/4/40/ElnueveArglogo2017.png/",
     link1: "https://www.elnueve.com.ar/en-vivo",
     link2: "",
     link3: "https://blackface.world/dtvpl.html?id=1032",
@@ -131,7 +131,7 @@ export const datos = [
   {
     id: 13,
     name: "C5N",
-    img: "https://www.c5n.com/css-custom/326/images/logo-c5n.svg",
+    img: "https://static.wikia.nocookie.net/logopedia/images/0/0e/C5N_%282023%29.png/",
     link1: "https://www.youtube.com/embed/wBWK9tV9hBM",
     link2: "https://www.c5n.com/vivo",
     link3: "https://blackface.world/dtvpl.html?id=1028",
@@ -141,7 +141,7 @@ export const datos = [
   {
     id: 14,
     name: "TV Pública",
-    img: "https://www.tvpublica.com.ar/static/img/branding/isologo.svg",
+    img: "https://static.wikia.nocookie.net/logopedia/images/8/82/TVP_Television_Publica_Argentina.svg/",
     link1:
       "https://vmf.edge-apps.net/embed/live.php?streamname=c7live01-20034&autoplay=true",
     link2: "",

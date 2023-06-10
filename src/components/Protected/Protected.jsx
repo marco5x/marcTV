@@ -73,28 +73,7 @@ export const Protected = ({ children }) => {
           </div>
         </div>
       </div>,
-      modal,
-
-      {
-        /*////////////////*/
-      } /*
-      <div className="fixed inset-0 z-10 blur-sm">
-        <div className=" flex flex-row flex-wrap w-5 m-3 p-3 rounded shadow-sm">
-          <button className="buttonX" onClick={() => navigate("/")}>
-            ❌
-          </button>
-          <form onSubmit={logIn}>
-            <label>Contraseña: </label>
-            <input required name="pass" type="password" onChange={handlePass} />
-            {pass.pass !== process.env.REACT_APP_PASS ? (
-              <p style={{ color: "red" }}>Contraseña incorrecta</p>
-            ) : (
-              <button type="submit">Entrar</button>
-            )}
-          </form>
-        </div>
-      </div>,
-      modal*/
+      modal
     );
   }
   return children;

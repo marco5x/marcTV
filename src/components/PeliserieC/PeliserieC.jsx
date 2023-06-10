@@ -7,7 +7,13 @@ export const PeliserieC = () => {
     <div className="flex">
       <div className=" fixed w-full h-8 bg-slate-950"></div>
       <div className="fixed z-10 w-52 mt-7 bg-slate-950">
-        <img src={marctvplus} alt="MARC TV+" width={60} />
+        <img
+          className="aspect-auto"
+          src={marctvplus}
+          alt="MARC TV+"
+          width={60}
+          height={"auto"}
+        />
       </div>
       <ButtonHome />
       <iframe

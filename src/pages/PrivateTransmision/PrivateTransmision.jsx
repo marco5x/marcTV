@@ -30,6 +30,7 @@ export const PrivateTransmision = () => {
       <div className="absolute bottom-0 flex gap-3 ml-20 sm:ml-80">
         <button
           className="btn-secondary"
+          type="button"
           onClick={() => setLink(chanellFind.link1)}
         >
           VER 👀
@@ -37,6 +38,7 @@ export const PrivateTransmision = () => {
         {chanellFind.link2 ? (
           <button
             className="btn-secondary"
+            type="button"
             onClick={() => setLink(chanellFind.link2)}
           >
             VER 👀

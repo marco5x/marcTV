@@ -9,7 +9,13 @@ export const CardChanell = ({ id, name, img }) => {
     >
       <div className="card-ui">
         <h3 className="m-0 mb-1">{name}</h3>
-        <img className="m-0" src={img} alt={name} width={90} />
+        <img
+          className="m-0 aspect-auto"
+          src={img}
+          alt={name}
+          width={90}
+          height="auto"
+        />
       </div>
     </Link>
   );

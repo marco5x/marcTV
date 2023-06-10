@@ -15,7 +15,13 @@ export const Footer = () => {
           </Link>
         </li>
         <li>
-          <img src={marctvplus} alt="MarcTv+" width={50} />
+          <img
+            className="aspect-auto"
+            src={marctvplus}
+            alt="MarcTv+"
+            width={50}
+            height={"auto"}
+          />
         </li>
         <li>
           <Link

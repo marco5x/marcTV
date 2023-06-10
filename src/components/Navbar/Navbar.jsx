@@ -8,7 +8,13 @@ export const NavBar = () => {
       <ul className="absolute flex w-full items-center justify-around">
         <li>
           <a href="/">
-            <img src={marctvplus} alt="MARC TV+" width={60} />
+            <img
+              className="aspect-auto"
+              src={marctvplus}
+              alt="MARC TV+"
+              width={60}
+              height="auto"
+            />
           </a>
         </li>
         <li>

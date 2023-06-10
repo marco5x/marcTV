@@ -30,6 +30,7 @@ export const Transmision = () => {
         <div className="flex gap-3">
           <button
             className="btn-primary "
+            type="button"
             onClick={() => setLink(chanellFind.link1)}
           >
             VER 👀
@@ -37,6 +38,7 @@ export const Transmision = () => {
           {chanellFind.link2 ? (
             <button
               className="btn-primary"
+              type="button"
               onClick={() => setLink(chanellFind.link2)}
             >
               VER 👀
@@ -48,6 +50,7 @@ export const Transmision = () => {
           {chanellFind.link3 ? (
             <button
               className="btn-secondary"
+              type="button"
               onClick={() => setLink(chanellFind.link3)}
             >
               {" "}
@@ -57,6 +60,7 @@ export const Transmision = () => {
           {chanellFind.link4 ? (
             <button
               className="btn-secondary"
+              type="button"
               onClick={() => setLink(chanellFind.link4)}
             >
               VER 👀{" "}
