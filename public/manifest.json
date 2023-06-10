@@ -1,7 +1,7 @@
 {
   "name": "MarcTV+",
   "short_name": "MarcTv+",
-  "start_url": "/",
+  "start_url": ".",
   "display": "standalone",
   "description": "App tv & movies & series ",
   "lang": "es-419",
