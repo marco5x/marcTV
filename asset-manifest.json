@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/marcTV/static/css/main.fdd3bf58.css",
+    "main.js": "/marcTV/static/js/main.63846c27.js",
+    "static/js/787.348eab35.chunk.js": "/marcTV/static/js/787.348eab35.chunk.js",
+    "service-worker.js": "/marcTV/service-worker.js",
+    "static/media/marctvplus.png": "/marcTV/static/media/marctvplus.34d2cbf1be71211e3137.png",
+    "index.html": "/marcTV/index.html",
+    "main.fdd3bf58.css.map": "/marcTV/static/css/main.fdd3bf58.css.map",
+    "main.63846c27.js.map": "/marcTV/static/js/main.63846c27.js.map",
+    "787.348eab35.chunk.js.map": "/marcTV/static/js/787.348eab35.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fdd3bf58.css",
+    "static/js/main.63846c27.js"
+  ]
+}

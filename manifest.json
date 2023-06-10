@@ -1,0 +1,42 @@
+{
+  "name": "MarcTV+",
+  "short_name": "MarcTv+",
+  "start_url": "/marcTV",
+  "display": "standalone",
+  "description": "App tv & movies & series ",
+  "lang": "es-419",
+  "dir": "auto",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "orientation": "any",
+  "display_override": [
+    "fullscreen",
+    "minimal-ui",
+    "standalone",
+    "window-controls-overlay"
+  ],
+  "categories": ["entertaiment"],
+  "handle_links": "auto",
+  "edge_side_panel": {
+    "preferred_width": 480
+  },
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "maskable"
+    }
+  ]
+}
