@@ -1,6 +1,6 @@
 {
   "name": "MarcTV+",
-  "short_name": "Tv(Premium),Pelis, Series",
+  "short_name": "MarcTv+",
   "start_url": "/marcTV",
   "display": "standalone",
   "description": "App tv & movies & series ",
@@ -9,7 +9,12 @@
   "theme_color": "#000000",
   "background_color": "#ffffff",
   "orientation": "any",
-  "display_override": ["fullscreen", "minimal-ui", "standalone"],
+  "display_override": [
+    "fullscreen",
+    "minimal-ui",
+    "standalone",
+    "window-controls-overlay"
+  ],
   "categories": ["entertaiment"],
   "handle_links": "auto",
   "edge_side_panel": {

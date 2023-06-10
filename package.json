@@ -2,6 +2,7 @@
   "name": "marctv",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://marco5x.github.io/marcTV/",
   "dependencies": {
     "@3m1/service-worker-updater": "^2.0.3",
     "@testing-library/jest-dom": "^5.16.5",
