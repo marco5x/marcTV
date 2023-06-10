@@ -9,6 +9,7 @@ import { PeliserieC } from "./components/PeliserieC/PeliserieC";
 import { PeliserieP } from "./components/PeliserieP/PeliserieP";
 import { Transmision } from "./pages/Transmision/Transmision";
 import { PrivateTransmision } from "./pages/PrivateTransmision/PrivateTransmision";
+import { AvisoLegal } from "./pages/AvisoLegal/AvisoLegal";
 import { Protected } from "./components/Protected/Protected";
 
 export const App = ({ isLoggedIn }) => {
@@ -20,6 +21,7 @@ export const App = ({ isLoggedIn }) => {
       <Route path="/peliserie" element={<Peliserie />} />
       <Route path="/peliserieC" element={<PeliserieC />} />
       <Route path="/peliserieP" element={<PeliserieP />} />
+      <Route path="/aviso" element={<AvisoLegal />} />
       <Route path="/transmision/:id" element={<Transmision />} />
       <Route
         path="/transmision/adultos/:id"

@@ -9,9 +9,9 @@ export const Footer = () => {
         <li>
           <Link
             className="text-xl font-bold duration-300 hover:text-sky-600 hover:border-b-4 border-sky-600"
-            to="/derechos"
+            to="/aviso"
           >
-            Derechos
+            Aviso Legal
           </Link>
         </li>
         <li>

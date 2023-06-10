@@ -6,7 +6,7 @@ import { Control } from "../../components/Control/Control";
 
 export const Programacion = () => {
   return (
-    <div style={{ display: "flex" }}>
+    <div className="flex">
       <div className={style.logo}>
         <img src={marctvplus} alt="MARC TV+" width={50} />
       </div>

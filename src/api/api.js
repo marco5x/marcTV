@@ -637,7 +637,7 @@ export const datos = [
   },
 ];
 
-export const datosPrivtes = [
+export const datosPrivates = [
   {
     id: 62,
     name: "Playboy TV",
