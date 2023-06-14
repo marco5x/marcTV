@@ -6,7 +6,7 @@ import { Control } from "../../components/Control/Control";
 export const Programacion = () => {
   return (
     <div className="flex">
-      <div className="fixed z-10 flex justift-center items-center bg-grilla w-40 h-11 left-16 xl:ml-44">
+      <div className="fixed z-10 flex justift-center items-center bg-grilla w-52 h-11 left-8 xl:ml-44">
         <img
           className="aspect-auto"
           src={marctvplus}

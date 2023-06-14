@@ -5,7 +5,7 @@ import { ButtonHome } from "../ButtonHome/ButtonHome";
 export const PeliserieP = () => {
   return (
     <div className="flex">
-      <div className="fixed w-16 z-10 text-center mt-1 left-6 bg-slate-950">
+      <div className="fixed w-16 z-10 text-center mt-1 left-6 bg-peplu">
         <img
           className="aspect-auto"
           src={marctvplus}

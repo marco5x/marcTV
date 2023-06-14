@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 
 export const NavBar = () => {
   return (
-    <nav className="sticky z-20 top-0 flex w-full h-16 items-center justify-around bg-sky-500 py-2 text-neutral-500 shadow-lg lg:py-4">
+    <nav className="sticky z-20 top-0 flex w-full h-16 items-center justify-around bg-azul py-2 text-neutral-500 shadow-lg lg:py-4">
       <ul className="absolute flex w-full items-center justify-around">
         <li>
           <a href="/">
@@ -19,9 +19,9 @@ export const NavBar = () => {
         </li>
         <li>
           <div className="relative w-40">
-            <div className="h-10 bg-sky-400 flex border border-gray-200 rounded items-center">
+            <div className="h-10 bg-azul flex border border-gray-500 rounded items-center">
               <div
-                className="px-4 appearance-none outline-none text-gray-800 w-full"
+                className="px-4 appearance-none outline-none text-white w-full"
                 name="select"
                 id="select"
               >
@@ -42,6 +42,7 @@ export const NavBar = () => {
             </div>
             <input
               type="checkbox"
+              placeholder=""
               name="show_more"
               id="show_more"
               className="hidden peer"
@@ -68,9 +69,9 @@ export const NavBar = () => {
         </li>
         <li>
           <div className="relative w-40">
-            <div className="h-10 bg-sky-400 flex border border-gray-200 rounded items-center">
+            <div className="h-10 bg-blue flex border border-gray-500 rounded items-center">
               <div
-                className="px-4 appearance-none outline-none text-gray-800 w-full"
+                className="px-4 appearance-none outline-none text-white w-full"
                 name="select"
                 id="select"
               >
@@ -91,6 +92,7 @@ export const NavBar = () => {
             </div>
             <input
               type="checkbox"
+              placeholder=""
               name="show_mores"
               id="show_mores"
               className="hidden peer"

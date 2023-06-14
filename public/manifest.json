@@ -1,6 +1,6 @@
 {
-  "name": "MarcTV+",
-  "short_name": "MarcTv+",
+  "name": "MarcTv+",
+  "short_name": "App de entretenimiento digital",
   "start_url": ".",
   "display": "standalone",
   "description": "App tv & movies & series ",
@@ -22,14 +22,9 @@
   },
   "icons": [
     {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
-    },
-    {
       "src": "logo192.png",
       "type": "image/png",
-      "sizes": "192x192",
+      "sizes": "192x192 64x64 32x32",
       "purpose": "any"
     },
     {

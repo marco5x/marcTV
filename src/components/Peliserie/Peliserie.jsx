@@ -5,7 +5,7 @@ import marctvplus from "../../assets/marctvplus.png";
 export const Peliserie = () => {
   return (
     <div className="flex">
-      <div className="fixed z-10 w-52 mt-1 left-9 bg-slate-950">
+      <div className="absolute z-10 w-60 mt-1 left-9 bg-black container:hidden">
         <img
           className="aspect-auto"
           src={marctvplus}
