@@ -619,7 +619,7 @@ export const datos = [
   {
     id: 61,
     name: "UNIVERSAL CINEMA",
-    img: "https://github.com/marco5x/marcTV/blob/master/src/assets/UniversalCinema.webp",
+    img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/UniversalCinema.webp",
     link1: "https://www.latele-envivo.com/Embed/universal-cinema/",
     link3:
       "https://nosequewea.tk/dtvc?get=aHR0cHM6Ly9kdHZvdHQtYWJjLmFrYW1haXplZC5uZXQvZGFzaF9saXZlXzEyNTMvbWFuaWZlc3QubXBk&key=Y2UwYTdjODgzZTJhNTQzMGJiYTk3YTNkNjhlMGRhZjg=&key2=ZTMwZGQ0OTA4ZTY2NzYzNzM2OWRmYjY1ODJmNTRkNjQ=",
