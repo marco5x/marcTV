@@ -1,5 +1,5 @@
 import React from "react";
-import marctvplus from "../../assets/marctvplus.png";
+import marctvplus from "../../assets/marctvplus.webp";
 import { ButtonHome } from "../../components/ButtonHome/ButtonHome";
 import { Control } from "../../components/Control/Control";
 

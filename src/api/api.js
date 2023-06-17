@@ -101,7 +101,7 @@ export const datos = [
   {
     id: 10,
     name: "A24",
-    img: "https://static.wikia.nocookie.net/logopedia/images/2/2c/35%29A24_%282019%29.png/",
+    img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/A24.webp",
     link1: "https://www.youtube.com/embed/QGpHLgRnrx4",
     link2: "https://www.a24.com/vivo",
     link3: "https://blackface.world/dtvpl.html?id=1009",

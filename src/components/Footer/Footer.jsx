@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import marctvplus from "../../assets/marctvplus.png";
+import marctvplus from "../../assets/marctvplus.webp";
 
 export const Footer = () => {
   return (

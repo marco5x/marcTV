@@ -1,5 +1,5 @@
 import React from "react";
-import marctvplus from "../../assets/marctvplus.png";
+import marctvplus from "../../assets/marctvplus.webp";
 import { ButtonHome } from "../ButtonHome/ButtonHome";
 
 export const PeliserieP = () => {
