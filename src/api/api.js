@@ -11,7 +11,7 @@ export const datos = [
   {
     id: 1,
     name: "Canal 2 (Perico)",
-    img: "http://canal2perico.com.ar/canal2/images/logo.png",
+    img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/canal2perico.webp",
     link1: "https://streamcasthd.com:2020/VideoPlayer/tecnovisioncanal2tv",
     link2: "",
     link3: "",
@@ -20,7 +20,7 @@ export const datos = [
   {
     id: 2,
     name: "Canal 2 Jujuy",
-    img: "http://canal2jujuy.com/canal2/wp-content/uploads/2020/12/logoc2fw-copia-e1607472021440.png",
+    img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/canal2Jujuy.webp",
     link1:
       "https://livestream.com/accounts/679322/events/3782013/player?width=640&height=360&autoPlay=true&mute=false",
     link2: "",
@@ -31,7 +31,7 @@ export const datos = [
   {
     id: 3,
     name: "Canal 4 Jujuy",
-    img: "https://s3.amazonaws.com/static-c4-1/assets/img/logos/canalcuatro-logo-light-217x48@2x.png",
+    img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/Canal4Jujuy.webp",
     link1: "https://canal4jujuy.elcuatro.com//player/index?autoplay=true",
     link2: "",
     link3: "",
@@ -41,7 +41,7 @@ export const datos = [
   {
     id: 4,
     name: "Canal 7 Jujuy",
-    img: "https://static.wikia.nocookie.net/logopedia/images/4/4c/Canal_Siete_Jujuy_%28Logo_2020_-_2%29.png/",
+    img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/Canal7Jujuy.webp",
     link1: "https://arcast.com.ar/canal7jujuy/",
     link2: "https://canal7dejujuy.com.ar/",
     link3: "",
@@ -51,7 +51,7 @@ export const datos = [
   {
     id: 5,
     name: "Telefe",
-    img: "https://static.wikia.nocookie.net/logopedia/images/0/01/Telefe_2018_3D.svg/",
+    img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/Telefe.webp",
     link1: "https://test01.cloud.telefe.com/vivo/",
     link2: "", //"https://nosequewea.tk/dtvc?get=aHR0cHM6Ly9kdHZvdHQtYWJjLmFrYW1haXplZC5uZXQvZGFzaF9saXZlXzEyMTYvbWFuaWZlc3QubXBk&key=ZDgzZTJlMGNiOTczNWJlYTlmYzlmMGI5MGNlYTFlMTQ=&key2=NDEyNWU0MDgwMGEwOGJiYzY2Y2YyNzc1NmE1YWIyODM=",
     link3: "https://blackface.world/dtvpl.html?id=1216",
@@ -61,7 +61,7 @@ export const datos = [
   {
     id: 6,
     name: "TN",
-    img: "https://static.wikia.nocookie.net/logopedia/images/4/4f/TN_todo_noticias_logo.svg/",
+    img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/TN.webp",
     link1: "https://www.youtube.com/embed/HPiv1pzIPRc",
     link2: "",
     link3: "https://embed8.alandesk.life/cvatt.html?get=VG9kb05vdGljaWFz",
@@ -71,7 +71,7 @@ export const datos = [
   {
     id: 7,
     name: "El Trece",
-    img: "https://static.wikia.nocookie.net/logopedia/images/c/c0/Canal_13_2016.svg/",
+    img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/ElTrece.webp",
     link1: "https://blackface.world/dtvpl.html?id=1095",
     link2: "",
     link3: "https://embed8.alandesk.life/cvatt.html?get=QXJ0ZWFySEQ",
@@ -81,7 +81,7 @@ export const datos = [
   {
     id: 8,
     name: "LN+",
-    img: "https://static.wikia.nocookie.net/logopedia/images/0/0e/LN_Mas.svg/",
+    img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/LNplus.webp",
     link1: "https://www.youtube.com/embed/4e8Iw3Frf1A",
     link2: "https://lnmas.lanacion.com.ar/",
     link3: "https://blackface.world/dtvpl.html?id=1154",
@@ -91,7 +91,7 @@ export const datos = [
   {
     id: 9,
     name: "América",
-    img: "https://static.wikia.nocookie.net/logopedia/images/3/32/Am%C3%A9rica_TV_logo.svg/",
+    img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/America.webp",
     link1: "https://www.americatv.com.ar/vivo",
     link2: "",
     link3: "https://blackface.world/dtvpl.html?id=1010",
@@ -111,7 +111,7 @@ export const datos = [
   {
     id: 11,
     name: "Canal 26",
-    img: "https://static.wikia.nocookie.net/logopedia/images/1/18/Canal_26_%282022%29.svg/",
+    img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/Canal26.webp",
     link1: "https://www.youtube.com/embed/XcoIpif-pcM",
     link2: "https://www.canal26.com/canal26-en-vivo",
     link3: "https://blackface.world/dtvpl.html?id=1031",
@@ -121,7 +121,7 @@ export const datos = [
   {
     id: 12,
     name: "El Nueve ",
-    img: "https://static.wikia.nocookie.net/logopedia/images/4/40/ElnueveArglogo2017.png/",
+    img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/elnueve.webp",
     link1: "https://www.elnueve.com.ar/en-vivo",
     link2: "",
     link3: "https://blackface.world/dtvpl.html?id=1032",
@@ -131,7 +131,7 @@ export const datos = [
   {
     id: 13,
     name: "C5N",
-    img: "https://static.wikia.nocookie.net/logopedia/images/0/0e/C5N_%282023%29.png/",
+    img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/C5N.webp",
     link1: "https://www.youtube.com/embed/wBWK9tV9hBM",
     link2: "https://www.c5n.com/vivo",
     link3: "https://blackface.world/dtvpl.html?id=1028",
@@ -141,7 +141,7 @@ export const datos = [
   {
     id: 14,
     name: "TV Pública",
-    img: "https://static.wikia.nocookie.net/logopedia/images/8/82/TVP_Television_Publica_Argentina.svg/",
+    img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/TVP.webp",
     link1:
       "https://vmf.edge-apps.net/embed/live.php?streamname=c7live01-20034&autoplay=true",
     link2: "",
@@ -152,7 +152,7 @@ export const datos = [
   {
     id: 15,
     name: "Crónica HD",
-    img: "https://static.wikia.nocookie.net/logopedia/images/c/cd/Cr%C3%B3nica_TV_2018.svg/",
+    img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/Cronica.webp",
     link1: "https://www.youtube.com/embed/InSydaLSSlw?autoplay=true",
     link2: "https://www.cronica.com.ar/cronica-en-vivo", //https://vmf.edge-apps.net/embed/live.php?streamname=cronicatv_video1-100044&autoplay=true",
     link3: "https://embed8.alandesk.life/cvatt.html?get=Q3JvbmljYVRW",
@@ -161,7 +161,7 @@ export const datos = [
   {
     id: 16,
     name: "CNN",
-    img: "https://static.wikia.nocookie.net/logopedia/images/5/51/Logotipo_de_CNN_en_Espa%C3%B1ol.svg/",
+    img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/CNN.webp",
     link1:
       "https://nosequewea.tk/fl?get=LmN2YXR0di5jb20uYXIvbGl2ZS9jNmVkcy9DTk5fZW5fRXNwYW5vbC9TQV9MaXZlX2Rhc2hfZW5jL0NOTl9lbl9Fc3Bhbm9sLm1wZA==&key=MGIyMGVkOWRhMGU1NDU3YzlkZmQzYWUwYjYwOTI0OTE=&key2=OTg5OTdhNzAyMGMxOGNiMjgxNzRhMjQ5MDE0NzgzMGE=",
     link3: "",
@@ -170,7 +170,7 @@ export const datos = [
   {
     id: 17,
     name: "STAR+",
-    img: "https://logospng.org/download/star-plus/logo-star-plus-256.png",
+    img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/starplus.webp",
     link1: "https://librefutboltv.com/star-plus/",
     link2: "",
     link3: "https://canales.online/star-plus/",
@@ -180,7 +180,7 @@ export const datos = [
   {
     id: 18,
     name: "ESPN",
-    img: "https://static.wikia.nocookie.net/logopedia/images/3/34/ESPN.svg/",
+    img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/ESPN.webp",
     link1: "https://embed8.alandesk.life/cvatt.html?get=RVNQTjJIRA&lang=1",
     link2: "",
     link3: "https://blackface.world/dtvpl.html?id=1104",
@@ -190,7 +190,7 @@ export const datos = [
   {
     id: 19,
     name: "ESPN 2",
-    img: "https://static.wikia.nocookie.net/logopedia/images/d/d5/ESPN2.svg/",
+    img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/ESPN2.webp",
     link1: "https://embed8.alandesk.life/cvatt.html?get=RVNQTjJfQXJn",
     link2: "",
     link3: "https://blackface.world/dtvpl.html?id=1099",
@@ -200,7 +200,7 @@ export const datos = [
   {
     id: 20,
     name: "ESPN 3",
-    img: "https://static.wikia.nocookie.net/logopedia/images/d/d2/ESPN_3.svg/",
+    img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/ESPN3.webp",
     link1: "https://embed8.alandesk.life/cvatt.html?get=RVNQTjM",
     link2: "",
     link3: "https://blackface.world/dtvpl.html?id=1103",
@@ -210,7 +210,7 @@ export const datos = [
   {
     id: 21,
     name: "ESPN 4",
-    img: "https://static.wikia.nocookie.net/logopedia/images/3/30/ESPN_4.svg/",
+    img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/ESPN4.webp",
     link1: "https://futbolfullenvivo.nl/canales/espn4/",
     link2: "",
     link3: "https://futbolfullenvivo.nl/canales/espn4/op2.php",
@@ -219,7 +219,7 @@ export const datos = [
   {
     id: 22,
     name: "ESPN EXTRA",
-    img: "https://static.wikia.nocookie.net/logopedia/images/b/b5/ESPN_Extra_Brazil_logo.png/",
+    img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/ESPN_Extra.webp",
     link1: "https://embed8.alandesk.life/cvatt.html?get=RVNQTkhE",
     link2: "",
     link3: "https://blackface.world/dtvpl.html?id=1107",
@@ -229,7 +229,7 @@ export const datos = [
   {
     id: 23,
     name: "ESPN PREMIUM",
-    img: "https://static.wikia.nocookie.net/logopedia/images/5/5b/ESPN_Premium_%282022%29.svg/",
+    img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/ESPN_Premium.webp",
     link1:
       "https://embed8.alandesk.life/cvatt.html?get=Rm94X1Nwb3J0c19QcmVtaXVuX0hE&lang=1",
     link2: "",
@@ -240,7 +240,7 @@ export const datos = [
   {
     id: 24,
     name: "TNT SPORTS",
-    img: "https://static.wikia.nocookie.net/logopedia/images/9/9c/TNT_Sports.svg/",
+    img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/TNTSports.webp",
     link1: "https://embed8.alandesk.life/cvatt.html?get=VE5UX1Nwb3J0c19IRA",
     link2: "",
     link3: "https://blackface.world/dtvpl.html?id=1233",
@@ -250,7 +250,7 @@ export const datos = [
   {
     id: 25,
     name: "TyC Sports",
-    img: "https://static.wikia.nocookie.net/logopedia/images/5/5d/TyC_Sports.svg/",
+    img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/TyCSports.webp",
     link1: "https://embed8.alandesk.life/cvatt.html?get=VHlDU3BvcnQ",
     link2: "",
     link3: "https://blackface.world/dtvpl.html?id=1240",
@@ -260,7 +260,7 @@ export const datos = [
   {
     id: 26,
     name: "FOX SPORTS",
-    img: "https://static.wikia.nocookie.net/logopedia/images/b/b2/Fox_Sports_Argentina_2023.svg/",
+    img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/FoxSports.webp",
     link1: "https://embed8.alandesk.life/cvatt.html?get=Rm94U3BvcnRz",
     link2: "",
     link3: "https://blackface.world/dtvpl.html?id=1118",
@@ -270,7 +270,7 @@ export const datos = [
   {
     id: 27,
     name: "FOX SPORTS 2",
-    img: "https://static.wikia.nocookie.net/logopedia/images/2/26/Fox_Sports_2_%28Argentina%29_2023.png/",
+    img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/FoxSports2.webp",
     link1: "https://embed8.alandesk.life/cvatt.html?get=Rm94U3BvcnRzMkhE",
     link2: "",
     link3: "https://embed47.thaidomains.co.in/cvatt.html?get=Rm94U3BvcnRzMkhE", //"https://my7mv.deportelibre.live/player?channelId=8a782cdd-35e7-4a57-b687-893a6d5a4f4e",
@@ -279,7 +279,7 @@ export const datos = [
   {
     id: 28,
     name: "FOX SPORTS 3",
-    img: "https://static.wikia.nocookie.net/logopedia/images/8/83/Fox_Sports_3_%28Argentina%29_2023.png/",
+    img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/FoxSports3.webp",
     link1: "https://embed8.alandesk.life/cvatt.html?get=Rm94U3BvcnRzM0hE",
     link2: "",
     link3: "https://embed47.thaidomains.co.in/cvatt.html?get=Rm94U3BvcnRzM0hE",
@@ -289,7 +289,7 @@ export const datos = [
   {
     id: 29,
     name: "DSPORTS",
-    img: "https://static.wikia.nocookie.net/logopedia/images/5/5a/DSports.png/",
+    img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/DSports.webp",
     link1: "https://bestformula.one/dtvpl2.html?id=1057&lang=1",
     link2: "",
     link3: "https://blackface.world/dtvpl.html?id=1057",
@@ -299,7 +299,7 @@ export const datos = [
   {
     id: 30,
     name: "DSPORTS 2",
-    img: "https://static.wikia.nocookie.net/logopedia/images/8/83/DSports2.png/",
+    img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/DSports2.webp",
     link1: "https:///bestformula.one/dtvpl2.html?id=1063&lang=1",
     link2: "",
     link3: "https://blackface.world/dtvpl.html?id=1063",
@@ -309,7 +309,7 @@ export const datos = [
   {
     id: 31,
     name: "DSPORTS+",
-    img: "https://static.wikia.nocookie.net/logopedia/images/4/45/DSportsM%C3%A1s.png/",
+    img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/DSports+.webp",
     link1: "https://bestformula.one/dtvpl2.html?id=1071",
     link2: "",
     link3: "https://blackface.world/dtvpl.html?id=1071",
@@ -319,7 +319,7 @@ export const datos = [
   {
     id: 32,
     name: "HISTORY",
-    img: "https://static.wikia.nocookie.net/logopedia/images/e/e8/History_2021.png/",
+    img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/History.webp",
     link1: "https://www.latele-envivo.com/Embed/history/op2.php",
     link2: "",
     link3: "https://blackface.world/dtvpl.html?id=1148",
@@ -329,7 +329,7 @@ export const datos = [
   {
     id: 33,
     name: "HISTORY 2",
-    img: "https://static.wikia.nocookie.net/logopedia/images/3/3a/History_2_%282022%29.png/",
+    img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/History2.webp",
     link1: "https://www.latele-envivo.com/Embed/history2/op2.php",
     link2: "",
     link3: "https://blackface.world/dtvpl.html?id=1147",
@@ -339,7 +339,7 @@ export const datos = [
   {
     id: 34,
     name: "NATIONAL GEOGRAPHIC",
-    img: "https://static.wikia.nocookie.net/logopedia/images/c/c6/National_Geographic_2008.svg/",
+    img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/NationalGeographic.webp",
     link1: "https://embed8.alandesk.life/cvatt.html?get=TmF0R2VvSEQ=",
     link2: "",
     link3: "https://blackface.world/dtvpl.html?id=1169",
@@ -349,7 +349,7 @@ export const datos = [
   {
     id: 35,
     name: "Discovery",
-    img: "https://static.wikia.nocookie.net/logopedia/images/4/40/Discovery%2C_Inc_logo.svg/",
+    img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/Discovery.webp",
     link1:
       "https://nosequewea.tk/dtvc?get=Ly9kdHZvdHQtY2JjLmFrYW1haXplZC5uZXQvZGFzaF9saXZlXzEwNzMvbWFuaWZlc3QubXBk&key=ODJmN2FhYWU0OWU1NTZjMTk4NWRhMDQ2MjMzN2RmNDM=&key2=NzZiMTNmZDhhMjk4ZDE4OGFjNTI1MjM4N2IyMjg2ODc=",
     link2: "https://megatelevisiontv.live/en-vivo/discovery/",
@@ -361,7 +361,7 @@ export const datos = [
   {
     id: 36,
     name: "Discovery Home & Health",
-    img: "https://static.wikia.nocookie.net/logopedia/images/f/f3/Discovery_HnH_2022.svg/",
+    img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/DiscoveryH%26H.webp",
     link1: "https://blackface.world/dtvpl.html?id=1074",
     link2: "",
     link3: "https://www.latele-envivo.com/Embed/discovery-hh/",
@@ -371,7 +371,7 @@ export const datos = [
   {
     id: 37,
     name: "Discovery ID",
-    img: "https://static.wikia.nocookie.net/logopedia/images/5/58/CanalDiscoveryIDLA.png/",
+    img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/DiscoveryID.webp",
     link1: "https://blackface.world/dtvpl.html?id=1076",
     link2: "",
     link3: "https://www.latele-envivo.com/Embed/discovery-investigacion/",
@@ -381,7 +381,7 @@ export const datos = [
   {
     id: 38,
     name: "Discovery Science",
-    img: "https://static.wikia.nocookie.net/logopedia/images/1/11/Discovery_Science_LA_2012.png/",
+    img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/DiscoveryScience.webp",
     link1:
       "https://nosequewea.tk/fl?get=LmN2YXR0di5jb20uYXIvbGl2ZS9jNmVkcy9EaXNjb3ZlcnlfU2NpZW5jZS9TQV9MaXZlX2Rhc2hfZW5jXzJBL0Rpc2NvdmVyeV9TY2llbmNlLm1wZA==&key=NDZiYTQwOWZiMDRlNDBmYjg2YjQ2NmQ5N2UzYTk1ODg=&key2=ZjEyOWZiOWI1ZDIxM2UyMGUyYWJlNTI5YjhjZjI1OTc=",
     link2: "",
@@ -392,7 +392,7 @@ export const datos = [
   {
     id: 39,
     name: "Discovery turbo",
-    img: "https://static.wikia.nocookie.net/logopedia/images/a/ab/Discovery_Turbo_LatinAmerica_2021.svg/",
+    img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/DiscoveryTurbo.webp",
     link1: "https://blackface.world/dtvpl.html?id=1081",
     link2: "",
     link3: "https://www.latele-envivo.com/Embed/discovery-turbo/",
@@ -402,7 +402,7 @@ export const datos = [
   {
     id: 40,
     name: "HGTV",
-    img: "https://static.wikia.nocookie.net/logopedia/images/a/a8/HGTV_2010.svg/",
+    img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/HGTV.webp",
     link1: "https://blackface.world/dtvpl.html?id=1144",
     link2: "",
     link3: "https://www.latele-envivo.com/Embed/discovery-hgtv/",
@@ -412,7 +412,7 @@ export const datos = [
   {
     id: 41,
     name: "MAS CHiC",
-    img: "https://static.wikia.nocookie.net/logopedia/images/e/e9/M%C3%A1s_Chic.svg/",
+    img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/MasChic.webp",
     link1: "https://embed8.alandesk.life/cvatt.html?get=TWFzX0NoaWM=",
     link2: "",
     link3: "https://blackface.world/dtvpl.html?id=1161",
@@ -422,7 +422,7 @@ export const datos = [
   {
     id: 42,
     name: "DW",
-    img: "https://static.wikia.nocookie.net/logopedia/images/7/75/Deutsche_Welle_symbol_2012.svg/",
+    img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/DeutscheWelle.webp",
     link1: "https://www.youtube.com/embed/tsStUN73_6I",
     link2: "",
     link3:
@@ -433,7 +433,7 @@ export const datos = [
   {
     id: 43,
     name: "TRU TV",
-    img: "https://static.wikia.nocookie.net/logopedia/images/7/7d/TruTV_%282014%29_%28Purple%29.svg/",
+    img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/TruTV.webp",
     link1: "https://crytonep.github.io/mtonline/trutv.html",
     link2: "",
     link3: "",
@@ -443,7 +443,7 @@ export const datos = [
   {
     id: 44,
     name: "SUN",
-    img: "https://static.wikia.nocookie.net/logopedia/images/d/de/Sun_Channel_%282022%29.png/",
+    img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/Sun.webp",
     link1: "https://megatelevisiontv.live/en-vivo/sun-channel/",
     link2: "",
     link3: "https://canales.online/en-vivo/sun-channel/",
@@ -453,7 +453,7 @@ export const datos = [
   {
     id: 45,
     name: "Food Network",
-    img: "https://static.wikia.nocookie.net/logopedia/images/5/59/FoodNetLogo.svg/",
+    img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/FoodNetwork.webp",
     link1: "https://embed8.alandesk.life/cvatt.html?get=Rm9vZF9OZXR3b3Jr",
     link2: "",
     link3: "https://blackface.world/dtvpl.html?id=1113",
@@ -463,7 +463,7 @@ export const datos = [
   {
     id: 46,
     name: "El Gourmet",
-    img: "https://static.wikia.nocookie.net/logopedia/images/d/da/Elgourmet_23.svg/",
+    img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/Elgourmet.webp",
     link1: "https://embed8.alandesk.life/cvatt.html?get=R291cm1ldA==",
     link2: "",
     link3: "https://blackface.world/dtvpl.html?id=1093",
@@ -474,7 +474,7 @@ export const datos = [
   {
     id: 47,
     name: "Flow Music",
-    img: "https://static.wikia.nocookie.net/logopedia/images/0/0b/Flow_2021.svg/",
+    img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/flowmusic.webp",
     link1: "https://embed8.alandesk.life/cvatt.html?get=Rmxvd19NdXNpY19YUA==",
     link2: "",
     link3:
@@ -485,7 +485,7 @@ export const datos = [
   {
     id: 48,
     name: "Vorterix",
-    img: "https://canales.online/img/logo_canal/Vorterix.png",
+    img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/Vorterix.webp",
     link1:
       "https://www.youtube.com/embed/live_stream?channel=UCvCTWHCbBC0b9UIeLeNs8ug",
     link3: "",
@@ -495,7 +495,7 @@ export const datos = [
   {
     id: 49,
     name: "LUZZU TV",
-    img: "https://i.ibb.co/LZFJ5Ts/luzzu.png",
+    img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/LUZZU.webp",
     link1: "http://luzutv.com.ar/",
     link2: "",
     link3:
@@ -507,7 +507,7 @@ export const datos = [
   {
     id: 50,
     name: "La 100 HD",
-    img: "https://static.wikia.nocookie.net/logopedia/images/3/3a/La_100_fm.png/",
+    img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/La100.webp",
     link1: "https://la100.cienradios.com/hd/",
     link2: "https://www.youtube.com/embed/icUYYWwb7qg",
     link3: "",
@@ -516,7 +516,7 @@ export const datos = [
   {
     id: 51,
     name: "Radio Mitre",
-    img: "https://4dproducciones.com.ar/wp-content/uploads/2020/10/Mitre.png",
+    img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/Mitre.webp",
     link1: "https://radiomitre.cienradios.com/hd/",
     link2: "https://www.youtube.com/embed/T2FE_RTq3hY",
     link3: "",
@@ -526,7 +526,7 @@ export const datos = [
   {
     id: 52,
     name: "TCM",
-    img: "https://static.wikia.nocookie.net/logopedia/images/d/df/TCM_%28Latin_America%29.svg/",
+    img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/TCM.webp",
     link1: "https://www.latele-envivo.com/Embed/tcm/op2.php",
     link3: "https://crytonep.github.io/mtonline/tcm.html",
     link4: "",
@@ -535,7 +535,7 @@ export const datos = [
   {
     id: 53,
     name: "HBO",
-    img: "https://static.wikia.nocookie.net/logopedia/images/c/c1/HBO.svg/",
+    img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/HBO.webp",
     link1: "https://www.latele-envivo.com/Embed/hbo/op2.php",
     link2: "https://www.latele-envivo.com/Embed/hbo/",
     link3:
@@ -547,7 +547,7 @@ export const datos = [
   {
     id: 54,
     name: "HBO 2",
-    img: "https://static.wikia.nocookie.net/logopedia/images/9/95/HBO_2_2014.svg/",
+    img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/HBO2.webp", ///
     link1: "https://telefullenvivo.com/canales/hbo2/",
     link2: "",
     link3: "https://telefullenvivo.com/canales/hbo2/op2.php",
@@ -557,7 +557,7 @@ export const datos = [
   {
     id: 55,
     name: "HBO+",
-    img: "https://static.wikia.nocookie.net/logopedia/images/f/f9/Logohboplus2019.svg/",
+    img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/HBOplus.webp",
     link1:
       "https://nosequewea.tk/dtvc?get=aHR0cHM6Ly9kdHZvdHQtYWJjLmFrYW1haXplZC5uZXQvZGFzaF9saXZlXzExNDEvbWFuaWZlc3QubXBk&key=Njc5NWEzMDNhOWU4NTE3ZmJjYTM4Mzc2YzBhZjJmNzY=&key2=MWJkYjMxNzIyOTA2NmFkMmQ3NGM0ODE0YTEzOGUxMzY=",
     link2:
@@ -569,7 +569,7 @@ export const datos = [
   {
     id: 56,
     name: "HBO EXTREME",
-    img: "https://static.wikia.nocookie.net/logopedia/images/b/b3/HBO_Xtreme_%282020%29.svg/",
+    img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/HBOXtreme.webp",
     link1: "https://www.latele-envivo.com/Embed/hbo-xtreme/",
     link3:
       "https://nosequewea.tk/fl?get=LmN2YXR0di5jb20uYXIvbGl2ZS9jNmVkcy9IQk9fRXh0cmVtZS9TQV9MaXZlX2Rhc2hfZW5jL0hC%20T19FeHRyZW1lLm1wZA==&key=ZDUwNDAxMWJiZWY0NjdjMGRlM2E3NTM0ZTMwMmE2ZDQ=&key2=MzM0MTAzZTJhYmUxNmZhYTdmOWFiMmUzMDk3YzVhNTg=",
@@ -578,7 +578,7 @@ export const datos = [
   {
     id: 57,
     name: "SONY",
-    img: "https://static.wikia.nocookie.net/logopedia/images/6/61/Sony_Channel_2019.svg/",
+    img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/SonyChannel.webp",
     link1: "https://blackface.world/dtvpl.html?id=1190",
     link3:
       "https://nosequewea.tk/dtvc?get=Ly9kdHZvdHQtY2JjLmFrYW1haXplZC5uZXQvZGFzaF9saXZlXzExOTAvbWFuaWZlc3QubXBk&key=MTAxMGI5OWZiMTI0NTQwYWFhNDc1YTQxMjU5NzUxZWI=&key2=MTk3NWM2YmNjOTU2NmE2ZTk0YWIyNjNkYzhmMDRiNTc=",
@@ -588,7 +588,7 @@ export const datos = [
   {
     id: 58,
     name: "SONY MOVIES",
-    img: "https://static.wikia.nocookie.net/logopedia/images/1/11/Sony_Movies_2019.svg/",
+    img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/SonyMovies.webp",
     link1:
       "https://nosequewea.tk/dtvc?get=Ly9kdHZvdHQtYWJjLmFrYW1haXplZC5uZXQvZGFzaF9saXZlXzEyNjMvbWFuaWZlc3QubXBk&key=MzkxYzEzNzAzNGYwNTM5MzhlZGJmMjY3OTk1NDlkZGM=&key2=MTlkNjQzZDhhNTBiMmY4MjljOTZhODk3ZjdkZjI1NWQ=",
     link3: "https://megatelevisiontv.live/en-vivo/sony-movies/",
@@ -598,7 +598,7 @@ export const datos = [
   {
     id: 59,
     name: "Warner TV",
-    img: "https://static.wikia.nocookie.net/logopedia/images/5/5e/Warner2018LA.png/",
+    img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/Warner.webp",
     link1:
       "https://nosequewea.tk/dtvc?get=aHR0cHM6Ly9kdHZvdHQtY2JjLmFrYW1haXplZC5uZXQvZGFzaF9saXZlXzEyNDgvbWFuaWZlc3QubXBk&key=NTZhMjQ3MzJjN2M1NThhMGIyNDRkYzlkNWY5MTBmODc=&key2=NjFkZmVmODFjZWUxMWNiNDE5YTYxMjAyNzBiOTU4N2I=",
     link3: "https://blackface.world/dtvpl.html?id=1248",
@@ -609,7 +609,7 @@ export const datos = [
   {
     id: 60,
     name: "UNIVERSAL PREMIERE",
-    img: "https://static.wikia.nocookie.net/logopedia/images/3/3b/Universal_Premiere.svg/",
+    img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/UniversalPremiere.webp",
     link1:
       "https://nosequewea.tk/dtvc?get=aHR0cHM6Ly9kdHZvdHQtYWJjLmFrYW1haXplZC5uZXQvZGFzaF9saXZlXzEyNTYvbWFuaWZlc3QubXBk&key=ZDA4MGJlMjhhMGZjNTk3MGJmMWRlODk3ZjgwZDQwYmQ=&key2=YWI4MTg3ZDUwZDMxMWQzMGJjMGQ3ZGM2ZWI1Njk3ZDE=",
     link3: "https://www.latele-envivo.com/Embed/universal-premiere/",
@@ -619,7 +619,7 @@ export const datos = [
   {
     id: 61,
     name: "UNIVERSAL CINEMA",
-    img: "https://static.wikia.nocookie.net/logopedia/images/4/40/Universal_Cinema.svg/",
+    img: "https://github.com/marco5x/marcTV/blob/master/src/assets/UniversalCinema.webp",
     link1: "https://www.latele-envivo.com/Embed/universal-cinema/",
     link3:
       "https://nosequewea.tk/dtvc?get=aHR0cHM6Ly9kdHZvdHQtYWJjLmFrYW1haXplZC5uZXQvZGFzaF9saXZlXzEyNTMvbWFuaWZlc3QubXBk&key=Y2UwYTdjODgzZTJhNTQzMGJiYTk3YTNkNjhlMGRhZjg=&key2=ZTMwZGQ0OTA4ZTY2NzYzNzM2OWRmYjY1ODJmNTRkNjQ=",
@@ -639,7 +639,7 @@ export const datosPrivates = [
   {
     id: 62,
     name: "Playboy TV",
-    img: "https://static.wikia.nocookie.net/logopedia/images/3/37/Playboy_TV_Logo.svg/",
+    img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/PlayboyTV.webp",
     link1: "https://embed8.alandesk.life/cvatt.html?get=UGxheWJveQ",
     link2: "https://www.latele-envivo.com/Embed/playboy/",
     category: cat.adults,
@@ -647,7 +647,7 @@ export const datosPrivates = [
   {
     id: 63,
     name: "Venus",
-    img: "https://static.wikia.nocookie.net/logopedia/images/c/cc/Venus_2014.svg/",
+    img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/Venus.webp",
     link1: "https://embed8.alandesk.life/cvatt.html?get=VmVudXM=",
     link2:
       "https://canales.online/m3u8.html?get=aHR0cHM6Ly9jZG5jZW50dXJ5LXZlbnVzaGQuem9sZWNoYW1lZGlhLm5ldC9wbGF5bGlzdC5tM3U4",
@@ -656,7 +656,7 @@ export const datosPrivates = [
   {
     id: 64,
     name: "SeXtreme",
-    img: "https://static.wikia.nocookie.net/logopedia/images/2/23/Sextreme.png/",
+    img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/Sextreme.webp",
     link1: "https://latele-envivo.com/Embed/sextreme/op2.php",
     link2: "https://www.latele-envivo.com/Embed/sextreme/op2.php",
     category: cat.adults,
@@ -664,7 +664,7 @@ export const datosPrivates = [
   {
     id: 65,
     name: "Hustler HD",
-    img: "https://static.wikia.nocookie.net/logopedia/images/1/12/Hustler_HD.png/",
+    img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/HustlerHD.webp",
     link1: "https://www.latele-envivo.com/Embed/hustler/",
     link2: "https://megatelevisiontv.live/en-vivo/hustler/",
     category: cat.adults,
@@ -672,14 +672,14 @@ export const datosPrivates = [
   {
     id: 66,
     name: "Brazzers",
-    img: "https://static.wikia.nocookie.net/logopedia/images/3/32/Brazzers_TV_1.svg/",
+    img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/BrazzersTV.webp",
     link1: "https://www.latele-envivo.com/Embed/brazzers/",
     category: cat.adults,
   },
   {
     id: 67,
     name: "SEXY HOT",
-    img: "http://login.sexyhot.com.br.s3-website-us-east-1.amazonaws.com/static/images/logo.png",
+    img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/sexyhot.webp",
     link1: "https://www.latele-envivo.com/Embed/hot/",
     link2: "https://megatelevisiontv.live/en-vivo/sexyhot/",
     category: cat.adults,
@@ -694,7 +694,7 @@ export const datosPrivates = [
   {
     id: 69,
     name: "DORCEL",
-    img: "https://static.wikia.nocookie.net/logopedia/images/b/be/Dorcel_TV_2022.svg/",
+    img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/DorcelTV.webp",
     link1: "https://www.latele-envivo.com/Embed/dorcel/",
     category: cat.adults,
   },
@@ -708,7 +708,7 @@ export const datosPrivates = [
   {
     id: 71,
     name: "Private",
-    img: "https://static.wikia.nocookie.net/logopedia/images/9/98/PRIVATE_TV.png/",
+    img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/PRIVATE.webp",
     link1: "https://megatelevisiontv.live/en-vivo/private/",
     link2: "#",
     category: cat.adults,
