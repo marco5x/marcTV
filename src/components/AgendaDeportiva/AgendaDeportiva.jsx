@@ -17,7 +17,7 @@ export const AgendaDeportiva = () => {
           className="absolute flex w-96 h-96 mt-3 sm:mr-10"
           title="agenda"
           allowfullscreen="true"
-          src={"https://canales.online/agenda"}
+          src={"https://futbol-libre.org/agenda/"}
         ></iframe>
       ) : null}
     </div>
