@@ -14,7 +14,7 @@ export const AgendaDeportiva = () => {
       </button>
       {show ? (
         <iframe
-          className="absolute flex w-96 h-96 mt-3 sm:mr-10"
+          className="absolute flex left-9 mt-6 md:w-96 h-96 md:left-1/3"
           title="agenda"
           allowfullscreen="true"
           src={"https://futbol-libre.org/agenda/"}

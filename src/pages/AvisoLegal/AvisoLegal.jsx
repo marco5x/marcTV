@@ -6,7 +6,7 @@ export const AvisoLegal = () => {
   return (
     <>
       <NavBar />
-      <div className="mx-auto max-w-96 lg:text-center">
+      <div className="mx-6 max-w-96 lg:text-center">
         <h1 className="text-base text-center font-semibold leading-7 text-indigo-600">
           AVISO LEGAL
         </h1>
@@ -39,7 +39,7 @@ export const AvisoLegal = () => {
           o problema al respecto, no dude en ponerse en contacto con nosotros.
           En ningún caso o circunstancia se podrá responsabilizar directamente o
           indirectamente al propietario ni a los colaboradores de MarcTV+ del
-          ilícito uso de la información contenida en marcTV+.io. Así mismo
+          ilícito uso de la información contenida en marctv.vercel.app. Así mismo
           tampoco se nos podrá responsabilizar directamente o indirectamente de
           incorrecto uso o mala interpretación que se haga de la información y
           servicios incluidos. Igualmente quedara fuera de nuestra

@@ -41,7 +41,7 @@ export const AllChanells = () => {
           <option value="adultos"> Adultos</option>
         </select>
       </div>
-      <div className="min-h-screen bg-cover flex align-center justify-center flex-wrap mb-9 gap-6">
+      <div className="min-h-screen bg-cover flex align-center justify-center flex-wrap mb-9 gap-5 mx-2">
         {data?.map((chanel) => (
           <div key={chanel.id}>
             <CardChanell

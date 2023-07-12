@@ -15,17 +15,19 @@ export const ControlPrivate = () => {
       </button>
       {show
         ? datosPrivates?.map((chanel) => (
-            <div className="card-control" key={chanel.id}>
-              <a href={`/transmision/adultos/${chanel.id}`}>
-                <p>{chanel.name}</p>
-                <img
-                  src={chanel.img}
-                  alt={chanel.name}
-                  width={60}
-                  height="auto"
-                />
-              </a>
-            </div>
+            <a
+              className="card-control"
+              key={chanel.id}
+              href={`/transmision/adultos/${chanel.id}`}
+            >
+              <p>{chanel.name}</p>
+              <img
+                src={chanel.img}
+                alt={chanel.name}
+                width={60}
+                height="auto"
+              />
+            </a>
           ))
         : null}
     </div>

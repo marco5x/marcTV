@@ -23,7 +23,7 @@ export const Transmision = () => {
         src={link}
         title={chanellFind.name}
         frameborder="0"
-        allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; autoplay" //autoplay;
+        allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; autoplay"
         allowfullscreen="fullscreen, autoplay"
       ></iframe>
       <div className="absolute inset-x-0 bottom-0 flex justify-evenly items-center h-auto">

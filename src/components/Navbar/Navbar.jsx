@@ -98,6 +98,14 @@ export const NavBar = () => {
               className="hidden peer"
             />
             <div className="absolute rounded shadow bg-white overflow-hidden hidden peer-checked:flex flex-col w-full mt-1 border border-slate-200 ">
+              <div className="cursor-pointer hover:bg-sky-200 ">
+                <NavLink
+                  className="block p-2 border-transparent border-l-4 group-hover:border-blue-600 border-blue-600 group-hover:bg-gray-100"
+                  to={"/peliserie"}
+                >
+                  Peliserie
+                </NavLink>
+              </div>
               <div className="cursor-pointer hover:bg-sky-200">
                 <NavLink
                   className="block p-2 border-transparent border-l-4 group-hover:border-blue-600 group-hover:bg-gray-100"
@@ -106,20 +114,12 @@ export const NavBar = () => {
                   Peliserie <strong>C</strong> ▶
                 </NavLink>
               </div>
-              <div className="cursor-pointer hover:bg-sky-200 border-t">
+              <div className="cursor-pointer hover:bg-sky-200">
                 <NavLink
                   className="block p-2 border-transparent border-l-4 group-hover:border-blue-600 border-blue-600 group-hover:bg-gray-100"
                   to={"/peliserieP"}
                 >
                   Peliserie🅿
-                </NavLink>
-              </div>
-              <div className="cursor-pointer hover:bg-sky-200 border-t">
-                <NavLink
-                  className="block p-2 border-transparent border-l-4 group-hover:border-blue-600 border-blue-600 group-hover:bg-gray-100"
-                  to={"/peliserie"}
-                >
-                  Peliserie
                 </NavLink>
               </div>
             </div>

@@ -24,7 +24,7 @@ export const PrivateTransmision = () => {
         src={link}
         title={chanellFind.name}
         frameborder="0"
-        allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" //autoplay;
+        allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen="fullscreen, autoplay"
       ></iframe>
       <div className="absolute bottom-0 flex gap-3 ml-20 sm:ml-80">

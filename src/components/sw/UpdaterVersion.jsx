@@ -25,7 +25,9 @@ const UpdaterVersion = (props) => {
             </svg>
           </span>
           {/* Aqui los comentarios sobre la nueva actualización*/}
-          <p>¡NUEVA VERSIÓN! - Añadimos nuevos canales premium </p>
+          <p>
+            ¡NUEVA VERSIÓN! - Actualizamos canales premium, mejora en control
+          </p>
           <button
             type="button"
             onClick={onLoadNewServiceWorkerAccept}
