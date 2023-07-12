@@ -46,7 +46,7 @@ export const Transmision = () => {
           ) : null}
         </div>
         <div className="flex gap-3 ">
-          <legend>Solo con bloqueador de anuncios!!</legend>
+          {/* <legend>Solo con bloqueador de anuncios!!</legend> */}
           {chanellFind.link3 ? (
             <button
               className="btn-secondary"

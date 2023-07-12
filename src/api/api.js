@@ -498,9 +498,9 @@ export const datos = [
     link1: "http://luzutv.com.ar/",
     link2: "",
     link3:
-      "https://player.twitch.tv/?channel=luzu_tv&parent=marctv.vercel.app/&parent=https://marctv.vercel.app/",
+      "https://player.twitch.tv/?channel=luzu_tv&&parent=https://marctv.vercel.app/",
     link4:
-      "https://player.twitch.tv/video=601665123&parent=marctv.vercel.app&muted=true",
+      "https://player.twitch.tv/?channel=luzu_tv&parent=marctv.vercel.app/",
     category: cat.music,
   },
   {

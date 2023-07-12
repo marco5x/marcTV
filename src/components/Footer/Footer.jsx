@@ -14,14 +14,16 @@ export const Footer = () => {
             Aviso Legal
           </Link>
         </li>
-        <li>
-          <img
-            className="aspect-auto"
-            src={marctvplus}
-            alt="MarcTv+"
-            width={50}
-            height={"auto"}
-          />
+        <li selector="">
+          <a href="#home">
+            <img
+              className="aspect-auto"
+              src={marctvplus}
+              alt="MarcTv+"
+              width={50}
+              height={"auto"}
+            />
+          </a>
         </li>
         <li>
           <Link

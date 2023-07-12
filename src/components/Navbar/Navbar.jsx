@@ -21,7 +21,7 @@ export const NavBar = () => {
           <div className="relative w-40">
             <div className="h-10 bg-azul flex border border-gray-500 rounded items-center">
               <div
-                className="px-4 appearance-none outline-none text-white w-full"
+                className="px-3 appearance-none outline-none text-white w-full"
                 name="select"
                 id="select"
               >
@@ -47,7 +47,7 @@ export const NavBar = () => {
               id="show_more"
               className="hidden peer"
             />
-            <div className="absolute rounded shadow bg-white overflow-hidden hidden peer-checked:flex flex-col w-full mt-1 border border-slate-200 ">
+            <div className="absolute rounded shadow bg-white overflow-hidden hidden peer-checked:flex flex-col w-full mt-1 border border-slate-200">
               <div className="cursor-pointer hover:bg-sky-200">
                 <NavLink
                   className="block p-2 border-transparent border-l-4 group-hover:border-blue-600 group-hover:bg-gray-100"
@@ -68,10 +68,10 @@ export const NavBar = () => {
           </div>
         </li>
         <li>
-          <div className="relative w-40">
+          <div className="relative w-36 md:w-40">
             <div className="h-10 bg-blue flex border border-gray-500 rounded items-center">
               <div
-                className="px-4 appearance-none outline-none text-white w-full"
+                className="px-3 appearance-none outline-none text-white w-full"
                 name="select"
                 id="select"
               >

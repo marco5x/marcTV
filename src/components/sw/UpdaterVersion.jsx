@@ -26,7 +26,8 @@ const UpdaterVersion = (props) => {
           </span>
           {/* Aqui los comentarios sobre la nueva actualización*/}
           <p>
-            ¡NUEVA VERSIÓN! - Actualizamos canales premium, mejora en control
+            ¡NUEVA VERSIÓN! v1.0.1 - Actualizamos canales premium, mejora en
+            control
           </p>
           <button
             type="button"

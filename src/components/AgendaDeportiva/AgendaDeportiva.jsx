@@ -4,7 +4,10 @@ export const AgendaDeportiva = () => {
   const [show, setShow] = useState(false);
 
   return (
-    <div className="reletive flex-col w-32 h-12 z-10 rounded-md bg-slate-200 px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-sky-200">
+    <div
+      id="home"
+      className="reletive flex-col w-32 h-12 z-10 rounded-md bg-slate-200 px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-sky-200"
+    >
       <button type="button" onClick={() => setShow(!show)}>
         {!show ? (
           <p>Agenda Deportiva</p>
@@ -14,7 +17,7 @@ export const AgendaDeportiva = () => {
       </button>
       {show ? (
         <iframe
-          className="absolute flex left-9 mt-6 md:w-96 h-96 md:left-1/3"
+          className="absolute flex left-2 mt-6 md:w-6/12 h-4/6 md:left-1/3"
           title="agenda"
           allowfullscreen="true"
           src={"https://futbol-libre.org/agenda/"}
