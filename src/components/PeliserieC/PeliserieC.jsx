@@ -19,7 +19,7 @@ export const PeliserieC = () => {
       <iframe
         title="movies"
         allowfullscreen="true"
-        src="https://cuevana.pro/inicio"
+        src="https://cuevana.pro/peliculas/estrenos"
         width={1560}
         height={775}
       ></iframe>

@@ -7,7 +7,7 @@ export const NavBar = () => {
     <nav className="sticky z-20 top-0 flex w-full h-16 items-center justify-around bg-azul py-2 text-neutral-500 shadow-lg lg:py-4">
       <ul className="absolute flex w-full items-center justify-around">
         <li>
-          <a href="/">
+          <a id="page-header" href="/">
             <img
               className="aspect-auto"
               src={marctvplus}
@@ -19,7 +19,10 @@ export const NavBar = () => {
         </li>
         <li>
           <div className="relative w-40">
-            <div className="h-10 bg-azul flex border border-gray-500 rounded items-center">
+            <div
+              id="programacion"
+              className="h-10 bg-azul flex border border-gray-500 rounded items-center"
+            >
               <div
                 className="px-3 appearance-none outline-none text-white w-full"
                 name="select"
@@ -69,7 +72,10 @@ export const NavBar = () => {
         </li>
         <li>
           <div className="relative w-36 md:w-40">
-            <div className="h-10 bg-blue flex border border-gray-500 rounded items-center">
+            <div
+              id="peliserie"
+              className="h-10 bg-blue flex border border-gray-500 rounded items-center"
+            >
               <div
                 className="px-3 appearance-none outline-none text-white w-full"
                 name="select"

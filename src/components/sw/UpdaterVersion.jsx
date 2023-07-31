@@ -26,8 +26,9 @@ const UpdaterVersion = (props) => {
           </span>
           {/* Aqui los comentarios sobre la nueva actualización*/}
           <p>
-            ¡NUEVA VERSIÓN! v1.0.1 - Actualizamos canales premium, mejora en
-            control
+            ¡NUEVA VERSIÓN! v1.0.2 - 🆕 Actualizamos canales premium (directv
+            figth y directv motor), 🆕 Mejora en control, 🆕 Grilla de canales
+            3d
           </p>
           <button
             type="button"

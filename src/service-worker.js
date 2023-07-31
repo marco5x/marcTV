@@ -71,8 +71,16 @@ self.addEventListener("message", (event) => {
 });
 
 // Any other custom service worker logic can go here.
-let versionApp = "1.0.1";
+let versionApp = "1.0.2";
 
 self.addEventListener("activate", (event) => {
   console.log(`Version actializada a ${versionApp}`);
+});
+
+self.addEventListener("message", (event) => {
+  console.log(Date.now());
+
+  const title = "Hi 😀";
+  const message = "qu onda";
+  self.registration.showNotification(title, { body: message });
 });
