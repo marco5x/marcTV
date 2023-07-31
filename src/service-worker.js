@@ -77,10 +77,10 @@ self.addEventListener("activate", (event) => {
   console.log(`Version actializada a ${versionApp}`);
 });
 
+/*
 self.addEventListener("message", (event) => {
-  console.log(Date.now());
-
   const title = "Hi 😀";
-  const message = "qu onda";
+  const message = "Bienvenido a MatctTV+ 📺";
   self.registration.showNotification(title, { body: message });
 });
+*/

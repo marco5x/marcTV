@@ -63,15 +63,15 @@ export const Transmision = () => {
 
   return (
     <div
-      className="flex flex-col w-[100dvw] h-[100dvh]"
-      style={{
-        backgroundImage: `url("https://th.bing.com/th/id/R.846913110b636d7682c80cbf1873e0d7?rik=B8ONzWGCVt%2bkxQ&pid=ImgRaw&r=0")`,
-        backgroundSize: "cover",
-      }}
+      className="flex flex-col items-center w-[100dvw] h-[100dvh] bg-slate-800"
+      // style={{
+      //   backgroundImage: `url("https://th.bing.com/th/id/R.846913110b636d7682c80cbf1873e0d7?rik=B8ONzWGCVt%2bkxQ&pid=ImgRaw&r=0")`,
+      //   backgroundSize: "cover",
+      // }}
     >
       <iframe
         id="transmision"
-        className="embed-responsive-item relative bottom-0 left-0 right-0 top-0 h-[100dvh] w-[95dvw]"
+        className="absolute min-h-[96dvh] w-[90dvw]"
         width="1720"
         src={link}
         title={chanellFind.name}

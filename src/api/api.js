@@ -124,7 +124,7 @@ export const datos = [
     id: 12,
     name: "C5N",
     img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/C5N.webp",
-    link1: "https://www.youtube.com/embed/GQRnbfobCB0?autoplay=true",
+    link1: "https://www.youtube.com/embed/-FwrJbV-KDo?autoplay=true",
     link2: "https://www.c5n.com/vivo",
     link3: "https://blackface.world/dtvpl.html?id=1028",
     link4: "https://embed8.alandesk.life/cvatt.html?get=QzVO",

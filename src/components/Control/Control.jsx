@@ -8,7 +8,7 @@ export const Control = () => {
     <div className="fixed right-0 z-10 w-auto h-screen overflow-y-scroll overflow-x-hidden scrollbar-page">
       <button
         id="control"
-        className="fixed z-10 decoration-0 text-center rounded-full p-4 bg-sky-500 bottom-12 right-6 w-16 h-16"
+        className="fixed z-10 decoration-0 text-center rounded-full p-4 bg-sky-500 bottom-12 right-1.5 w-16 h-16"
         type="button"
         onClick={() => setShow(!show)}
       >

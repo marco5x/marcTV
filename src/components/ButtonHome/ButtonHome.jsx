@@ -6,7 +6,7 @@ export const ButtonHome = () => {
     <NavLink
       id="buttonhome"
       to={"/"}
-      className="fixed z-10 decoration-0 text-center rounded-full p-4 bg-sky-500 bottom-12 left-3.5 w-16 h-16"
+      className="fixed z-10 decoration-0 text-center rounded-full p-4 bg-sky-500 bottom-12 left-1.5 w-16 h-16"
     >
       📺
     </NavLink>

@@ -7,7 +7,7 @@ export const ControlPrivate = () => {
   return (
     <div className="fixed z-10 right-0 w-auto h-screen overflow-y-scroll overflow-x-hidden scrollbar-page">
       <button
-        className="fixed z-10 decoration-0 rounded-full p-4 bg-sky-500 bottom-5 right-3.5"
+        className="fixed z-10 decoration-0 text-center rounded-full p-4 bg-sky-500 bottom-12 right-1.5 w-16 h-16"
         type="button"
         onClick={() => setShow(!show)}
       >
