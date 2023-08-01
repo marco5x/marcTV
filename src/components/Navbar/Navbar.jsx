@@ -117,7 +117,7 @@ export const NavBar = () => {
                   className="block p-2 border-transparent border-l-4 group-hover:border-blue-600 group-hover:bg-gray-100"
                   to={"/peliserieC"}
                 >
-                  Peliserie <strong>C</strong> ▶
+                  Peliserie <strong>(Con Bloq. Anuncios)</strong>
                 </NavLink>
               </div>
               <div className="cursor-pointer hover:bg-sky-200">
@@ -125,7 +125,7 @@ export const NavBar = () => {
                   className="block p-2 border-transparent border-l-4 group-hover:border-blue-600 border-blue-600 group-hover:bg-gray-100"
                   to={"/peliserieP"}
                 >
-                  Peliserie🅿
+                  Peliserie <strong>(Con Bloq. Anuncios)</strong>
                 </NavLink>
               </div>
             </div>

@@ -5,7 +5,7 @@ import { ButtonHome } from "../ButtonHome/ButtonHome";
 export const PeliserieP = () => {
   return (
     <div className="flex">
-      <div className="fixed w-16 z-10 text-center mt-1 left-6 bg-peplu">
+      <div className="fixed w-16 h-14 z-10 text-center left-8 bg-peplu xl:left-3 xl:w-48 xl:h-16">
         <img
           className="aspect-auto"
           src={marctvplus}
@@ -16,6 +16,7 @@ export const PeliserieP = () => {
       </div>
       <ButtonHome />
       <iframe
+        className="min-h-[100dvh] w-[100dvw]"
         title="movies"
         allowfullscreen="true"
         src="https://pelisplus.ninja/peliculas-estrenos/"

@@ -12,14 +12,14 @@ export const PrivateTransmision = () => {
   const [link, setLink] = useState(chanellFind.link1);
   return (
     <div
-      className="flex flex-col w-full h-screen "
-      style={{
-        backgroundImage: `url("https://vignette.wikia.nocookie.net/freddy-fazbears-pizza/images/9/9c/ONAF2-ESTATICA.gif/revision/latest?cb=20170320181953&path-prefix=es")`,
-        backgroundSize: "cover",
-      }}
+      className="flex flex-col w-full h-screen bg-slate-800 "
+      // style={{
+      //   backgroundImage: `url("https://vignette.wikia.nocookie.net/freddy-fazbears-pizza/images/9/9c/ONAF2-ESTATICA.gif/revision/latest?cb=20170320181953&path-prefix=es")`,
+      //   backgroundSize: "cover",
+      // }}
     >
       <iframe
-        className="embed-responsive-item relative bottom-0 left-0 right-0 top-0 h-full w-full"
+        className="absolute min-h-[85dvh] sm:min-h-[89dvh] lg:min-h-[96dvh] w-[90dvw]"
         width="1920"
         src={link}
         title={chanellFind.name}

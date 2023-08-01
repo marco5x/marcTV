@@ -5,12 +5,13 @@ import { Control } from "../../components/Control/Control";
 
 export const Grilla = () => {
   return (
-    <div className="flex w-full bg-slate-950">
+    <div className="flex w-full h-full bg-slate-950 ">
       <div className={style.logo}>
         <h3>GRILLA</h3>
       </div>
       <ButtonHome />
       <iframe
+        className="absolute min-h-[100dvh] w-[100dvw]"
         title="grilla"
         allowfullscreen="true"
         src="https://www.reportv.com.ar/finder/index/2313/"

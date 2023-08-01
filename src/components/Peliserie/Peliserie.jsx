@@ -16,6 +16,7 @@ export const Peliserie = () => {
       </div>
       <ButtonHome />
       <iframe
+        className="min-h-[100dvh] w-[100dvw]"
         title="movies"
         allowfullscreen="true"
         src="https://repelis24.rs/inicio/"
