@@ -4,7 +4,7 @@ import { ButtonHome } from "../ButtonHome/ButtonHome";
 
 export const PeliserieC = () => {
   return (
-    <div className="flex">
+    <div className="flex w-[100dvw] h-[100dvh] overflow-x-hidden overflow-y-hidden">
       <div className="fixed w-full h-8 bg-slate-900"></div>
       <div className="fixed z-10 w-64 mt-8 ml-1 h-16 bg-cue">
         <img

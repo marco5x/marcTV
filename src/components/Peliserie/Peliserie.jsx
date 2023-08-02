@@ -1,19 +1,10 @@
 import React from "react";
 import { ButtonHome } from "../ButtonHome/ButtonHome";
-import marctvplus from "../../assets/marctvplus.webp";
 
 export const Peliserie = () => {
   return (
-    <div className="flex">
-      <div className="absolute z-10 w-60 mt-1 left-9 bg-black container:hidden">
-        <img
-          className="aspect-auto"
-          src={marctvplus}
-          alt="MARC TV+"
-          width={60}
-          height="auto"
-        />
-      </div>
+    <div className="flex w-[100dvw] h-[100dvh] overflow-x-hidden overflow-y-hidden">
+      <div className="absolute top-0 w-[1px] h-[1px] mt-1 bg-black xl:left-24 xl:w-40 xl:h-14"></div>
       <ButtonHome />
       <iframe
         className="min-h-[100dvh] w-[100dvw]"

@@ -42,9 +42,9 @@ export const AllChanells = () => {
           <option value="adultos"> Adultos</option>
         </select>
       </div>
-      <div className="min-h-screen bg-cover flex align-center justify-center flex-wrap mb-12 gap-3 mt-3">
+      <div className="min-h-screen bg-cover flex align-center justify-center flex-wrap mb-12 gap-6 mt-3 md:gap-3 ">
         {data?.map((chanel) => (
-          <div id="chanel" key={chanel.id} className="mb-3">
+          <div id="chanel" key={chanel.id} className="mb-3 ">
             <CardChanell
               id={chanel.id}
               name={chanel.name}

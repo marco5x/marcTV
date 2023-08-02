@@ -71,7 +71,7 @@ export const Transmision = () => {
     >
       <iframe
         id="transmision"
-        className="absolute min-h-[85dvh] sm:min-h-[89dvh] lg:min-h-[96dvh] w-[90dvw]"
+        className="absolute min-h-[78dvh] sm:min-h-[89dvh] lg:min-h-[93dvh] w-[90dvw]"
         width="1720"
         src={link}
         title={chanellFind.name}

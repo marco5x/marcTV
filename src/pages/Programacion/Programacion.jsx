@@ -5,7 +5,7 @@ import { Control } from "../../components/Control/Control";
 
 export const Programacion = () => {
   return (
-    <div className="flex">
+    <div className="flex w-[100vw] h-[100vh]">
       <div className="fixed z-10 flex items-center bg-grilla w-52 h-11 left-12 md:w-96 xl:ml-24">
         <img
           className="aspect-auto xl:mt-3"

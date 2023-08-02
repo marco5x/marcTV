@@ -5,7 +5,7 @@ import { Control } from "../../components/Control/Control";
 
 export const Grilla = () => {
   return (
-    <div className="flex w-full h-full bg-slate-950 ">
+    <div className="flex bg-slate-950 w-[100vw] h-[100vh]">
       <div className={style.logo}>
         <h3>GRILLA</h3>
       </div>
