@@ -14,7 +14,7 @@ export const Grilla = () => {
         className="absolute min-h-[100dvh] w-[100dvw]"
         title="grilla"
         allowfullscreen="true"
-        src="https://www.reportv.com.ar/finder/index/2313/"
+        src="https://www.reportv.com.ar/finder/index/2996/" //2313 superconeactados
         width={1560}
         height={775}
       ></iframe>

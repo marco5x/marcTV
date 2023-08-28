@@ -19,7 +19,7 @@ export const PeliserieP = () => {
         className="min-h-[100dvh] w-[100dvw]"
         title="movies"
         allowfullscreen="true"
-        src="https://pelisplus.ninja/peliculas-estrenos/"
+        src="https://pelisplus.lat/listado-peliculas/estrenos/"
         width={1560}
         height={775}
       ></iframe>

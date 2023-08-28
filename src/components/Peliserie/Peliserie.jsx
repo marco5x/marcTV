@@ -10,7 +10,7 @@ export const Peliserie = () => {
         className="min-h-[100dvh] w-[100dvw]"
         title="movies"
         allowfullscreen="true"
-        src="https://repelis24.rs/inicio/"
+        src="https://hd.repelis24.plus/"
         width={1560}
         height={775}
       ></iframe>

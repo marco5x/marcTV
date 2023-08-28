@@ -10,7 +10,7 @@ export const AgendaDeportiva = () => {
     >
       <button type="button" onClick={() => setShow(!show)}>
         {!show ? (
-          <p>Agenda Deportiva</p>
+          <p>📅 Agenda Deportiva</p>
         ) : (
           <p className="text-amber-600">Cerrar Agenda</p>
         )}

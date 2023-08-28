@@ -1,10 +1,10 @@
 let cat = {
-  adults: "adults",
-  documental: "docuemntal",
-  news: "news",
-  movie: "movie",
-  music: "music",
-  sports: "sports",
+  adults: "Adultos",
+  documental: "Documental",
+  news: "Noticias",
+  movie: "Peliculas",
+  music: "Música",
+  sports: "Deportes",
 };
 //"window-controls-overlay"
 export const datos = [
@@ -24,7 +24,8 @@ export const datos = [
     name: "Canal 4 Jujuy",
     img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/Canal4Jujuy.webp",
     link1: "https://canal4jujuy.elcuatro.com//player/index?autoplay=true",
-    link2: "",
+    link2:
+      "https://canales.online/m3u8.html?get=aHR0cHM6Ly81Y2Q1NzdhM2RkOGVjLnN0cmVhbWxvY2submV0L0NBTUFSQVMvbGl2ZTQvcGxheWxpc3QubTN1OA",
     link3: "",
     link4: "",
     category: cat.news,
@@ -44,10 +45,10 @@ export const datos = [
     name: "Telefe",
     img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/Telefe.webp",
     link1: "https://embed8.alandesk.life/cvatt.html?get=VGVsZWZlSEQ=&lang=1",
-    link2: "https://mitelefe.com/vivo",
-    link3: "https://blackface.world/dtvpl.html?id=1216",
-    link4:
-      "https://nosequewea.tk/dtvc?get=aHR0cHM6Ly9kdHZvdHQtYWJjLmFrYW1haXplZC5uZXQvZGFzaF9saXZlXzEyMTYvbWFuaWZlc3QubXBk&key=ZDgzZTJlMGNiOTczNWJlYTlmYzlmMGI5MGNlYTFlMTQ=&key2=NDEyNWU0MDgwMGEwOGJiYzY2Y2YyNzc1NmE1YWIyODM=",
+    link2:
+      "https://re.television-librehd.com/dtvc?get=aHR0cHM6Ly9kdHZvdHQtYWJjLmFrYW1haXplZC5uZXQvZGFzaF9saXZlXzEyMTYvbWFuaWZlc3QubXBk&key=ZDgzZTJlMGNiOTczNWJlYTlmYzlmMGI5MGNlYTFlMTQ=&key2=NDEyNWU0MDgwMGEwOGJiYzY2Y2YyNzc1NmE1YWIyODM=",
+    link3: "https://mitelefe.com/vivo",
+    link4: "",
     category: cat.news,
   },
   {
@@ -55,17 +56,20 @@ export const datos = [
     name: "TN",
     img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/TN.webp",
     link1: "https://www.youtube.com/embed/HPiv1pzIPRc?autoplay=true",
-    link2: "",
+    link2:
+      "https://re.television-librehd.com/dtvc?get=Ly9kdHZvdHQtYWJjLmFrYW1haXplZC5uZXQvZGFzaF9saXZlXzEyMjUvbWFuaWZlc3QubXBk&key=YjM2M2UzNWE1MDc1NTg5OTgzZmVjNGUyZjc0ZjkwYjk=&key2=OGY3YzUzYmZlMDJkZjM0ZDI1M2ViNjFlN2QwMWFlNzk=",
     link3: "https://embed8.alandesk.life/cvatt.html?get=VG9kb05vdGljaWFz",
-    link4: "https://blackface.world/dtvpl.html?id=1225", //"https://www.latele-envivo.com/Embed/tn/op2.php",
+    link4: "",
     category: cat.news,
   },
   {
     id: 6,
     name: "El Trece",
     img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/ElTrece.webp",
-    link1: "https://blackface.world/dtvpl.html?id=1095",
-    link2: "",
+    link1:
+      "https://re.television-librehd.com/dtvc?get=aHR0cHM6Ly8xMDk1LWFiYy5kdHZvdHQuY29tL2Rhc2hfbGl2ZV8xMDk1L21hbmlmZXN0Lm1wZA==&key=Mjc5NjVhNWU0NzUxNWM1MmFmOTcwZGVmODIzMDE0MmM=&key2=YjJmMTYzYjkzMDI4YTRjMzI1YzBkOGY3ZjFiMjllMjU=",
+    link2:
+      "https://re.television-librehd.com/fl?get=LmN2YXR0di5jb20uYXIvbGl2ZS9jM2Vkcy9BcnRlYXJIRC9TQV9MaXZlX2Rhc2hfZW5jL0FydGVhckhELm1wZA==&key=NTE3OTAxN2Y0OTMyNmQxNGFmMGE5Y2VlYzgzMWFlZTY=&key2=MDliNGE0NjNiMDI5ZWJjMjhhMjg4YmVkMmRhNzBhNzY=",
     link3: "https://embed8.alandesk.life/cvatt.html?get=QXJ0ZWFySEQ",
     link4: "",
     category: cat.news,
@@ -75,19 +79,22 @@ export const datos = [
     name: "LN+",
     img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/LNplus.webp",
     link1: "https://www.youtube.com/embed/4e8Iw3Frf1A?autoplay=true",
-    link2: "https://lnmas.lanacion.com.ar/",
-    link3: "https://blackface.world/dtvpl.html?id=1154",
-    link4: "https://embed8.alandesk.life/cvatt.html?get=TGFfTmFjaW9u",
+    link2:
+      "https://re.television-librehd.com/dtvc?get=aHR0cHM6Ly9kdHZvdHQtYWJjLmFrYW1haXplZC5uZXQvZGFzaF9saXZlXzExNTQvbWFuaWZlc3QubXBk&key=NDBiN2Q2YzQyOGY0NTM0OThiYjhlZmQxZWE5ZjRiODc=&key2=OTQxMGJhYWYyNDlmZjhmMGNkNmRjZWQwMWVjZjJmNWQ=",
+    link3: "https://embed8.alandesk.life/cvatt.html?get=TGFfTmFjaW9u",
+    link4: "https://lnmas.lanacion.com.ar/",
     category: cat.news,
   },
   {
     id: 8,
     name: "América",
     img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/America.webp",
-    link1: "https://www.americatv.com.ar/vivo",
-    link2: "",
-    link3: "https://blackface.world/dtvpl.html?id=1010",
-    link4: "https://embed8.alandesk.life/cvatt.html?get=QW1lcmljYVRW",
+    link1:
+      "https://re.television-librehd.com/jwm3u.html?get=aHR0cHM6Ly9kYWkuZ29vZ2xlLmNvbS9saW5lYXIvaGxzL2V2ZW50L09ZMmlfbEw0U015WEU1WmFqNFVMRWcvbWFzdGVyLm0zdTg=",
+    link2:
+      "https://re.television-librehd.com/dtvc?get=Ly9kdHZvdHQtYWJjLmFrYW1haXplZC5uZXQvZGFzaF9saXZlXzEwMTAvbWFuaWZlc3QubXBk&key=ZDE0ZmNhNTUwYWRiNWI3NWJiMzRmMGM0MmFhMjgxZGQ=&key2=NmY3NjYzNGIxNGUyNDNmMWJjZWUxYzVmY2Q4YTM5M2M=",
+    link3: "https://embed8.alandesk.life/cvatt.html?get=QW1lcmljYVRW",
+    link4: "https://www.americatv.com.ar/vivo",
     category: cat.news,
   },
   {
@@ -95,9 +102,10 @@ export const datos = [
     name: "A24",
     img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/A24.webp",
     link1: "https://www.youtube.com/embed/QGpHLgRnrx4?autoplay=true",
-    link2: "https://www.a24.com/vivo",
-    link3: "https://blackface.world/dtvpl.html?id=1009",
-    link4: "https://embed8.alandesk.life/cvatt.html?get=QW1lcmljYTI0",
+    link2:
+      "https://re.television-librehd.com/dtvc?get=aHR0cHM6Ly9kdHZvdHQtYWJjLmFrYW1haXplZC5uZXQvZGFzaF9saXZlXzEwMDkvbWFuaWZlc3QubXBk&key=NDBhYThhMzQ2N2ZjNTc5MGE1Nzc5YTIxOTA4YjRhNzU=&key2=ZjQxZGNkNWJiMTExYjZlYmM5NTU5NzQxZDk4YjdiODE=",
+    link3: "https://embed8.alandesk.life/cvatt.html?get=QW1lcmljYTI0",
+    link4: "https://www.a24.com/vivo",
     category: cat.news,
   },
   {
@@ -105,37 +113,42 @@ export const datos = [
     name: "Canal 26",
     img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/Canal26.webp",
     link1: "https://www.youtube.com/embed/2IfTdw28WFY?autoplay=true",
-    link2: "https://www.canal26.com/canal26-en-vivo",
-    link3: "https://blackface.world/dtvpl.html?id=1031",
-    link4: "https://embed8.alandesk.life/cvatt.html?get=MjZfVFZfSEQ",
+    link2:
+      "https://re.television-librehd.com/jwm3u.html?get=aHR0cHM6Ly9saXZlLWVkZ2UwMS50ZWxlY2VudHJvLm5ldC5hci9saXZlLzI2aGQtNzIwL21hc3Rlci5tM3U4",
+    link3: "https://embed8.alandesk.life/cvatt.html?get=MjZfVFZfSEQ",
+    link4: "https://www.canal26.com/canal26-en-vivo",
     category: cat.news,
   },
   {
     id: 11,
-    name: "El Nueve ",
+    name: "El Nueve",
     img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/elnueve.webp",
-    link1: "https://www.elnueve.com.ar/en-vivo",
-    link2: "",
-    link3: "https://blackface.world/dtvpl.html?id=1032",
-    link4: "https://embed8.alandesk.life/cvatt.html?get=Q2FuYWw5",
+    link1:
+      "https://re.television-librehd.com/dtvc?get=aHR0cHM6Ly9kdHZvdHQtYWJjLmFrYW1haXplZC5uZXQvZGFzaF9saXZlXzEwMzIvbWFuaWZlc3QubXBk&key=NzhhMmMwMjQ4OWRhNWQ1YWEyYzUyNTRkYzgzNTc2OTA=&key2=MmQyNmNmYmMyMDVkNmJlM2M4MTAwMzk4NjhmNDFhZTY=",
+    link2:
+      "https://re.television-librehd.com/fl?get=LmN2YXR0di5jb20uYXIvbGl2ZS9jM2Vkcy9DYW5hbDkvU0FfTGl2ZV9kYXNoX2VuY18yQS9DYW5hbDkubXBk&key=MjRmNGZmMjExMTM2YWU2NTEyYTFiNTUyMjAwZGI0MDU=&key2=NjAyMTIyZjg0MjZjNWM5NDJiOGMxOGQyOTljYzYwMjA=",
+    link3: "https://embed8.alandesk.life/cvatt.html?get=Q2FuYWw5",
+    link4: "https://www.elnueve.com.ar/en-vivo",
     category: cat.news,
   },
   {
     id: 12,
     name: "C5N",
     img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/C5N.webp",
-    link1: "https://www.youtube.com/embed/ekid6Im1dOc?autoplay=true",
-    link2: "https://www.c5n.com/vivo",
-    link3: "https://blackface.world/dtvpl.html?id=1028",
-    link4: "https://embed8.alandesk.life/cvatt.html?get=QzVO",
+    link1: "https://www.youtube.com/embed/39RJ2lb2irE?autoplay=true",
+    link2:
+      "https://re.television-librehd.com/dtvc?get=aHR0cHM6Ly9kdHZvdHQtYWJjLmFrYW1haXplZC5uZXQvZGFzaF9saXZlXzEwMjgvbWFuaWZlc3QubXBk&key=NjNiYjkwYWZlN2E1NWNhYmIwMWZjYWMyMDUzNTNiMjU=&key2=MjZjMzY1MDViMmEzNDU0MjAxZGNjODM3MGRlMGVlMDc=",
+    link3: "https://embed8.alandesk.life/cvatt.html?get=QzVO",
+    link4: "https://www.c5n.com/vivo",
     category: cat.news,
   },
   {
     id: 13,
     name: "TV Pública",
     img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/TVP.webp",
-    link1: "https://embed8.alandesk.life/cvatt.html?get=Q2FuYWw3",
-    link2: "https://blackface.world/dtvpl.html?id=1156",
+    link1:
+      "https://re.television-librehd.com/fl?get=LmN2YXR0di5jb20uYXIvbGl2ZS9jNmVkcy9DYW5hbDcvU0FfTGl2ZV9kYXNoX2VuYy9DYW5hbDcubXBk&key=Y2M4YzgyYWMyZWM3ZTk3OTk1MjdjMjlkYjczNTRlODE=&key2=Y2M0YWFlMTczZGQyZWYxN2FlMjZiZTNmN2FlODc2NjI=",
+    link2: "https://embed8.alandesk.life/cvatt.html?get=Q2FuYWw3",
     link3: "",
     link4: "",
     category: cat.news,
@@ -145,8 +158,10 @@ export const datos = [
     name: "Crónica HD",
     img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/Cronica.webp",
     link1: "https://www.youtube.com/embed/avly0uwZzOE?autoplay=true",
-    link2: "https://www.cronica.com.ar/cronica-en-vivo", //https://vmf.edge-apps.net/embed/live.php?streamname=cronicatv_video1-100044&autoplay=true",
+    link2:
+      "https://re.television-librehd.com/dtvc?get=aHR0cHM6Ly9kdHZvdHQtYWJjLmFrYW1haXplZC5uZXQvZGFzaF9saXZlXzEwNTUvbWFuaWZlc3QubXBk&key=NTg3MDg5ODFjMWMyNWFlOWI1ZmViZGExNmVjMzljNWI=&key2=OGIzODU1YzYzZjg1NjdiOWQzZjU0NjVkYzBhZDYwNTY=",
     link3: "https://embed8.alandesk.life/cvatt.html?get=Q3JvbmljYVRW",
+    link4: "https://www.cronica.com.ar/cronica-en-vivo",
     category: cat.news,
   },
   {
@@ -154,8 +169,9 @@ export const datos = [
     name: "CNN",
     img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/CNN.webp",
     link1:
-      "https://nosequewea.tk/fl?get=LmN2YXR0di5jb20uYXIvbGl2ZS9jNmVkcy9DTk5fZW5fRXNwYW5vbC9TQV9MaXZlX2Rhc2hfZW5jL0NOTl9lbl9Fc3Bhbm9sLm1wZA==&key=MGIyMGVkOWRhMGU1NDU3YzlkZmQzYWUwYjYwOTI0OTE=&key2=OTg5OTdhNzAyMGMxOGNiMjgxNzRhMjQ5MDE0NzgzMGE=",
-    link3: "",
+      "https://re.television-librehd.com/dtvc?get=aHR0cHM6Ly9kdHZvdHQtYWJjLmFrYW1haXplZC5uZXQvZGFzaF9saXZlXzEwNTAvbWFuaWZlc3QubXBk&key=MzViMTM4MzEyMGRhNTk5OTgyZGJhN2Q1YjQ1NjVmMGU=&key2=NTBjNThkNTY4OTkxNzc3ZDBiYzNmZmM4ZjY4MDNjOTI=",
+    link2:
+      "https://re.television-librehd.com/fl?get=LmN2YXR0di5jb20uYXIvbGl2ZS9jNmVkcy9DTk5fZW5fRXNwYW5vbC9TQV9MaXZlX2Rhc2hfZW5jL0NOTl9lbl9Fc3Bhbm9sLm1wZA==&key=MGIyMGVkOWRhMGU1NDU3YzlkZmQzYWUwYjYwOTI0OTE=&key2=OTg5OTdhNzAyMGMxOGNiMjgxNzRhMjQ5MDE0NzgzMGE=",
     category: cat.news,
   },
   {
@@ -164,6 +180,8 @@ export const datos = [
     img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/rt.webp",
     link1:
       "https://canales.online/m3u8.html?get=aHR0cHM6Ly9ydC1lc3AucnR0di5jb20vbGl2ZS9ydGVzcC9wbGF5bGlzdC5tM3U4",
+    link2:
+      "https://vk.com/video_ext.php?oid=-61174019&id=456255316&hash=153bbfca01877eec",
     link3:
       "https://megatelevisiontv.live/hls.html?get=aHR0cHM6Ly9ydC1lc3AucnR0di5jb20vbGl2ZS9ydGVzcC9wbGF5bGlzdC5tM3U4",
     category: cat.news,
@@ -174,8 +192,8 @@ export const datos = [
     img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/starplus.webp",
     link1: "https://librefutboltv.com/star-plus/",
     link2: "",
-    link3: "https://canales.online/star-plus/",
-    link4: "https://deportestvhd.com/star-plus.html",
+    link3: "https://sfndeportes.com/starplus",
+    link4: "https://canales.online/star-plus/",
     category: cat.sports,
   },
   {
@@ -184,8 +202,8 @@ export const datos = [
     img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/ESPN.webp",
     link1: "https://embed8.alandesk.life/cvatt.html?get=RVNQTjJIRA&lang=1",
     link2: "",
-    link3: "https://blackface.world/dtvpl.html?id=1104",
-    link4: "https://futbolfullenvivo.nl/canales/espn/",
+    link3: "",
+    link4: "",
     category: cat.sports,
   },
   {
@@ -193,9 +211,9 @@ export const datos = [
     name: "ESPN 2",
     img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/ESPN2.webp",
     link1: "https://embed8.alandesk.life/cvatt.html?get=RVNQTjJfQXJn",
-    link2: "",
-    link3: "https://blackface.world/dtvpl.html?id=1099",
-    link4: "https://futbolfullenvivo.nl/canales/espn2/",
+    link2: "https://blackface.world/dtvpl.html?id=1099",
+    link3: "",
+    link4: "",
     category: cat.sports,
   },
   {
@@ -204,17 +222,16 @@ export const datos = [
     img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/ESPN3.webp",
     link1: "https://embed8.alandesk.life/cvatt.html?get=RVNQTjM",
     link2: "",
-    link3: "https://blackface.world/dtvpl.html?id=1103",
-    link4: "https://futbolfullenvivo.nl/canales/espn3/",
+    link3: "",
     category: cat.sports,
   },
   {
     id: 21,
-    name: "ESPN 4",
-    img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/ESPN4.webp",
-    link1: "https://futbolfullenvivo.nl/canales/espn4/",
+    name: "ESPN DEPORTES",
+    img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/ESPN_Deportes.webp",
+    link1: "https://re.television-librehd.com/sfndeporte/ala?id=esus",
     link2: "",
-    link3: "https://futbolfullenvivo.nl/canales/espn4/op2.php",
+    link3: "",
     category: cat.sports,
   },
   {
@@ -246,7 +263,7 @@ export const datos = [
     link2: "",
     link3: "https://blackface.world/dtvpl.html?id=1233",
     link4: "https://futbolfullenvivo.nl/canales/tnt-sports/",
-    category: cat,
+    category: cat.sports,
   },
   {
     id: 25,
@@ -273,8 +290,9 @@ export const datos = [
     name: "FOX SPORTS 2",
     img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/FoxSports2.webp",
     link1: "https://embed8.alandesk.life/cvatt.html?get=Rm94U3BvcnRzMkhE",
-    link2: "",
-    link3: "https://embed47.thaidomains.co.in/cvatt.html?get=Rm94U3BvcnRzMkhE", //"https://my7mv.deportelibre.live/player?channelId=8a782cdd-35e7-4a57-b687-893a6d5a4f4e",
+    link2: "https://blackface.world/dtvpl.html?id=1281",
+    link3: "",
+    link4: "",
     category: cat.sports,
   },
   {
@@ -283,7 +301,7 @@ export const datos = [
     img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/FoxSports3.webp",
     link1: "https://embed8.alandesk.life/cvatt.html?get=Rm94U3BvcnRzM0hE",
     link2: "",
-    link3: "https://embed47.thaidomains.co.in/cvatt.html?get=Rm94U3BvcnRzM0hE",
+    link3: "https://blackface.world/dtvpl.html?id=1280",
     link4: "",
     category: cat.sports,
   },
@@ -291,9 +309,9 @@ export const datos = [
     id: 29,
     name: "DSPORTS",
     img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/DSports.webp",
-    link1: "https://bestformula.one/dtvpl2.html?id=1057&lang=1",
+    link1: "https://blackface.world/dtvpl.html?id=1057",
     link2: "",
-    link3: "https://blackface.world/dtvpl.html?id=1057",
+    link3: "",
     link4: "",
     category: cat.sports,
   },
@@ -301,9 +319,9 @@ export const datos = [
     id: 30,
     name: "DSPORTS 2",
     img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/DSports2.webp",
-    link1: "https:///bestformula.one/dtvpl2.html?id=1063&lang=1",
+    link1: "https://blackface.world/dtvpl.html?id=1063",
     link2: "",
-    link3: "https://blackface.world/dtvpl.html?id=1063",
+    link3: "",
     link4: "https://futbolfullenvivo.nl/canales/directv-sports2/",
     category: cat.sports,
   },
@@ -311,9 +329,9 @@ export const datos = [
     id: 31,
     name: "DSPORTS+",
     img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/DSports+.webp",
-    link1: "https://bestformula.one/dtvpl2.html?id=1071",
+    link1: "https://blackface.world/dtvpl.html?id=1071",
     link2: "",
-    link3: "https://blackface.world/dtvpl.html?id=1071",
+    link3: "",
     link4: "https://futbolfullenvivo.nl/canales/directv-sports-plus/",
     category: cat.sports,
   },
@@ -343,30 +361,36 @@ export const datos = [
     id: 34,
     name: "HISTORY",
     img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/History.webp",
-    link1: "https://blackface.world/dtvpl.html?id=1148",
-    link2: "",
-    link3: "https://www.latele-envivo.com/Embed/history/",
-    link4: "https://www.latele-envivo.com/Embed/history/op2.php",
+    link1:
+      "https://re.television-librehd.com/dtvc?get=aHR0cHM6Ly9kdHZvdHQtY2JjLmFrYW1haXplZC5uZXQvZGFzaF9saXZlXzExNDgvbWFuaWZlc3QubXBk&key=MGRjNjRmOWIxOWFiNTFhZTg4OTU5YWZlYzk2ZTc2MzE=&key2=ZWYxZDA4OTRhOTM2ZjczOTNlYzdiZmEzOGZmNjE4Y2I=",
+    link2:
+      "https://re.television-librehd.com/fl?get=LmN2YXR0di5jb20uYXIvbGl2ZS9jN2Vkcy9IaXN0b3J5SEQvU0FfTGl2ZV9kYXNoX2VuY18yQS9IaXN0b3J5SEQubXBk&key=ZTgyMzE4ZTUxOGJhNzBjZWEzZDdiMzdiZWY5OWU2OTI=&key2=YTA1ZmNiNjM0YzA3MWE1MTRlMzAzOWUxYzI3NGI0ZGI=",
+    link3: "https://blackface.world/dtvpl.html?id=1148",
+    link4: "",
     category: cat.documental,
   },
   {
     id: 35,
     name: "HISTORY 2",
     img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/History2.webp",
-    link1: "https://blackface.world/dtvpl.html?id=1147",
-    link2: "",
-    link3: "https://www.latele-envivo.com/Embed/history2/",
-    link4: "https://www.latele-envivo.com/Embed/history2/op2.php",
+    link1:
+      "https://re.television-librehd.com/dtvc?get=Ly9kdHZvdHQtY2JjLmFrYW1haXplZC5uZXQvZGFzaF9saXZlXzExNDcvbWFuaWZlc3QubXBk&key=OThiZjFkNTEwY2I0NTE0NTk0MmU1ZDRjMWQ1ZjIxMWQ=&key2=ZDZkNTE4OTQ5Y2Y3MzRjM2UwMzMyOGRkYTViNDU5NjY=",
+    link2:
+      "https://re.television-librehd.com/fl?get=LmN2YXR0di5jb20uYXIvbGl2ZS9jNmVkcy9IaXN0b3J5XzIvU0FfTGl2ZV9kYXNoX2VuY18yQS9IaXN0b3J5XzIubXBk&key=ZWNiZTk3ZWMzNDc4NDMwNGIzOTBhMTJiYTM4NTRjY2Y=&key2=NWEwZWUzNmVkOWI4OTIwY2IxOTU0NmZkOTJmMmQ0MTU=",
+    link3: "https://blackface.world/dtvpl.html?id=1147",
+    link4: "",
     category: cat.documental,
   },
   {
     id: 36,
     name: "NATIONAL GEOGRAPHIC",
     img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/NationalGeographic.webp",
-    link1: "https://blackface.world/dtvpl.html?id=1169",
-    link2: "",
-    link3: "https://www.latele-envivo.com/Embed/national-geographic/",
-    link4: "https://embed8.alandesk.life/cvatt.html?get=TmF0R2VvSEQ=",
+    link1:
+      "https://re.television-librehd.com/dtvc?get=aHR0cHM6Ly9kdHZvdHQtYWJjLmFrYW1haXplZC5uZXQvZGFzaF9saXZlXzExNjkvbWFuaWZlc3QubXBk&key=OGUzZWQ4ODAwZjkwNThiNWFmNzQ4MzA4MWU3ZjdmNTU=&key2=NThhYzc5NGY2ZWFhNDVmYmYzMTk3ODcxZjRiMzNhZWE=",
+    link2:
+      "https://re.television-librehd.com/fl?get=LmN2YXR0di5jb20uYXIvbGl2ZS9jM2Vkcy9OYXRHZW9IRC9TQV9MaXZlX2Rhc2hfZW5jL05hdEdlb0hELm1wZA==&key=NGJlMGM2MWNlZGRjNjIyOTRjYzllMjNiNjI3YWY1M2Q=&key2=ODUyYzE5MzVkMTFjM2M1M2QwYTFjZWZmM2JiM2JmMTY=",
+    link3: "https://embed8.alandesk.life/cvatt.html?get=TmF0R2VvSEQ=",
+    link4: "",
     category: cat.documental,
   },
   {
@@ -374,10 +398,10 @@ export const datos = [
     name: "Discovery",
     img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/Discovery.webp",
     link1:
-      "https://nosequewea.tk/dtvc?get=Ly9kdHZvdHQtY2JjLmFrYW1haXplZC5uZXQvZGFzaF9saXZlXzEwNzMvbWFuaWZlc3QubXBk&key=ODJmN2FhYWU0OWU1NTZjMTk4NWRhMDQ2MjMzN2RmNDM=&key2=NzZiMTNmZDhhMjk4ZDE4OGFjNTI1MjM4N2IyMjg2ODc=",
-    link2: "https://megatelevisiontv.live/en-vivo/discovery/",
-    link3:
-      "https://nosequewea.tk/fl?get=LmN2YXR0di5jb20uYXIvbGl2ZS9jM2Vkcy9EaXNjb3ZlcnlIRC9TQV9MaXZlX2Rhc2hfZW5jXzJBL0Rpc2NvdmVyeUhELm1wZA==&key=YzI4M2M4NGE3YWYwZDdjOGI5YjYxMmE4ZmIyMmEwMDE=&key2=ZjQ1NTEwYzcyMWVlYmQ2ZWFhODZhMmUxNmNjYmQ3N2Q=",
+      "https://re.television-librehd.com/dtvc?get=Ly9kdHZvdHQtY2JjLmFrYW1haXplZC5uZXQvZGFzaF9saXZlXzEwNzMvbWFuaWZlc3QubXBk&key=ODJmN2FhYWU0OWU1NTZjMTk4NWRhMDQ2MjMzN2RmNDM=&key2=NzZiMTNmZDhhMjk4ZDE4OGFjNTI1MjM4N2IyMjg2ODc=",
+    link2:
+      "https://re.television-librehd.com/fl?get=LmN2YXR0di5jb20uYXIvbGl2ZS9jM2Vkcy9EaXNjb3ZlcnlIRC9TQV9MaXZlX2Rhc2hfZW5jXzJBL0Rpc2NvdmVyeUhELm1wZA==&key=YzI4M2M4NGE3YWYwZDdjOGI5YjYxMmE4ZmIyMmEwMDE=&key2=ZjQ1NTEwYzcyMWVlYmQ2ZWFhODZhMmUxNmNjYmQ3N2Q=",
+    link3: "",
     link4: "",
     category: cat.documental,
   },
@@ -385,20 +409,24 @@ export const datos = [
     id: 38,
     name: "Discovery Home & Health",
     img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/DiscoveryH%26H.webp",
-    link1: "https://blackface.world/dtvpl.html?id=1074",
-    link2: "",
-    link3: "https://www.latele-envivo.com/Embed/discovery-hh/",
-    link4: "",
+    link1:
+      "https://re.television-librehd.com/fl?get=LmN2YXR0di5jb20uYXIvbGl2ZS9jM2Vkcy9EaXNjb3ZlcnlIb21lSGVhbHRoSEQvU0FfTGl2ZV9kYXNoX2VuY18yQS9EaXNjb3ZlcnlIb21lSGVhbHRoSEQubXBk&key=OWIwYTc2ZGQ3YTBkZjFlMWI0MzIwYWViMTI1NGQxYTk=&key2=ZDAxMTI2Nzc3NWMzOGQ2ZDJhYjA5YjQyOGMwM2Q2M2Y=",
+    link2:
+      "https://re.television-librehd.com/dtvc?get=Ly8xMDc1LXZvcy5kdHZvdHQuY29tL0RBU0gvbWFuaWZlc3QubXBk&key=OGQ2YmUxNTQwNWJhM2NlN2IwNmIyNDBiNmI5Y2ZjZGU=&key2=ZGNhOWY3NThhYmQ1MDFjMzg1MGRkMGFkOWFiNTAyYWU=",
+    link3: "",
+    link4: "https://blackface.world/dtvpl.html?id=1074",
     category: cat.documental,
   },
   {
     id: 39,
     name: "Discovery ID",
     img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/DiscoveryID.webp",
-    link1: "https://blackface.world/dtvpl.html?id=1076",
-    link2: "",
-    link3: "https://www.latele-envivo.com/Embed/discovery-investigacion/",
-    link4: "",
+    link1:
+      "https://re.television-librehd.com/fl?get=LmN2YXR0di5jb20uYXIvbGl2ZS9jN2Vkcy9JRC9TQV9MaXZlX2Rhc2hfZW5jL0lELm1wZA==&key=MDk1NmNhZjJlMmJkNDFmNDlmZGNlYWQ3Y2M5NGZlMjQ=&key2=NjQwYzQ5NTc4MDczYTkxMTkzODYxN2ViNGU2NTJkNmM=",
+    link2:
+      "https://re.television-librehd.com/dtvc?get=Ly8xMDc3LXZvcy5kdHZvdHQuY29tL0RBU0gvbWFuaWZlc3QubXBk&key=MzYzMTJiNmRiNWFhM2JiMjllYzk3YTM1Yzc5ZjdkNjY=&key2=MGZmMTQyMTM0YWQ3MTZhN2E5YTk5NTg1MTY3YTUyYjI=",
+    link3: "",
+    link4: "https://blackface.world/dtvpl.html?id=1076",
     category: cat.documental,
   },
   {
@@ -406,7 +434,7 @@ export const datos = [
     name: "Discovery Science",
     img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/DiscoveryScience.webp",
     link1:
-      "https://nosequewea.tk/fl?get=LmN2YXR0di5jb20uYXIvbGl2ZS9jNmVkcy9EaXNjb3ZlcnlfU2NpZW5jZS9TQV9MaXZlX2Rhc2hfZW5jXzJBL0Rpc2NvdmVyeV9TY2llbmNlLm1wZA==&key=NDZiYTQwOWZiMDRlNDBmYjg2YjQ2NmQ5N2UzYTk1ODg=&key2=ZjEyOWZiOWI1ZDIxM2UyMGUyYWJlNTI5YjhjZjI1OTc=",
+      "https://re.television-librehd.com/fl?get=LmN2YXR0di5jb20uYXIvbGl2ZS9jNmVkcy9EaXNjb3ZlcnlfU2NpZW5jZS9TQV9MaXZlX2Rhc2hfZW5jXzJBL0Rpc2NvdmVyeV9TY2llbmNlLm1wZA==&key=NDZiYTQwOWZiMDRlNDBmYjg2YjQ2NmQ5N2UzYTk1ODg=&key2=ZjEyOWZiOWI1ZDIxM2UyMGUyYWJlNTI5YjhjZjI1OTc=",
     link2: "",
     link3: "",
     link4: "",
@@ -416,20 +444,23 @@ export const datos = [
     id: 41,
     name: "Discovery turbo",
     img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/DiscoveryTurbo.webp",
-    link1: "https://blackface.world/dtvpl.html?id=1081",
-    link2: "",
-    link3: "https://www.latele-envivo.com/Embed/discovery-turbo/",
-    link4: "",
+    link1:
+      "https://re.television-librehd.com/dtvc?get=aHR0cHM6Ly9kdHZvdHQtY2JjLmFrYW1haXplZC5uZXQvZGFzaF9saXZlXzEwODEvbWFuaWZlc3QubXBk&key=ZDMyZDgxNWQxZjdmNTMyNWJhNzM1NjI1MzQ2NjJjOTI=&key2=NzVlNjZhNGVkNzg4MGM3MTY1NWQyNGU1MmNhZDNiZDM=",
+    link2:
+      "https://re.television-librehd.com/fl?get=LmN2YXR0di5jb20uYXIvbGl2ZS9jN2Vkcy9EaXNjb3ZlcnlUdXJiby9TQV9MaXZlX2Rhc2hfZW5jXzJBL0Rpc2NvdmVyeVR1cmJvLm1wZA==&key=YTYxMWRkYmY4YzE1ZmE2MTdhMGMzOTFjYjdiM2UxMjg=&key2=MGNkMTMwMGJhZjg4OTAzODBmZDQxMTI0OTYyMTk1YzQ=",
+    link3: "",
+    link4: "https://blackface.world/dtvpl.html?id=1081",
     category: cat.documental,
   },
   {
     id: 42,
     name: "HGTV",
     img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/HGTV.webp",
-    link1: "https://blackface.world/dtvpl.html?id=1144",
-    link2: "",
-    link3: "https://www.latele-envivo.com/Embed/discovery-hgtv/",
-    link4: "https://www.latele-envivo.com/Embed/discovery-hgtv/op2.php",
+    link1:
+      "https://re.television-librehd.com/dtvc?get=Ly9kdHZvdHQtY2JjLmFrYW1haXplZC5uZXQvZGFzaF9saXZlXzExNDQvbWFuaWZlc3QubXBk&key=YmRmYWM0ODZkNTI1NWQyMzk2OTQ1MTAyZDFkMzg4NGY=&key2=OGM0NmU0ZTA4OTA3ODBkNzgxNmUzODg4YjdjNzM4Yzc=",
+    link2: "https://blackface.world/dtvpl.html?id=1144",
+    link3: "",
+    link4: "",
     category: cat.documental,
   },
   {
@@ -439,7 +470,7 @@ export const datos = [
     link1: "https://embed8.alandesk.life/cvatt.html?get=TWFzX0NoaWM=",
     link2: "",
     link3: "https://blackface.world/dtvpl.html?id=1161",
-    link4: "https://www.latele-envivo.com/Embed/mas-chic/op2.php",
+    link4: "",
     category: cat.documental,
   },
   {
@@ -457,56 +488,52 @@ export const datos = [
     id: 45,
     name: "TRU TV",
     img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/TruTV.webp",
-    link1: "https://crytonep.github.io/mtonline/trutv.html",
-    link2: "",
-    link3: "",
+    link1:
+      "https://re.television-librehd.com/fl?get=LmN2YXR0di5jb20uYXIvbGl2ZS9jN2Vkcy9UcnVUVi9TQV9MaXZlX2Rhc2hfZW5jL1RydVRWLm1wZA==&key=N2QwY2VjZmZlOWMyOTczNDM0M2NmOTk4Mzk3OGMxYTE=&key2=Zjg2YjVhYzA1ZjJhMjYyNmI2YzYxYmQ0ZTEzMzQ0ZDg=",
+    link2:
+      "https://re.television-librehd.com/dtvc?get=aHR0cHM6Ly9kdHZvdHQtY2JjLmFrYW1haXplZC5uZXQvZGFzaF9saXZlXzEyMzQvbWFuaWZlc3QubXBk&key=NDM4NGM4NTA0NmI1NWFmYWJkODkwNTM3MDJkM2QzMjg=&key2=YWRjYWQwMTUyMzliMzA5OWZkNDBlNjAyMGViNTdhMTg=",
+    link3: "https://crytonep.github.io/mtonline/trutv.html",
     link4: "",
     category: cat.documental,
   },
+
   {
     id: 46,
-    name: "SUN",
-    img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/Sun.webp",
-    link1: "https://megatelevisiontv.live/en-vivo/sun-channel/",
-    link2: "",
-    link3: "https://canales.online/en-vivo/sun-channel/",
+    name: "Food Network",
+    img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/FoodNetwork.webp",
+    link1:
+      "https://re.television-librehd.com/dtvc?get=aHR0cHM6Ly9kdHZvdHQtYWJjLmFrYW1haXplZC5uZXQvZGFzaF9saXZlXzExMTMvbWFuaWZlc3QubXBk&key=NzU2MDMyZmQ3M2VkNTM2ZjkzYTZkMTg3YTc5NTY5OTk=&key2=ZDFhYjVmMjVmOTc3YzBkYzAxNzg1YjQ0ZDkxY2RiOWM=",
+    link2:
+      "https://re.television-librehd.com/fl?get=LmN2YXR0di5jb20uYXIvbGl2ZS9jNmVkcy9Gb29kX05ldHdvcmsvU0FfTGl2ZV9kYXNoX2VuY18yQS9Gb29kX05ldHdvcmsubXBk&key=NmNhMGZiYWQyMWEwZTkwOGMwMjgwZGNjMjdlNmVlMGU=&key2=NjI2NzBlZWRiYWZkZjkzNjBiNGVjYWVkNzM4ZTI2Y2Q=",
+    link3: "https://embed8.alandesk.life/cvatt.html?get=Rm9vZF9OZXR3b3Jr",
     link4: "",
     category: cat.documental,
   },
   {
     id: 47,
-    name: "Food Network",
-    img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/FoodNetwork.webp",
-    link1: "https://embed8.alandesk.life/cvatt.html?get=Rm9vZF9OZXR3b3Jr",
-    link2: "",
-    link3: "https://blackface.world/dtvpl.html?id=1113",
-    link4: "https://www.latele-envivo.com/Embed/food-network/",
+    name: "El Gourmet",
+    img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/Elgourmet.webp",
+    link1:
+      "https://re.television-librehd.com/fl?get=LmN2YXR0di5jb20uYXIvbGl2ZS9jM2Vkcy9Hb3VybWV0L1NBX0xpdmVfZGFzaF9lbmMvR291cm1ldC5tcGQ=&key=OTNkODUzYWM0YzhlMjRjZjAyOTVmNmY5N2VlNTNiZDM=&key2=ZmE1ODE3ZmFiNGZiMDU0Y2NlYTFhYmI5ZjNkNzY3ZWQ=",
+    link2: "https://embed8.alandesk.life/cvatt.html?get=R291cm1ldA==",
+    link3:
+      "https://re.television-librehd.com/dtvc?get=aHR0cHM6Ly8xMDkzLXZvcy5kdHZvdHQuY29tL0RBU0gvbWFuaWZlc3QubXBk&key=YWZiMzc4ZWZjNGM5Mzc5OTlhOTIzN2E3MzRmOWE2N2E=&key2=M2I2Y2EwMmU1YjA1ODljYWIwZGQzMmRiNDUzMDg4ODQ=",
+    link4: "",
     category: cat.documental,
   },
   {
     id: 48,
-    name: "El Gourmet",
-    img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/Elgourmet.webp",
-    link1: "https://embed8.alandesk.life/cvatt.html?get=R291cm1ldA==",
-    link2: "",
-    link3: "https://blackface.world/dtvpl.html?id=1093",
-    link4:
-      "https://nosequewea.tk/fl?get=LmN2YXR0di5jb20uYXIvbGl2ZS9jM2Vkcy9Hb3VybWV0L1NBX0xpdmVfZGFzaF9lbmMvR291cm1ldC5tcGQ=&key=OTNkODUzYWM0YzhlMjRjZjAyOTVmNmY5N2VlNTNiZDM=&key2=ZmE1ODE3ZmFiNGZiMDU0Y2NlYTFhYmI5ZjNkNzY3ZWQ=",
-    category: cat.documental,
-  },
-  {
-    id: 49,
     name: "Flow Music",
     img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/flowmusic.webp",
-    link1: "https://embed8.alandesk.life/cvatt.html?get=Rmxvd19NdXNpY19YUA==",
-    link2: "",
-    link3:
-      "https://nosequewea.tk/fl?get=LmN2YXR0di5jb20uYXIvbGl2ZS9jN2Vkcy9GbG93X011c2ljX1hQL1NBX0xpdmVfZGFzaF9lbmNfMkEvRmxvd19NdXNpY19YUC5tcGQ=&key=YjJhYWU0NGE3NDE0NGJlOGIyMTE4ZTIwZDE0MTJiYWI=&key2=OGE3YWU5OTZkMTJkOGQ1ZDU2MzdkMTA0NGY4ZTA4Yjc=",
-    link4: "https://embed8.alandesk.life/cvatt.html?get=Rmxvd19NdXNpY18x",
+    link1:
+      "https://re.television-librehd.com/fl?get=LmN2YXR0di5jb20uYXIvbGl2ZS9jN2Vkcy9GbG93X011c2ljX1hQL1NBX0xpdmVfZGFzaF9lbmNfMkEvRmxvd19NdXNpY19YUC5tcGQ=&key=YjJhYWU0NGE3NDE0NGJlOGIyMTE4ZTIwZDE0MTJiYWI=&key2=OGE3YWU5OTZkMTJkOGQ1ZDU2MzdkMTA0NGY4ZTA4Yjc=",
+    link2: "https://embed8.alandesk.life/cvatt.html?get=Rmxvd19NdXNpY19YUA==",
+    link3: "https://embed8.alandesk.life/cvatt.html?get=Rmxvd19NdXNpY18x",
+    link4: "",
     category: cat.music,
   },
   {
-    id: 50,
+    id: 49,
     name: "Vorterix",
     img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/Vorterix.webp",
     link1: "https://www.youtube.com/embed/g7Kx0AKmfTg?autoplay=true",
@@ -515,7 +542,7 @@ export const datos = [
     category: cat.music,
   },
   {
-    id: 51,
+    id: 50,
     name: "LUZZU TV",
     img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/LUZZU.webp",
     link1: "http://luzutv.com.ar/",
@@ -527,52 +554,66 @@ export const datos = [
     category: cat.music,
   },
   {
-    id: 52,
+    id: 51,
     name: "La 100 HD",
     img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/La100.webp",
-    link1: "https://la100.cienradios.com/hd/",
-    link2: "https://www.youtube.com/embed/9Ydbcvf0t34?autoplay=true",
+    link1: "https://www.youtube.com/embed/9Ydbcvf0t34?autoplay=true",
+    link2: "https://la100.cienradios.com/hd/",
     link3: "",
     category: cat.music,
   },
   {
-    id: 53,
+    id: 52,
     name: "Radio Mitre",
     img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/Mitre.webp",
-    link1: "https://www.youtube.com/embed/Q7WafLrEroA?autoplay=true",
+    link1: "https://www.youtube.com/embed/zOOQp-CN_bo?autoplay=true",
     link2: "https://radiomitre.cienradios.com/hd/",
     link3: "",
     link4: "",
     category: cat.music,
   },
   {
-    id: 54,
+    id: 53,
     name: "TCM",
     img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/TCM.webp",
-    link1: "https://www.latele-envivo.com/Embed/tcm/op2.php",
+    link1:
+      "https://re.television-librehd.com/fl?get=LmN2YXR0di5jb20uYXIvbGl2ZS9jNmVkcy9UQ00vU0FfTGl2ZV9kYXNoX2VuY18yQS9UQ00ubXBk&key=YTVmNDRhNWUzMDcxNGNmM2JjZWU3YzdmMTVhMDhiNGU=&key2=YzNjMTQxYWU5NDFhYjk3NTAzMzljM2FmNDVhNjVjZTI=",
     link3: "https://crytonep.github.io/mtonline/tcm.html",
     link4: "",
     category: cat.movie,
   },
   {
+    id: 54,
+    name: "STAR CHANNEL",
+    img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/Star-Channel.webp",
+    link1:
+      "https://re.television-librehd.com/dtvc?get=aHR0cHM6Ly9kdHZvdHQtYWJjLmFrYW1haXplZC5uZXQvZGFzaF9saXZlXzExOTYvbWFuaWZlc3QubXBk&key=N2MzOGQ5MzEwZDNjNWI0NmEzN2EzOWJiZWM2ZGQ2OGE=&key2=ZjQzMzNkZmIwZTcwOGVjOTg2NWI5YTZmZjJhOGUwNjg=",
+    link2:
+      "https://re.television-librehd.com/fl?get=LmN2YXR0di5jb20uYXIvbGl2ZS9jM2Vkcy9GT1hIRC9TQV9MaXZlX2Rhc2hfZW5jXzJBL0ZPWEhELm1wZA==&key=ODAyM2U4NWVmOWQxNzU2MWVlMWI0MjQxNzliMWIxNWU=&key2=NDc3YWQxODlmMWZjZDJiYWVjMDI2MDY4MTA3Zjg2MmY=",
+    link3: "https://embed8.alandesk.life/cvatt.html?get=Rk9YSEQ=",
+    link4: "",
+    category: cat.documental,
+  },
+  {
     id: 55,
     name: "HBO",
     img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/HBO.webp",
-    link1: "https://www.latele-envivo.com/Embed/hbo/op2.php",
-    link2: "https://www.latele-envivo.com/Embed/hbo/",
-    link3:
-      "https://nosequewea.tk/dtvc?get=Ly9kdHZvdHQtYWJjLmFrYW1haXplZC5uZXQvZGFzaF9saXZlXzExNDAvbWFuaWZlc3QubXBk&key=OTllZWZjMDY4ZGIzNTA5YjlmMGNmNWIzNDExNDIxOWQ=&key2=NmMyM2UzMWE0ZDgzYjU2OGU4NGFlYzYwOWE2M2ViYzk=",
-    link4:
-      "https://nosequewea.tk/dtvc?get=Ly9kdHZvdHQtYWJjLmFrYW1haXplZC5uZXQvZGFzaF9saXZlXzExNDAvbWFuaWZlc3QubXBk&key=OTllZWZjMDY4ZGIzNTA5YjlmMGNmNWIzNDExNDIxOWQ=&key2=NmMyM2UzMWE0ZDgzYjU2OGU4NGFlYzYwOWE2M2ViYzk=",
+    link1:
+      "https://re.television-librehd.com/dtvc?get=Ly9kdHZvdHQtYWJjLmFrYW1haXplZC5uZXQvZGFzaF9saXZlXzExNDAvbWFuaWZlc3QubXBk&key=OTllZWZjMDY4ZGIzNTA5YjlmMGNmNWIzNDExNDIxOWQ=&key2=NmMyM2UzMWE0ZDgzYjU2OGU4NGFlYzYwOWE2M2ViYzk=",
+    link2: "",
+    link3: "",
+    link4: "",
     category: cat.movie,
   },
   {
     id: 56,
     name: "HBO 2",
     img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/HBO2.webp", ///
-    link1: "https://telefullenvivo.com/canales/hbo2/",
-    link2: "",
-    link3: "https://telefullenvivo.com/canales/hbo2/op2.php",
+    link1:
+      "https://re.television-librehd.com/dtvc?get=aHR0cHM6Ly9kdHZvdHQtYWJjLmFrYW1haXplZC5uZXQvZGFzaF9saXZlXzExMzcvbWFuaWZlc3QubXBk&key2=YmFjNTgxOGE2ZTExMzVkYjNjOWYyNGZiNzUyZjY5OWY=&key=MmEyYWVkMTdkYzYwNTBmYjlkZWU2ZTY1YTA2YjM5MjU=",
+    link2:
+      "https://re.television-librehd.com/fl?get=LmN2YXR0di5jb20uYXIvbGl2ZS9jNmVkcy9IQk9fMi9TQV9MaXZlX2Rhc2hfZW5jL0hCT18yLm1wZA==&key=YzkwY2M1N2FkMmM0MzZlNWE3N2RiMmY4ZDlkYjJkODU=&key2=MDRmNmM3Mzk4NGJkY2ZmZDAxMzA1MDYwODQ5NzkzNWQ=",
+    link3: "",
     link4: "",
     category: cat.movie,
   },
@@ -581,30 +622,32 @@ export const datos = [
     name: "HBO+",
     img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/HBOplus.webp",
     link1:
-      "https://nosequewea.tk/dtvc?get=aHR0cHM6Ly9kdHZvdHQtYWJjLmFrYW1haXplZC5uZXQvZGFzaF9saXZlXzExNDEvbWFuaWZlc3QubXBk&key=Njc5NWEzMDNhOWU4NTE3ZmJjYTM4Mzc2YzBhZjJmNzY=&key2=MWJkYjMxNzIyOTA2NmFkMmQ3NGM0ODE0YTEzOGUxMzY=",
+      "https://re.television-librehd.com/dtvc?get=aHR0cHM6Ly9kdHZvdHQtYWJjLmFrYW1haXplZC5uZXQvZGFzaF9saXZlXzExNDEvbWFuaWZlc3QubXBk&key=Njc5NWEzMDNhOWU4NTE3ZmJjYTM4Mzc2YzBhZjJmNzY=&key2=MWJkYjMxNzIyOTA2NmFkMmQ3NGM0ODE0YTEzOGUxMzY=",
     link2:
-      "https://nosequewea.tk/fl?get=LmN2YXR0di5jb20uYXIvbGl2ZS9jNmVkcy9IQk9fUGx1cy9TQV9MaXZlX2Rhc2hfZW5jL0hCT19QbHVzLm1wZA==&key=ZjBlN2Y3ZDQ1ODk5MGVkZmFiN2I5OGI0MTI1NjQ2MTU=&key2=NzkyMDU3NTRiN2Y4NGE2MjY2MWMyZGJlOWRlNWRkNWQ=",
-    link3: "https://ok.ru/videoembed/6695123295815",
+      "https://re.television-librehd.com/fl?get=LmN2YXR0di5jb20uYXIvbGl2ZS9jNmVkcy9IQk9fUGx1cy9TQV9MaXZlX2Rhc2hfZW5jL0hCT19QbHVzLm1wZA==&key=ZjBlN2Y3ZDQ1ODk5MGVkZmFiN2I5OGI0MTI1NjQ2MTU=&key2=NzkyMDU3NTRiN2Y4NGE2MjY2MWMyZGJlOWRlNWRkNWQ=",
+    link3: "",
     link4: "",
     category: cat.movie,
   },
   {
     id: 58,
-    name: "HBO EXTREME",
+    name: "HBO XTREME",
     img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/HBOXtreme.webp",
-    link1: "https://www.latele-envivo.com/Embed/hbo-xtreme/",
-    link3:
-      "https://nosequewea.tk/fl?get=LmN2YXR0di5jb20uYXIvbGl2ZS9jNmVkcy9IQk9fRXh0cmVtZS9TQV9MaXZlX2Rhc2hfZW5jL0hC%20T19FeHRyZW1lLm1wZA==&key=ZDUwNDAxMWJiZWY0NjdjMGRlM2E3NTM0ZTMwMmE2ZDQ=&key2=MzM0MTAzZTJhYmUxNmZhYTdmOWFiMmUzMDk3YzVhNTg=",
+    link1:
+      "https://re.television-librehd.com/fl?get=LmN2YXR0di5jb20uYXIvbGl2ZS9jNmVkcy9IQk9fRXh0cmVtZS9TQV9MaXZlX2Rhc2hfZW5jL0hC%20T19FeHRyZW1lLm1wZA==&key=ZDUwNDAxMWJiZWY0NjdjMGRlM2E3NTM0ZTMwMmE2ZDQ=&key2=MzM0MTAzZTJhYmUxNmZhYTdmOWFiMmUzMDk3YzVhNTg=",
+    link2: "https://www.latele-envivo.com/Embed/hbo-xtreme/",
     category: cat.movie,
   },
   {
     id: 59,
     name: "SONY",
     img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/SonyChannel.webp",
-    link1: "https://blackface.world/dtvpl.html?id=1190",
-    link3:
-      "https://nosequewea.tk/dtvc?get=Ly9kdHZvdHQtY2JjLmFrYW1haXplZC5uZXQvZGFzaF9saXZlXzExOTAvbWFuaWZlc3QubXBk&key=MTAxMGI5OWZiMTI0NTQwYWFhNDc1YTQxMjU5NzUxZWI=&key2=MTk3NWM2YmNjOTU2NmE2ZTk0YWIyNjNkYzhmMDRiNTc=",
-    link4: "https://www.latele-envivo.com/Embed/sony/",
+    link1:
+      "https://re.television-librehd.com/dtvc?get=Ly9kdHZvdHQtY2JjLmFrYW1haXplZC5uZXQvZGFzaF9saXZlXzExOTAvbWFuaWZlc3QubXBk&key=MTAxMGI5OWZiMTI0NTQwYWFhNDc1YTQxMjU5NzUxZWI=&key2=MTk3NWM2YmNjOTU2NmE2ZTk0YWIyNjNkYzhmMDRiNTc=",
+    link2:
+      "https://re.television-librehd.com/fl?get=LmN2YXR0di5jb20uYXIvbGl2ZS9jN2Vkcy9Tb255SEQvU0FfTGl2ZV9kYXNoX2VuY18yQS9Tb255SEQubXBk&key=ZmQ5NjE5ZjlkN2MyZDUxMTVhMzM5OTQxMjc5ZTBiNGI=&key2=YmY1NTYzNWU2NTkxZjkwNTY1OWZhMjdhYjNjYTI4MTI=",
+    link3: "https://blackface.world/dtvpl.html?id=1190",
+    link4: "",
     category: cat.movie,
   },
   {
@@ -612,8 +655,8 @@ export const datos = [
     name: "SONY MOVIES",
     img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/SonyMovies.webp",
     link1:
-      "https://nosequewea.tk/dtvc?get=Ly9kdHZvdHQtYWJjLmFrYW1haXplZC5uZXQvZGFzaF9saXZlXzEyNjMvbWFuaWZlc3QubXBk&key=MzkxYzEzNzAzNGYwNTM5MzhlZGJmMjY3OTk1NDlkZGM=&key2=MTlkNjQzZDhhNTBiMmY4MjljOTZhODk3ZjdkZjI1NWQ=",
-    link3: "https://megatelevisiontv.live/en-vivo/sony-movies/",
+      "https://re.television-librehd.com/dtvc?get=Ly9kdHZvdHQtYWJjLmFrYW1haXplZC5uZXQvZGFzaF9saXZlXzEyNjMvbWFuaWZlc3QubXBk&key=MzkxYzEzNzAzNGYwNTM5MzhlZGJmMjY3OTk1NDlkZGM=&key2=MTlkNjQzZDhhNTBiMmY4MjljOTZhODk3ZjdkZjI1NWQ=",
+    link3: "",
     link4: "",
     category: cat.movie,
   },
@@ -622,10 +665,10 @@ export const datos = [
     name: "Warner TV",
     img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/Warner.webp",
     link1:
-      "https://nosequewea.tk/dtvc?get=aHR0cHM6Ly9kdHZvdHQtY2JjLmFrYW1haXplZC5uZXQvZGFzaF9saXZlXzEyNDgvbWFuaWZlc3QubXBk&key=NTZhMjQ3MzJjN2M1NThhMGIyNDRkYzlkNWY5MTBmODc=&key2=NjFkZmVmODFjZWUxMWNiNDE5YTYxMjAyNzBiOTU4N2I=",
-    link3: "https://blackface.world/dtvpl.html?id=1248",
-    link4:
-      "https://nosequewea.tk/fl?get=LmN2YXR0di5jb20uYXIvbGl2ZS9jN2Vkcy9XYXJuZXJIRC9TQV9MaXZlX2Rhc2hfZW5jXzJBL1dhcm5lckhELm1wZA==&key=MDY5YmQzZjBiNmMyNzk0NjdlMDg1NDlmMTdiZjViZDA=&key2=NWFmYTdlMzY5YTZkZTEwOTM4MThhODVhZjkxMmE3NzU=",
+      "https://re.television-librehd.com/dtvc?get=aHR0cHM6Ly9kdHZvdHQtY2JjLmFrYW1haXplZC5uZXQvZGFzaF9saXZlXzEyNDgvbWFuaWZlc3QubXBk&key=NTZhMjQ3MzJjN2M1NThhMGIyNDRkYzlkNWY5MTBmODc=&key2=NjFkZmVmODFjZWUxMWNiNDE5YTYxMjAyNzBiOTU4N2I=",
+    link2: "https://embed8.alandesk.life/cvatt.html?get=V2FybmVySEQ=",
+    link3:
+      "https://re.television-librehd.com/fl?get=LmN2YXR0di5jb20uYXIvbGl2ZS9jN2Vkcy9XYXJuZXJIRC9TQV9MaXZlX2Rhc2hfZW5jXzJBL1dhcm5lckhELm1wZA==&key=MDY5YmQzZjBiNmMyNzk0NjdlMDg1NDlmMTdiZjViZDA=&key2=NWFmYTdlMzY5YTZkZTEwOTM4MThhODVhZjkxMmE3NzU=",
     category: cat.movie,
   },
   {
@@ -633,19 +676,19 @@ export const datos = [
     name: "UNIVERSAL PREMIERE",
     img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/UniversalPremiere.webp",
     link1:
-      "https://nosequewea.tk/dtvc?get=aHR0cHM6Ly9kdHZvdHQtYWJjLmFrYW1haXplZC5uZXQvZGFzaF9saXZlXzEyNTYvbWFuaWZlc3QubXBk&key=ZDA4MGJlMjhhMGZjNTk3MGJmMWRlODk3ZjgwZDQwYmQ=&key2=YWI4MTg3ZDUwZDMxMWQzMGJjMGQ3ZGM2ZWI1Njk3ZDE=",
-    link3: "https://www.latele-envivo.com/Embed/universal-premiere/",
-    link4: "https://megatelevisiontv.live/en-vivo/universal-premiere/",
+      "https://re.television-librehd.com/dtvc?get=aHR0cHM6Ly9kdHZvdHQtYWJjLmFrYW1haXplZC5uZXQvZGFzaF9saXZlXzEyNTYvbWFuaWZlc3QubXBk&key=ZDA4MGJlMjhhMGZjNTk3MGJmMWRlODk3ZjgwZDQwYmQ=&key2=YWI4MTg3ZDUwZDMxMWQzMGJjMGQ3ZGM2ZWI1Njk3ZDE=",
+    link2: "",
+    link4: "",
     category: cat.movie,
   },
   {
     id: 63,
     name: "UNIVERSAL CINEMA",
     img: "https://raw.githubusercontent.com/marco5x/marcTV/master/src/assets/UniversalCinema.webp",
-    link1: "https://www.latele-envivo.com/Embed/universal-cinema/",
-    link3:
-      "https://nosequewea.tk/dtvc?get=aHR0cHM6Ly9kdHZvdHQtYWJjLmFrYW1haXplZC5uZXQvZGFzaF9saXZlXzEyNTMvbWFuaWZlc3QubXBk&key=Y2UwYTdjODgzZTJhNTQzMGJiYTk3YTNkNjhlMGRhZjg=&key2=ZTMwZGQ0OTA4ZTY2NzYzNzM2OWRmYjY1ODJmNTRkNjQ=",
-    link4: "https://www.latele-envivo.com/Embed/universal-cinema/",
+    link1:
+      "https://re.television-librehd.com/dtvc?get=aHR0cHM6Ly9kdHZvdHQtYWJjLmFrYW1haXplZC5uZXQvZGFzaF9saXZlXzEyNTMvbWFuaWZlc3QubXBk&key=Y2UwYTdjODgzZTJhNTQzMGJiYTk3YTNkNjhlMGRhZjg=&key2=ZTMwZGQ0OTA4ZTY2NzYzNzM2OWRmYjY1ODJmNTRkNjQ=",
+    link2: "https://blackface.world/dtvpl.html?id=1253",
+    link4: "",
     category: cat.movie,
   },
   {
@@ -737,8 +780,8 @@ export const datosPrivates = [
   },
 ];
 
-//https://www.latele-envivo.com/
 //https://sfntv.xyz/inicio
+//https://canales.online/
+//https://www.latele-envivo.com/
 //https://megatelevisiontv.live/
 //https://cabletvhd.xyz/
-//https://canales.online/
