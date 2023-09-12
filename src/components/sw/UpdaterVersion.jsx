@@ -26,9 +26,8 @@ const UpdaterVersion = (props) => {
           </span>
           {/* Aqui los comentarios sobre la nueva actualización*/}
           <p>
-            ¡NUEVA VERSIÓN! v1.0.3 - 🆕 Actualizamos canales premium (directv
-            figth y directv motor), 🆕 Guia de uso de web app ⚠ 🆕 Pronto nos
-            mudamos https://tvhd.vercel.app.
+            ¡NUEVA VERSIÓN! v1.0.3 - 🆕 Guia de uso de web app ⚠ 🆕 Muy Pronto
+            nos mudamos https://tvhd.vercel.app. con pelis estrenos exclusivas
           </p>
           <button
             type="button"
